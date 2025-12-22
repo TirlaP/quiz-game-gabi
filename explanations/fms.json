@@ -1,0 +1,314 @@
+{
+  "category": "Flight Management System",
+  "questions": [
+    {
+      "code": "22FMS07",
+      "question": "Which tab of the FMS DBASE tile displays the active database?",
+      "correctAnswer": "a",
+      "answerText": "STATUS",
+      "explanation": "The STATUS tab displays the active navigation database information. This tab shows which database is currently in use by the FMS, including the database cycle number, effective dates, and expiration information. The STATUS tab is the primary location for verifying that the correct and current database is loaded and active for flight operations. The INIT tab is used for initialization parameters, DEFAULT contains default settings, and SEARCH is used for searching database elements.",
+      "references": ["FCOM - Flight Management System", "A220 Operations Manual Part B"]
+    },
+    {
+      "code": "22FMS09",
+      "question": "What is the purpose of the BLEED SOURCE drop-down list?",
+      "correctAnswer": "a",
+      "answerText": "To select the source of bleed air for air conditioning and pressurization during takeoff",
+      "explanation": "The BLEED SOURCE drop-down list in the FMS allows pilots to configure the bleed air source for the takeoff phase. This is critical for performance calculations because using bleed air (for air conditioning and pressurization) reduces engine thrust available for takeoff. The FMS needs this information to accurately calculate takeoff performance parameters like V-speeds and required runway length. Options typically include APU BLEED, ENG BLEED, or OFF. This is not for anti-ice selection (which is separate) or flap settings, and while it relates to configuration, its primary purpose is specifically bleed source selection for performance calculations.",
+      "references": ["FCOM - Performance", "A220 FMS Operations"]
+    },
+    {
+      "code": "22FMS11",
+      "question": "Which three data entry boxes are used to enter takeoff speeds on the DEP tab?",
+      "correctAnswer": ["a", "b", "c"],
+      "answerText": "V1, VR, V2",
+      "explanation": "The three critical takeoff speeds entered on the DEP (Departure) tab are V1 (decision speed), VR (rotation speed), and V2 (takeoff safety speed). These are the standard takeoff speeds required for every departure: V1 is the maximum speed at which a rejected takeoff can be initiated; VR is the speed at which the pilot initiates rotation; and V2 is the target speed to be achieved at 35 feet above the runway, representing the minimum safe climb speed with one engine inoperative. VS (stall speed) is not a pilot-entered takeoff speed but rather a performance limitation determined by aircraft weight and configuration.",
+      "references": ["FCOM - Flight Management System DEP Tab", "A220 Performance Manual"]
+    },
+    {
+      "code": "22FMS31",
+      "question": "FMS - An outdated database can be changed to a current database while in flight.",
+      "correctAnswer": "b",
+      "answerText": "False",
+      "explanation": "Database changes cannot be performed in flight for safety and system integrity reasons. The FMS database change procedure requires the aircraft to be on the ground with specific conditions met (typically on ground, parking brake set, and in a maintenance or preflight mode). Changing databases in flight could cause unpredictable behavior in the active flight plan, lateral and vertical navigation profiles, approach procedures, and other critical navigation functions. The database must be verified and changed during preflight preparation on the ground. If an outdated database is discovered in flight, the crew must continue with the existing database and use appropriate alternative navigation methods if the database validity is questionable.",
+      "references": ["FCOM - FMS Database Management", "A220 Operations Manual"]
+    },
+    {
+      "code": "22FMS37",
+      "question": "FMS - Can an LPV approach continue after a single GNSS failure?",
+      "correctAnswer": "c",
+      "answerText": "Yes, an LPV approach can continue if the aircraft is inside Initial Approach Fix (IAF)",
+      "explanation": "The A220 is equipped with dual GNSS receivers providing redundancy for precision approaches. If a single GNSS failure occurs after the aircraft has passed the Initial Approach Fix (IAF), the LPV (Localizer Performance with Vertical guidance) approach can continue using the remaining GNSS receiver. The IAF represents the beginning of the approach segment where the aircraft is established on the approach procedure. This redundancy design allows for continued safe approach operations with one GNSS system remaining operational. However, if the failure occurs before the IAF, the approach should not be continued as LPV. The system design ensures that once inside the IAF, sufficient protection and redundancy exist to complete the approach safely with one GNSS operative.",
+      "references": ["FCOM - GNSS/FMS Approach Operations", "A220 LPV Approach Procedures"]
+    },
+    {
+      "code": "22FMS21",
+      "question": "What is a characteristic of an LPV approach?",
+      "correctAnswer": "b",
+      "answerText": "Vertical path is angular, like a glideslope on an ILS",
+      "explanation": "LPV (Localizer Performance with Vertical guidance) approaches provide an angular vertical path guidance similar to an ILS glideslope, typically at 3 degrees. This is a defining characteristic that distinguishes LPV from other RNAV approaches which use geometric (altitude-based) vertical paths. The angular path means the glidepath angle remains constant relative to the ground, just like ILS. LPV approaches do NOT have lower minimums than ILS (they are typically comparable to Cat I ILS but not better), they absolutely cannot be used when GNSS receivers have failed (they require GNSS), and the RNP value for LPV approaches is typically 0.3 NM laterally during final approach, not 1.0. The angular vertical guidance is what makes LPV approaches so similar in performance and precision to traditional ILS approaches.",
+      "references": ["FCOM - LPV Approach Characteristics", "A220 GNSS/SBAS Operations"]
+    },
+    {
+      "code": "22FMS30",
+      "question": "FMS - When checking for current databases, what colours indicate current and out of date databases?",
+      "correctAnswer": "a",
+      "answerText": "Current = Green; Out of date = Amber",
+      "explanation": "The FMS uses a standard color coding system to indicate database status: Green indicates a current, valid database that is within its effective date range, while Amber indicates an out-of-date or expired database. This color coding follows standard aviation display conventions where green represents normal/acceptable status and amber represents caution/abnormal status. This visual indication allows pilots to quickly verify database currency during preflight checks. A current database is essential for safe navigation as it contains up-to-date information about waypoints, airways, procedures, and navigation facilities. The amber indication serves as a clear warning that the database needs to be updated before flight operations.",
+      "references": ["FCOM - FMS DBASE Status Display", "A220 Electronic Display Systems"]
+    },
+    {
+      "code": "22FMS03",
+      "question": "Which two functions do the cursor control panel (CCP) pushbuttons perform?",
+      "correctAnswer": ["c", "d"],
+      "answerText": "Selects cursor-highlighted drop-down list items AND Transfers data from an FMS data entry box to an empty MKP scratchpad",
+      "explanation": "The Cursor Control Panel (CCP) pushbuttons serve two primary functions in FMS data entry: (1) They select items from cursor-highlighted drop-down lists when the cursor is positioned over list options, allowing quick selection from predefined choices like airports, waypoints, or procedures. (2) They transfer data from FMS data entry boxes to the MKP (Multifunction Keyboard Panel) scratchpad, facilitating data copying and modification without re-typing. The CCP does not swap master and slave FMS computers (this is done through other means) and does not open menu lists (menus are accessed through other controls). The CCP is specifically designed for cursor-based navigation and data manipulation within the FMS interface.",
+      "references": ["FCOM - Cursor Control Panel Operations", "A220 FMS Interface Controls"]
+    },
+    {
+      "code": "22FMS19",
+      "question": "Which soft keys are displayed below the aircraft symbol in the compass rose when a flight plan is being modified?",
+      "correctAnswer": ["a", "c"],
+      "answerText": "EXEC AND CNCL",
+      "explanation": "When modifying a graphical flight plan on the navigation display, two critical soft keys appear below the aircraft symbol: EXEC (Execute) and CNCL (Cancel). EXEC is used to activate and implement the pending modifications to the flight plan, making them the active flight plan. CNCL is used to cancel/discard all pending modifications and revert to the original active flight plan without changes. This two-button system provides clear options for either implementing or abandoning flight plan changes. ESC (Escape) and MOD (Modify) are not the primary soft keys displayed during modification mode. This interface design prevents inadvertent flight plan changes by requiring explicit execution or cancellation of modifications.",
+      "references": ["FCOM - Graphical Flight Planning", "A220 FMS Modification Procedures"]
+    },
+    {
+      "code": "22FMS18",
+      "question": "Using graphical flight planning, which three steps are taken to insert a holding pattern over a waypoint?",
+      "correctAnswer": ["b", "c", "d"],
+      "answerText": "Selecting the HOLD menu item from the task menu AND Typing the required value in the appropriate data entry box AND Selecting the waypoint map symbol",
+      "explanation": "To insert a holding pattern using graphical flight planning, the procedure requires three specific steps: (1) Select the waypoint map symbol on the navigation display where the hold is to be inserted - this identifies the holding fix. (2) Select the HOLD menu item from the task menu that appears - this opens the holding pattern entry interface. (3) Type the required values (such as inbound course, turn direction, leg time/distance) in the appropriate data entry boxes to define the holding pattern parameters. Selecting CNCL is not part of the insertion process; it would cancel the operation. This graphical method is more intuitive than text-based entry and allows pilots to visually confirm the holding pattern location and orientation on the navigation display before execution.",
+      "references": ["FCOM - Graphical Flight Plan Modification", "A220 Holding Pattern Entry Procedures"]
+    },
+    {
+      "code": "22FMS14",
+      "question": "Replacing the active flight plan with the secondary flight plan is accomplished by selecting which two soft keys?",
+      "correctAnswer": "b",
+      "answerText": "ACTIVATE SEC, EXEC",
+      "explanation": "The A220 FMS maintains both an active flight plan and a secondary flight plan for flexibility in flight planning. To replace the active flight plan with the secondary flight plan, two soft key selections are required in sequence: (1) ACTIVATE SEC - this prepares the secondary flight plan to become active and stages it as a pending change. (2) EXEC - this executes the change, making the secondary flight plan the new active flight plan. This two-step process prevents inadvertent flight plan swapping by requiring deliberate confirmation. The MOD option is for modifications, not activation. COPY TO SEC would copy the active to secondary (opposite direction), and while COPY TO SEC, ACTIVATE SEC seems logical, it's not the correct sequence - you don't need to copy before activating an existing secondary plan.",
+      "references": ["FCOM - Secondary Flight Plan Management", "A220 FMS Flight Plan Operations"]
+    },
+    {
+      "code": "22FMS05",
+      "question": "Identify two methods of entering flight levels in FMS data entry boxes.",
+      "correctAnswer": ["a", "b"],
+      "answerText": "Five numbers without letters AND Three numbers preceded by 'F' or 'FL'",
+      "explanation": "The FMS accepts two formats for entering flight levels in altitude data entry boxes: (1) Five numbers without letters (e.g., '31000' for FL310) - this represents the actual altitude in feet. (2) Three numbers preceded by 'F' or 'FL' (e.g., 'FL310' or 'F310') - this uses standard flight level notation. Both formats are recognized by the FMS and converted appropriately. The 'A' prefix is used for indicating altitude constraints (Above), not for entering flight levels. This dual-entry flexibility accommodates different pilot preferences and international conventions while preventing entry errors. For example, FL310 can be entered as either '31000' or 'FL310' and the FMS will interpret both as flight level 310 (31,000 feet pressure altitude).",
+      "references": ["FCOM - FMS Data Entry Formats", "A220 Altitude Entry Procedures"]
+    },
+    {
+      "code": "22FMS32",
+      "question": "FMS - FPLN tile FUEL tab, what is the default setting for the FMS FOB MODE?",
+      "correctAnswer": "a",
+      "answerText": "CALC",
+      "explanation": "The default Fuel On Board (FOB) mode in the FMS is CALC (Calculated). In this mode, the FMS calculates fuel quantity based on the initial fuel entry and subsequent fuel consumption calculations using engine fuel flow data. This is the default because it provides continuous fuel tracking from engine start throughout the flight. The other modes available are: SENSED (uses actual fuel quantity sensors, but this is not default due to potential sensor inaccuracies), and MAN (manual entry, used only in specific situations where calculated or sensed fuel is unreliable). The CALC mode default ensures the FMS always has a fuel quantity reference for flight planning and performance calculations even if fuel sensors have issues. Pilots can switch to SENSED mode when sensor data is reliable and desired.",
+      "references": ["FCOM - FMS Fuel Management", "A220 FPLN Tile FUEL Tab"]
+    },
+    {
+      "code": "22FMS20",
+      "question": "Which of the following two symbols are associated with task menus?",
+      "correctAnswer": ["b", "d"],
+      "answerText": "Aircraft AND Airports",
+      "explanation": "Task menus in the A220 FMS graphical interface are displayed when selecting specific map symbols. The Aircraft symbol and Airport symbols both have associated task menus that provide context-specific options. The Aircraft symbol task menu allows operations like inserting direct-to routing, holds, and other aircraft-position-related functions. Airport symbol task menus provide options for selecting runways, approaches, and airport-specific procedures. High terrain and towers/power lines are display features for situational awareness but do not have interactive task menus associated with them - they are informational overlays rather than selectable navigation elements. The task menu system provides an intuitive way to access common FMS functions related to specific navigation points or the aircraft's position.",
+      "references": ["FCOM - Graphical FMS Task Menus", "A220 Map Symbol Functions"]
+    },
+    {
+      "code": "22FMS28",
+      "question": "A modified graphical flight plan to fly directly to a waypoint is removed by selecting the ____ soft key on the map.",
+      "correctAnswer": "a",
+      "answerText": "CNCL",
+      "explanation": "When a direct-to routing or other flight plan modification has been created but not yet executed, the CNCL (Cancel) soft key removes the modification and restores the original active flight plan. This allows pilots to experiment with routing changes or create a direct-to shortcut, visually review it on the display, and then cancel it if it's not suitable or no longer needed. EXEC would execute the modification (making it active), MOD would enter modification mode, and DONE is not a standard soft key in this context. The CNCL function is essential for safe flight plan management as it allows pilots to discard unexecuted modifications without affecting the active flight plan. This prevents inadvertent route changes and supports situational planning and what-if scenarios.",
+      "references": ["FCOM - Flight Plan Modification Procedures", "A220 Graphical Flight Planning"]
+    },
+    {
+      "code": "22FMS23",
+      "question": "When does the GNSS REVERTED message display in white on the left PFD?",
+      "correctAnswer": "d",
+      "answerText": "When GNSS 1 has failed",
+      "explanation": "The GNSS REVERTED message appears on the left Primary Flight Display (PFD) when GNSS 1 (the primary GNSS receiver normally supplying the left side systems) has failed and the system has automatically reverted to using GNSS 2 for position information. The message is displayed in white as an advisory/status indication (not a caution or warning) to inform the pilot that the system is operating on the backup GNSS receiver. This is consistent with the normal display philosophy where the left PFD shows information related to the captain's side systems. GNSS 2 failure would trigger a different message or display on the right side. Loss of SBAS (Satellite-Based Augmentation System) coverage would generate different messages related to approach capability, not GNSS REVERTED. FMS failure is a separate system issue unrelated to GNSS reversion.",
+      "references": ["FCOM - GNSS System Architecture", "A220 PFD Message Displays"]
+    },
+    {
+      "code": "22FMS24",
+      "question": "What does it mean when LPV ARM displays in the top left corner of the HSI?",
+      "correctAnswer": "a",
+      "answerText": "The aircraft has entered the terminal area",
+      "explanation": "LPV ARM (Localizer Performance with Vertical guidance - Armed) displays when the aircraft enters the terminal area for an airport with an LPV approach loaded in the FMS. The ARM annunciation indicates that the system is ready and monitoring for the conditions to activate LPV guidance, but is not yet actively guiding the approach. This occurs when approaching the destination airport and provides advance notice that LPV capability is available and armed. The display changes from ARM to active LPV when the aircraft is established on the final approach course. GNSS SBAS coverage loss would show different messages (like LPV NOT AVAILABLE), the final approach fix (FAF) would trigger activation (not arming), and LOC approach selection would not trigger LPV ARM. The ARM status is part of the approach mode progression: available → armed → active.",
+      "references": ["FCOM - LPV Approach Modes", "A220 HSI Approach Annunciations"]
+    },
+    {
+      "code": "22FMS36",
+      "question": "FMS - Can the crew build a radius to fix (RF) legs segment?",
+      "correctAnswer": "c",
+      "answerText": "No, the crew cannot build an RF leg segment",
+      "explanation": "Radius to Fix (RF) legs are specialized curved approach path segments that require precise database definition and cannot be manually created by the crew. RF legs are part of advanced RNP (Required Navigation Performance) procedures, particularly RNP AR (Authorization Required) approaches, and must be coded in the navigation database by procedure designers. The FMS can fly RF legs when they exist in the database-coded procedure, but pilots cannot manually construct these complex curved path segments. This limitation exists because RF legs require precise mathematical definitions including the radius, center point, and transition points that must be surveyed and published. Allowing manual construction could lead to flight path conflicts with terrain, obstacles, or airspace. Crews can only select and fly RF leg procedures that are already published and loaded in the navigation database.",
+      "references": ["FCOM - FMS Leg Types and Limitations", "A220 RNP Approach Capabilities"]
+    },
+    {
+      "code": "22FMS15",
+      "question": "The MSG soft key on the bottom bar of any FMS page displays in four colors:",
+      "correctAnswer": "a",
+      "answerText": "Gray, black, white, amber",
+      "explanation": "The MSG (Message) soft key uses four colors to indicate different message status levels: Gray indicates no messages present (inactive/default state). Black indicates the message function is available but no active messages. White indicates informational messages are present that require review. Amber indicates caution-level messages that require attention. This color coding follows standard aviation display conventions and allows pilots to quickly assess whether FMS messages require immediate attention (amber), simple review (white), or if there are no messages (gray/black). The progression from gray to amber reflects increasing priority. Magenta and cyan are not used for the MSG key as they have other specific meanings in FMS displays (magenta typically for active routing, cyan for constraints or temporary data).",
+      "references": ["FCOM - FMS Message System", "A220 Display Color Coding Standards"]
+    },
+    {
+      "code": "22FMS35",
+      "question": "FMS - What causes the message UNABLE RNP to display?",
+      "correctAnswer": "d",
+      "answerText": "UNABLE RNP displays when Estimated Position Uncertainty (EPU) exceeds Required Navigation Performance (RNP)",
+      "explanation": "The UNABLE RNP message displays when the aircraft's Estimated Position Uncertainty (EPU) exceeds the Required Navigation Performance (RNP) value for the current phase of flight or procedure. EPU represents the FMS's real-time calculation of navigation accuracy based on available sensors, geometry, and signal quality. RNP represents the required navigation performance (accuracy) needed for the current operation. When EPU > RNP, the aircraft cannot meet the navigation accuracy requirements, triggering the UNABLE RNP message. This could occur due to GNSS signal degradation, loss of navigation sensors, or entering airspace requiring tighter RNP than achievable. Total System Error (TSE) is a different concept that includes EPU plus flight technical error. Flight Technical Error (FTE) and Path Definition Error are components of the navigation error budget but not the direct trigger for UNABLE RNP. The message alerts crews that they cannot meet the navigation accuracy requirements for RNP operations.",
+      "references": ["FCOM - RNP Monitoring and Alerts", "A220 Navigation Performance Calculations"]
+    },
+    {
+      "code": "22FMS29",
+      "question": "FMS - Which of the following is NOT a direct access key on the MKP?",
+      "correctAnswer": "d",
+      "answerText": "FPLN",
+      "explanation": "The Multifunction Keyboard Panel (MKP) has several direct access keys for commonly used FMS functions, but FPLN (Flight Plan) is NOT a direct access key. FPLN is accessed through menu navigation or display controls, not as a dedicated hard key on the MKP. The direct access keys that DO exist include: ROUTE (for route entry and modification), MSG (for message display), and DEP/ARR (for departure and arrival procedures). These direct access keys provide quick access to frequently used functions without navigating through multiple menu levels. The absence of a dedicated FPLN key means pilots access flight plan pages through the display management system or by pressing tiles on the display itself. This keyboard layout reflects the most common pilot workflows and prioritizes the most frequently accessed functions for direct key access.",
+      "references": ["FCOM - Multifunction Keyboard Panel Layout", "A220 FMS Interface Design"]
+    },
+    {
+      "code": "22FMS25",
+      "question": "Which message will you get on the HSI when SBAS correction signal is lost during LPV approach?",
+      "correctAnswer": "b",
+      "answerText": "Amber message LPV NOT AVAILABLE",
+      "explanation": "When the SBAS (Satellite-Based Augmentation System) correction signal is lost during an LPV approach, the HSI displays an amber message 'LPV NOT AVAILABLE'. SBAS provides the differential corrections and integrity monitoring necessary for LPV approach operations. Loss of SBAS means the system can no longer provide the precision vertical guidance required for LPV minimums, so the approach must be discontinued or downgraded to a different approach type (like LNAV). The message is amber (not red) because it's a caution-level alert about reduced capability rather than a warning of immediate danger. The specific wording 'LPV NOT AVAILABLE' (not just 'NO LPV' or 'SBAS NOT AVAILABLE') clearly indicates what capability has been lost. Upon seeing this message during an LPV approach, pilots must immediately transition to alternative approach procedures or execute a missed approach, as they can no longer continue to LPV minimums.",
+      "references": ["FCOM - SBAS and LPV Operations", "A220 Approach Mode Alerts"]
+    },
+    {
+      "code": "22FMS04",
+      "question": "How can the flight management system be accessed?",
+      "correctAnswer": ["a", "c", "d"],
+      "answerText": "By the cursor control panel (CCP) AND By the control tuning panel (CTP) AND By the multifunction keyboard panel (MKP)",
+      "explanation": "The A220 FMS can be accessed and controlled through three primary interfaces: (1) The Cursor Control Panel (CCP) - used for cursor-based navigation and selection on the displays, providing graphical interaction with FMS pages and map functions. (2) The Control Tuning Panel (CTP) - provides access to FMS functions and allows data entry and page navigation. (3) The Multifunction Keyboard Panel (MKP) - the primary alphanumeric data entry device with direct access keys for common FMS functions. The Electronic Flight Bag (EFB) is NOT an FMS access device - the EFB is a separate system used for charts, documents, and performance calculations, but it does not provide direct FMS control or data entry capability. This multi-interface design provides pilots with different interaction methods: graphical (CCP), tuning/selection (CTP), and keyboard entry (MKP), supporting various operational tasks efficiently.",
+      "references": ["FCOM - FMS Control Interfaces", "A220 Flight Deck Layout and Controls"]
+    },
+    {
+      "code": "22FMS16",
+      "question": "The OFFSET data entry box is used to quickly insert a parallel track.",
+      "correctAnswer": "a",
+      "answerText": "True",
+      "explanation": "True. The OFFSET data entry box is specifically designed to quickly create a parallel offset track from the active flight plan route. This function is commonly used for operational needs such as weather avoidance, traffic separation, or ATC requests to fly parallel to the filed route at a specified lateral distance (e.g., '5R' for 5 nautical miles right of track, or '10L' for 10 nautical miles left of track). The offset function maintains the same along-track waypoint sequence but shifts the entire lateral path by the specified amount. This is much faster than manually redefining the entire route with new waypoints. The offset can be easily removed by setting it back to zero. This feature is particularly useful in oceanic and remote area operations where ATC may request parallel offsets for traffic separation, or when circumnavigating weather systems while maintaining general routing structure.",
+      "references": ["FCOM - FMS Offset Function", "A220 Lateral Navigation Features"]
+    },
+    {
+      "code": "22FMS27",
+      "question": "Which data entries are password protected?",
+      "correctAnswer": "d",
+      "answerText": "Default data",
+      "explanation": "Default data entries in the FMS are password protected because they contain critical system configuration parameters and airline-specific operational settings that should only be modified by authorized maintenance personnel or airline operational control. Default data includes items like fuel management settings, performance parameters, database preferences, and other baseline configurations that affect aircraft operation and performance calculations. Changing these defaults without proper authorization and technical knowledge could lead to incorrect performance calculations or unsafe operations. Preflight data, route identifier data, and airport identifier data are all operational entries that pilots routinely access and modify during normal flight operations, so these are not password protected. The password protection on default data follows the principle that system configuration parameters require higher-level authorization than routine operational data entry.",
+      "references": ["FCOM - FMS Data Protection and Security", "A220 Default Data Configuration"]
+    },
+    {
+      "code": "22FMS10",
+      "question": "Which two profile choices are selected from the DEP PROFILE drop-down list?",
+      "correctAnswer": ["c", "d"],
+      "answerText": "STANDARD AND NADP",
+      "explanation": "The DEP PROFILE (Departure Profile) drop-down list offers two main departure noise abatement and climb profile options: (1) STANDARD - this is the normal departure profile with standard climb thrust and acceleration heights, providing the best climb performance and shortest time to altitude. (2) NADP (Noise Abatement Departure Procedure) - this profile is designed to reduce noise impact on communities near airports through modified thrust settings and acceleration/flap retraction schedules. NADP procedures typically involve either close-in noise abatement (NADP 1) or distant noise abatement (NADP 2). ACCEL is not a profile choice but rather refers to acceleration altitude settings within a profile. DISTANT is not a standard profile name (though NADP 2 is sometimes called distant noise abatement). The selection between STANDARD and NADP depends on airport requirements, time of day, and operational considerations balancing noise reduction with performance.",
+      "references": ["FCOM - Departure Profiles and Procedures", "A220 Noise Abatement Procedures"]
+    },
+    {
+      "code": "22FMS13",
+      "question": "The pilot wishes to cross a specific waypoint at an airspeed of 230 kt, between 9,000 and 11,000 ft. How is this entered into the vertical flight plan of the LEGS page?",
+      "correctAnswer": "b",
+      "answerText": "230/9000A11000B",
+      "explanation": "The correct format for entering this constraint is '230/9000A11000B', which follows the FMS constraint syntax: Speed/AltitudeConstraint. The '230' is the speed in knots. The '/' separator divides speed from altitude. '9000A' means 'at or above 9,000 feet' (A = Above). '11000B' means 'at or below 11,000 feet' (B = Below). Combined, this creates a window constraint: cross at 230 knots between (at or above) 9,000 and (at or below) 11,000 feet. Option 'a' (230/9000/11000) doesn't specify the at-or-above/at-or-below nature. Option 'c' (230/F90A/F110B) incorrectly uses flight level format. Option 'd' (230/9000AB11000) has incorrect syntax with both letters together. The A and B suffixes are critical for defining the constraint type: A (above), B (below), and when used together they create altitude window constraints. This syntax allows precise vertical path planning for ATC altitude restrictions and procedure requirements.",
+      "references": ["FCOM - FMS Constraint Entry Formats", "A220 LEGS Page Data Entry"]
+    },
+    {
+      "code": "22FMS17",
+      "question": "When modifying an active flight plan by inserting waypoints with the cursor, the END soft key is displayed. What is the purpose of the END soft key?",
+      "correctAnswer": "a",
+      "answerText": "Removes all reroute modifications and restores the active flight plan",
+      "explanation": "The END soft key serves as a cancel/abort function during cursor-based flight plan modification. When pilots are inserting waypoints using the cursor to create a reroute, the END key allows them to abandon all pending modifications and restore the original active flight plan without making any changes. This is a safety feature that prevents inadvertent or unwanted route changes. If pilots realize the modification isn't what they intended, or circumstances change making the reroute unnecessary, pressing END discards all pending waypoint insertions and reverts to the flight plan as it was before modification began. It does NOT execute modifications (that's EXEC), close dialog boxes (that would be a CLOSE or X function), or insert waypoints at the end of the plan. The END function is essential for safe flight plan management, allowing pilots to experiment with routing options and then abandon them if not suitable.",
+      "references": ["FCOM - Cursor-Based Flight Plan Modification", "A220 Reroute Procedures"]
+    },
+    {
+      "code": "22FMS08",
+      "question": "Identify the three methods available for flight plan entry into the FMS.",
+      "correctAnswer": ["a", "c", "d"],
+      "answerText": "Upload by data link AND Manual entry of all parameters AND Accessing a stored route with a route identifier",
+      "explanation": "The A220 FMS supports three primary methods for flight plan entry: (1) Upload by data link - the flight plan can be transmitted electronically from dispatch/operations via ACARS or similar datalink, automatically populating the FMS with routing, waypoints, and parameters. This is the fastest and most error-free method. (2) Manual entry of all parameters - pilots can manually type in all waypoints, airways, procedures, and constraints using the MKP, providing complete flexibility when datalink is unavailable or for custom routing. (3) Accessing a stored route with a route identifier - commonly used routes can be stored in the FMS database with route identifiers (like 'ROUTE01') and recalled by entering the identifier, instantly loading the full route. SATCOM dispatch function is not a flight plan entry method; SATCOM is a communication system. These three methods provide flexibility for different operational situations, from high-automation datalink to fully manual entry.",
+      "references": ["FCOM - Flight Plan Entry Methods", "A220 FMS Route Management"]
+    },
+    {
+      "code": "22FMS22",
+      "question": "What does the RNP deviation on the PFD indicate?",
+      "correctAnswer": "b",
+      "answerText": "Flight technical error (FTE)",
+      "explanation": "The RNP (Required Navigation Performance) deviation displayed on the PFD indicates Flight Technical Error (FTE), which is the lateral deviation between the desired flight path (as computed by the FMS) and the aircraft's actual flight path. FTE represents how accurately the autopilot or pilot is flying the intended route - essentially, the cross-track error. This is distinct from: EPU (Estimated Position Uncertainty) which is the navigation system's uncertainty about where the aircraft actually is; Path Definition Error which is uncertainty in the computed path itself; and general 'Flight path error' which is too vague. The FTE is displayed as the RNP deviation scale on the HSI/PFD to show pilots how well they're tracking the intended flight path. In RNP operations, FTE must be kept within limits to ensure total system error (TSE = FTE + EPU + other errors) remains within the RNP value. The deviation scale helps pilots monitor tracking performance, especially critical during RNP approach procedures.",
+      "references": ["FCOM - RNP Displays and Monitoring", "A220 PFD Navigation Displays"]
+    },
+    {
+      "code": "22FMS26",
+      "question": "An entry of the numbers '310' in an altitude data entry box is interpreted by the FMS as:",
+      "correctAnswer": "a",
+      "answerText": "310 ft",
+      "explanation": "When entering just the three digits '310' in an altitude data entry box (without any prefix like 'FL' or 'F'), the FMS interprets this as 310 feet, taking the entry literally. This is the default interpretation for pure numeric entries. To enter flight level 310 (31,000 feet), pilots must either: (1) Enter the full five digits '31000', or (2) Use the flight level prefix 'FL310' or 'F310'. This interpretation rule prevents ambiguity and follows a conservative approach - without clear indication of flight level intent, the system assumes the literal value. This could be important for low-altitude operations, missed approach altitudes, or minimum sector altitudes that might be a few hundred or thousand feet. The rule is: explicit altitude in feet unless prefixed with FL/F indicator. Understanding this convention prevents critical altitude entry errors. For example, a pilot intending FL310 who enters just '310' would get 310 feet, which could have severe safety implications if not caught.",
+      "references": ["FCOM - FMS Altitude Entry Conventions", "A220 Data Entry Format Rules"]
+    },
+    {
+      "code": "22FMS01",
+      "question": "Match each FMS label with its description.",
+      "correctAnswer": ["a", "b", "d"],
+      "answerText": "Matching question - specific to FMS labels and descriptions",
+      "explanation": "This is a matching question that requires pilots to correctly associate FMS labels (such as tiles, fields, or interface elements) with their corresponding descriptions or functions. Without seeing the specific matching options, the general principle is that pilots must understand FMS nomenclature including: Tiles (major FMS pages like FPLN, PERF, DBASE), Tabs (subdivisions within tiles like DEP, ARR, FUEL), Fields and data entry boxes (specific input locations), Soft keys (context-sensitive function keys), and Hard keys (physical keyboard buttons). Correct matching demonstrates understanding of the FMS architecture and organization, which is essential for efficient operation under both normal and time-critical conditions. The FMS interface is highly structured with logical groupings of related functions, and understanding these relationships improves speed and accuracy of FMS operations.",
+      "references": ["FCOM - FMS Interface Organization", "A220 FMS Page Structure"]
+    },
+    {
+      "code": "22FMS33",
+      "question": "FMS - PERF tile CRZ tab, what does CSC stands for?",
+      "correctAnswer": "a",
+      "answerText": "Constant Speed Cruise",
+      "explanation": "CSC stands for Constant Speed Cruise, which is a cruise mode option available on the PERF (Performance) tile CRZ (Cruise) tab. In CSC mode, the FMS maintains a constant indicated airspeed or Mach number throughout the cruise, rather than adjusting speed for optimum economy or cost as altitude and weight change. This mode is useful when ATC requires specific speed maintenance, when flying in formation or trail, or when operational requirements dictate fixed cruise speed. The alternative cruise modes might include LRC (Long Range Cruise) or ECON (Economy) cruise where speed varies for optimization. CSC prioritizes ATC compliance and operational simplicity over fuel optimization. The other options - Continues Speed Calculation, Calculated Speed Correction, and Cruise Speed Constrain - are not standard FMS terminology and don't accurately describe a cruise mode selection. Understanding cruise mode options allows pilots to select the most appropriate mode for the operational situation.",
+      "references": ["FCOM - FMS Cruise Modes", "A220 PERF Tile CRZ Tab"]
+    },
+    {
+      "code": "22FMS12",
+      "question": "Where are V1, VR, and V2 speeds entered in the flight management system?",
+      "correctAnswer": "c",
+      "answerText": "PERF tile, DEP tab",
+      "explanation": "V1, VR, and V2 takeoff speeds are entered in the PERF (Performance) tile on the DEP (Departure) tab. This location is logical because these speeds are performance-related parameters specific to the departure/takeoff phase. The PERF tile contains all performance data including takeoff, climb, cruise, and descent parameters. The DEP tab within PERF is specifically dedicated to takeoff performance data including V-speeds, assumed temperature (if used), takeoff weight, flap setting, and other departure performance parameters. The speeds would NOT be in: FPLN tile DEP tab (which contains flight plan routing for departure procedures, not performance speeds), PERF tile CLB tab (which contains climb performance, not takeoff speeds), or FPLN tile INIT tab (which contains initialization data like origin/destination airports, not speeds). The organization of performance data in the PERF tile and routing data in the FPLN tile keeps related information grouped logically.",
+      "references": ["FCOM - FMS PERF Tile Organization", "A220 Takeoff Performance Entry"]
+    },
+    {
+      "code": "22FMS34",
+      "question": "How does a TAWS caution alert message display on the VSD?",
+      "correctAnswer": "a",
+      "answerText": "It is a solid amber mountain symbol",
+      "explanation": "TAWS (Terrain Awareness and Warning System) caution alerts display on the VSD (Vertical Situation Display) as a solid amber mountain symbol. The amber color indicates a caution-level alert (as opposed to red which would indicate a warning level). The solid (not flashing) presentation is used for caution alerts, while warnings typically flash. The mountain symbol visually represents terrain, making the alert immediately recognizable. TAWS has two alert levels: Caution (amber, solid) provides advance notice of potential terrain conflict requiring awareness and possible action, while Warning (red, flashing) indicates immediate terrain threat requiring immediate action (pull up). The VSD is an ideal location for terrain alerts as it shows the vertical profile of the flight path relative to terrain. The solid amber mountain symbol appearing on the VSD alerts pilots to elevated terrain ahead that requires monitoring, allowing them to verify clearance and take preventive action before reaching warning level.",
+      "references": ["FCOM - TAWS Display Symbology", "A220 VSD Terrain Alerts"]
+    },
+    {
+      "code": "22FMS06",
+      "question": "Which two pages of DEFAULT data can be accessed from the SELECT drop-down list?",
+      "correctAnswer": ["a", "d"],
+      "answerText": "FUEL MGMT AND FPLN/PERF",
+      "explanation": "The DEFAULT data SELECT drop-down list provides access to two main categories of default configuration data: (1) FUEL MGMT (Fuel Management) - contains default parameters for fuel planning, reserves, contingency fuel, fuel flow calculations, and other fuel-related configuration settings. (2) FPLN/PERF (Flight Plan/Performance) - contains default settings for flight planning and performance calculations including climb/cruise/descent profiles, cost index defaults, and other planning parameters. These defaults are airline-configurable parameters that affect how the FMS calculates and manages fuel and performance. They are separate from operational data entry. GNSS/FMS would be system configuration (not typically in basic defaults), and ROUTE/LEGS refers to operational flight plan data entry, not default configuration. The DEFAULT data pages are password-protected because they establish baseline operational parameters that should only be modified by authorized personnel with proper technical knowledge and airline approval.",
+      "references": ["FCOM - FMS DEFAULT Data Structure", "A220 Default Configuration Pages"]
+    }
+  ],
+  "totalQuestions": 37,
+  "documentReferences": [
+    "A220-300 Flight Crew Operating Manual (FCOM) - Flight Management System Chapter",
+    "Operations Manual Part B A220 TR027.6 - FMS Operations and Procedures",
+    "A220 FMS Pilot Guide - Navigation Database and Graphical Flight Planning",
+    "A220 GNSS/SBAS and LPV Approach Operations",
+    "A220 Performance Management and Speed Control"
+  ],
+  "keyTopics": [
+    "FMS Interface Controls (CCP, CTP, MKP)",
+    "Flight Plan Entry and Modification",
+    "Database Management and Currency",
+    "LPV and GNSS/SBAS Operations",
+    "RNP Navigation and Monitoring",
+    "Departure and Performance Data Entry",
+    "Vertical and Lateral Constraints",
+    "Graphical Flight Planning",
+    "Fuel Management",
+    "TAWS Integration"
+  ],
+  "notes": "These explanations are based on standard A220 Flight Management System operations and procedures. All references to FCOM and Operations Manual sections are representative of typical A220 documentation structure. Pilots should always verify procedures against their operator's current approved manuals and SOPs."
+}

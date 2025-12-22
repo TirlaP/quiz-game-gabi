@@ -1,0 +1,68 @@
+{
+  "07ELE13": {
+    "explanation": "This is true. The A220 electrical system uses 115 VAC (volts alternating current) for AC power and 28 VDC (volts direct current) for DC power. These are standard aircraft electrical power specifications, with AC power provided by generators and DC power provided by batteries or converted from AC through TRUs (Transformer Rectifier Units).",
+    "sources": [
+      {"pdf": "FCOM1", "page": "851"}
+    ]
+  },
+  "07ELE14": {
+    "explanation": "Once the RAT is deployed, even if one or both engine VFGs are recovered and provide power to the main AC buses, the RAT GEN continues to supply the AC ESS BUS and DC ESS BUS 3. This ensures continuous power to essential systems and prevents power interruptions during electrical system reconfigurations following the initial power loss event.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "864"}
+    ]
+  },
+  "07ELE15": {
+    "explanation": "The engine Variable Frequency Generators (VFGs) are rated at 75 kVA each. Note that kVA (kilovolt-amperes) is a measure of apparent power, not voltage (VAC). Each VFG provides 115 VAC variable frequency power, but the power rating is 75 kVA, making them the primary AC power sources for the aircraft.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "855"}
+    ]
+  },
+  "07ELE16": {
+    "explanation": "The Ram Air Turbine (RAT) deploys automatically in case of complete loss of in-flight AC power, ensuring emergency electrical and hydraulic power. It can also be deployed manually by pressing the guarded RAT GEN light/switch on the electrical panel. The RAT does NOT deploy for single engine or APU failures alone, only for complete AC power loss.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "863"}
+    ]
+  },
+  "07ELE17": {
+    "explanation": "The circuit breaker (CB) synoptic page offers four sort selections for displaying CB information: STATUS (sort by tripped/normal state), BUS (sort by which electrical bus), SYSTEM (sort by aircraft system/ATA chapter), and LOCATION (sort by physical location in aircraft). These sorting options help crew quickly find specific circuit breakers during troubleshooting.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "884"}
+    ]
+  },
+  "07ELE18": {
+    "explanation": "When external power is connected and suitable in terms of frequency, voltage, and phase (meeting all quality parameters), an EXT PWR AVAIL advisory message displays on the EICAS. This informs the crew that suitable external power is available to be connected to the aircraft electrical system by pressing the EXT PWR switch.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "857"}
+    ]
+  },
+  "07ELE19": {
+    "explanation": "When the RAT GEN guarded switch is pushed while the RAT is deployed, it resets the RAT GCU (Generator Control Unit). This can be used to attempt recovery from a RAT generator fault condition. The RAT itself remains deployed and spinning, but the GCU is reset to try to restore generator output. The RAT cannot be stowed in flight.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "891"}
+    ]
+  },
+  "07ELE20": {
+    "explanation": "The two PMAGs (Permanent Magnet Alternator Generators) provide dedicated power to the Fly-By-Wire Power Converters (FBWPCs) and the Full Authority Digital Engine Controls (FADECs). These are critical flight control and engine control systems that require highly reliable, independent power sources. Each PMAG is engine-driven and provides power regardless of the main electrical system status.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "851"}
+    ]
+  },
+  "07ELE21": {
+    "explanation": "The DC EMER (Emergency) bus displays on the ELEC synoptic page only in a fault condition. During normal operations, this bus is not shown on the display to reduce clutter. It only appears when abnormal electrical configurations result in the DC EMER bus being powered, indicating a non-normal electrical system state that requires crew awareness.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "868"}
+    ]
+  },
+  "07ELE22": {
+    "explanation": "The engine Variable Frequency Generators (VFGs) have a self-contained oil system for cooling and lubrication. This independent oil system is separate from the engine oil system, ensuring proper generator operation and longevity. The self-contained system eliminates dependency on engine lubrication.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "855"}
+    ]
+  },
+  "07ELE23": {
+    "explanation": "The EXT PWR (External Power) switch/light on the ELECTRICAL panel is used to connect and disconnect external AC power to/from the aircraft electrical system. When pushed, it commands the external power contactor to close or open, allowing ground power to supply the aircraft buses when suitable external power is available.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "857"}
+    ]
+  }
+}

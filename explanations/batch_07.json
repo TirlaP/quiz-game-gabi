@@ -1,0 +1,77 @@
+{
+  "chapter": "Automatic Flight",
+  "explanations": {
+    "03AFL25": {
+      "explanation": "The half bank mode limits the maximum bank angle used by the flight director to 15 degrees. It is automatically activated in NAV and HDG lateral modes when the aircraft climbs through 31,500 feet to reduce passenger discomfort and control load at high altitude.",
+      "source": "FCOM1",
+      "page": "03-02-26",
+      "correctAnswer": "d"
+    },
+    "03AFL26": {
+      "explanation": "When a windshear warning is detected, pressing any TOGA switch on the thrust levers activates the WSHR (windshear) escape guidance mode. This provides optimized pitch and thrust guidance to safely escape the windshear condition.",
+      "source": "FCOM1",
+      "page": "03-02-70, 03-05-19",
+      "correctAnswer": "d"
+    },
+    "03AFL27": {
+      "explanation": "The navigation preview function is an FMS-specific feature that shows upcoming waypoints, path information, and route data on the displays. This preview capability is only available when FMS is the active navigation mode, not when using VOR or LOC navigation.",
+      "source": "FCOM1",
+      "page": "03-02-13",
+      "correctAnswer": "a"
+    },
+    "03AFL28": {
+      "explanation": "The right section of the Flight Control Panel (FCP) contains controls for vertical flight guidance modes including ALT (altitude hold), FLC (flight level change), VS knob (vertical speed), FPA knob (flight path angle), and VNAV switch for vertical navigation.",
+      "source": "FCOM1",
+      "page": "03-02-5",
+      "correctAnswer": "d"
+    },
+    "03AFL29": {
+      "explanation": "The Flight Mode Annunciator (FMA) is located at the top of each Primary Flight Display (PFD). It is divided into five sections displaying AT mode, lateral mode, AP/AT/data source status, vertical mode, and alternate source information.",
+      "source": "FCOM1",
+      "page": "03-02-9",
+      "correctAnswer": "d"
+    },
+    "03AFL30": {
+      "explanation": "The flight director cue is displayed as a magenta circle with lateral bars, and it is smaller than the Flight Path Vector (FPV) symbol. The magenta color distinguishes it from other flight guidance indications on the PFD.",
+      "source": "FCOM1",
+      "page": "03-02-8",
+      "correctAnswer": "d"
+    },
+    "03AFL31": {
+      "explanation": "When the aircraft is over the VOR station, DR (Dead Reckoning) is displayed in white on the FMA to the right of the displayed VOR 1 or VOR 2. This indicates the system is in dead reckoning mode as it transitions over the station where VOR guidance is unreliable.",
+      "source": "FCOM1",
+      "page": "03-02-19",
+      "correctAnswer": "c"
+    },
+    "03AFL32": {
+      "explanation": "When climbing or descending to a preselected altitude, ALTS CAP (Altitude Select Capture) displays on the FMA when the capture point is reached. This indicates the altitude capture mode is active and the aircraft is transitioning to level off at the selected altitude.",
+      "source": "FCOM1",
+      "page": "03-02-33",
+      "correctAnswer": "d"
+    },
+    "03AFL33": {
+      "explanation": "The flight level change speed can be manually selected or automatically supplied by the FMS. The SPD switch on the FCP has FMS/MAN positions that determine whether the speed source is from the FMS or manually selected by the crew.",
+      "source": "FCOM1",
+      "page": "03-02-36",
+      "correctAnswer": "d"
+    },
+    "03AFL34": {
+      "explanation": "When a track angle error exceeds 75 degrees, the NO VPATH-TKE message is displayed on the HSI, and a flashing amber VPATH is displayed on the FMA. This large track error prevents VPATH operation because the aircraft is too far off the intended vertical path course.",
+      "source": "FCOM1",
+      "page": "03-02-50",
+      "correctAnswer": "b"
+    },
+    "03AFL35": {
+      "explanation": "If the approach capability degrades from APPR 2 to APPR 1 above 200 feet AGL (such as passing 900 feet RA on a CAT II approach), an amber NO APPR 2 message flashes for 5 seconds, followed by a steady green APPR 1 message indicating the degraded approach capability.",
+      "source": "FCOM1",
+      "page": "03-04-17",
+      "correctAnswer": "a"
+    },
+    "03AFL36": {
+      "explanation": "VPATH (VNAV Path) mode provides vertical guidance along a barometric/GNSS descent path. When intercepting and capturing the VNAV glide path, VPATH displays in green on the FMA as the active vertical mode, indicating the aircraft is tracking the vertical profile.",
+      "source": "FCOM1",
+      "page": "03-02-48",
+      "correctAnswer": "b"
+    }
+  }
+}

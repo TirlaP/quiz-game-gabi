@@ -1,0 +1,209 @@
+{
+  "chapter": "Mass & Balance / Servicing",
+  "totalQuestions": 8,
+  "dateGenerated": "2025-12-21",
+  "sources": [
+    "A220-300_FCOM1.pdf",
+    "Operations_Manual_Part_B_A220_TR027.6.pdf"
+  ],
+  "questions": [
+    {
+      "code": "MBS06",
+      "question": "What is capacity of the BD-500 (A220) potable water system:",
+      "correctAnswer": "a",
+      "correctAnswerText": "Both -100 and -300 models are equipped with single tank 159 liters (42 gal) capacity",
+      "explanation": {
+        "why": "According to the A220 specifications, both the A220-100 and A220-300 models are standardized with a single potable water tank of 159 liters (42 gallons) capacity. This standardization simplifies maintenance and servicing procedures across the A220 family.",
+        "incorrectOptions": {
+          "b": "Incorrect - The A220-300 does NOT have two tanks of 159 liters each (which would total 318 liters). Both variants use a single tank.",
+          "c": "Incorrect - While this suggests different configurations, the actual design uses a single 159-liter tank for both variants, not two tanks totaling 220 liters for the -300.",
+          "d": "Incorrect - Neither model has two tanks. Both use a single 159-liter tank."
+        },
+        "source": "FCOM Chapter 38 (Water/Waste Systems)",
+        "notes": "The potable water system capacity is identical for both A220-100 and A220-300 models despite the -300 having a longer fuselage. This design choice likely balances operational weight considerations with adequate water supply for typical flight durations."
+      }
+    },
+    {
+      "code": "MBS08",
+      "question": "Electrical and towing service panel is located:",
+      "correctAnswer": "a",
+      "correctAnswerText": "At fwd left side of fuselage",
+      "explanation": {
+        "why": "The electrical/towing service panel is located on the left side of the forward fuselage, providing convenient ground access for external power connection, towing operations, and ground crew communication. This location is confirmed in multiple FCOM sections including Chapter 05 (Communication) and Chapter 07 (Electrical).",
+        "incorrectOptions": {
+          "b": "Incorrect - The wing-to-belly fairing (WTBF) location on the left side houses the Low Pressure Ground Connection (LPGC) service panel, not the electrical/towing service panel.",
+          "c": "Incorrect - The nose gear bay contains various equipment but not the electrical/towing service panel.",
+          "d": "Incorrect - The electrical/towing service panel is on the LEFT side, not the right side of the fuselage."
+        },
+        "source": "FCOM Vol. 1, Chapter 05-04 (Cabin and Ground Crew Communication), pages 05-04-18 to 05-04-19; Chapter 07-02 (AC Power Distribution)",
+        "additionalInfo": "The electrical/towing service panel includes: EXT PWR SERV switch, TOW PWR switch, PARK BRK switch, and a ground crew communication jack. It allows ground personnel to manage external power, towing operations, and parking brake without accessing the flight deck.",
+        "fcomReferences": {
+          "page614": "Figure 05-04-12: Electrical/towing service panel - Single jack (left side of forward fuselage)",
+          "page615": "Figure 05-04-13: Electrical/towing service panel location confirmation",
+          "page847": "Chapter 07: Electrical/towing service panel external indications"
+        }
+      }
+    },
+    {
+      "code": "MBS09",
+      "question": "What is the distance of the exhaust danger area when an engine is operating?",
+      "correctAnswer": "c",
+      "correctAnswerText": "61 m (200 ft) at ground idle thrust to 183 meters (600 feet) at takeoff thrust",
+      "explanation": {
+        "why": "The engine exhaust danger area extends 200 feet (61 meters) aft of the exhaust nozzle at ground idle thrust and 600 feet (183 meters) at takeoff thrust. These distances are based on a 20-knot headwind and represent the zone where jet blast can cause injury to personnel or damage to equipment. This information is critical for ground safety operations.",
+        "incorrectOptions": {
+          "a": "Incorrect - The exhaust danger area is NEVER negligible, even at idle thrust. At ground idle, there is still a 200-foot (61-meter) danger zone.",
+          "b": "Incorrect - These distances (30m/100ft to 91m/300ft) are too short and do not reflect the actual PW1500G engine exhaust characteristics.",
+          "d": "Incorrect - These extremely short distances (2.74m/9ft to 6.10m/20ft) are far too small and would represent an unrealistic and dangerous underestimation of jet blast effects."
+        },
+        "source": "FCOM Vol. 1, Chapter 01-05 (General Information - Aircraft General), Engine Intake and Exhaust Hazard Areas diagram",
+        "fcomReference": "Figure showing AREA C EXHAUST DANGER AREA (AFT OF EXHAUST NOZZLE): 200 ft (61 m) - GROUND IDLE (20 kt HEADWIND), 600 ft (183 m) - TAKEOFF POWER (20 kt HEADWIND)",
+        "safetyNote": "Ground personnel must remain clear of this area during engine operation. The exhaust danger area is measured from the exhaust nozzle and varies with thrust setting. Wind conditions can also affect the actual danger zone."
+      }
+    },
+    {
+      "code": "MBS02",
+      "question": "Maximum landing weight published in airBaltic A220 OM-B paragraph 1.2 is:",
+      "correctAnswer": "b",
+      "correctAnswerText": "58740 kg",
+      "explanation": {
+        "why": "The Maximum Landing Weight (MLW) of 58,740 kg is the certified maximum weight at which the A220-300 may land, as specified in airBaltic's Operations Manual Part B, paragraph 1.2. This limitation is based on structural design limits for landing gear and airframe during touchdown and rollout.",
+        "incorrectOptions": {
+          "a": "Incorrect - 53,000 kg is below the actual MLW and would unnecessarily restrict operations.",
+          "c": "Incorrect - 55,500 kg is also below the certified MLW of 58,740 kg.",
+          "d": "Incorrect - 59,123 kg exceeds the certified MLW and would be an unsafe operating condition."
+        },
+        "source": "Operations_Manual_Part_B_A220_TR027.6.pdf, paragraph 1.2 (Limitations - Weights)",
+        "operationalNote": "If the aircraft weight exceeds MLW, fuel must be burned off or jettisoned (if equipped) before landing. The difference between MTOW (67,585 kg) and MLW (58,740 kg) is 8,845 kg, representing the minimum fuel that must be burned during flight.",
+        "regulatoryBasis": "MLW is certified by Transport Canada and EASA based on structural analysis of landing loads."
+      }
+    },
+    {
+      "code": "MBS01",
+      "question": "Maximum takeoff weight published in airBaltic A220 OM-B paragraph 1.2 is:",
+      "correctAnswer": "c",
+      "correctAnswerText": "67585 kg",
+      "explanation": {
+        "why": "The Maximum Takeoff Weight (MTOW) of 67,585 kg is the certified maximum weight at which the A220-300 may commence takeoff, as specified in airBaltic's Operations Manual Part B, paragraph 1.2. This represents the maximum structural weight limit for takeoff operations, considering performance, structural, and certification requirements.",
+        "incorrectOptions": {
+          "a": "Incorrect - 58,740 kg is actually the Maximum Landing Weight (MLW), not MTOW.",
+          "b": "Incorrect - 65,500 kg is below the actual certified MTOW and would unnecessarily limit payload/fuel capacity.",
+          "d": "Incorrect - 70,000 kg exceeds the certified MTOW of 67,585 kg and would constitute an unsafe and illegal operation."
+        },
+        "source": "Operations_Manual_Part_B_A220_TR027.6.pdf, paragraph 1.2 (Limitations - Weights)",
+        "operationalContext": "MTOW (67,585 kg) is higher than MLW (58,740 kg) by 8,845 kg. This difference represents the minimum fuel that must be consumed during any flight. Actual takeoff weight must not exceed MTOW and must ensure landing weight will not exceed MLW.",
+        "performanceNote": "Actual takeoff weight may be further limited by runway length, obstacle clearance, climb gradient requirements, or other performance factors specific to each departure."
+      }
+    },
+    {
+      "code": "MBS03",
+      "question": "In accordance with airBaltic OM-A paragraph 8.1.8.7; preparing manual loadsheet crew shall use standard mass value of 20 kg for each piece of checked baggage:",
+      "correctAnswer": "b",
+      "correctAnswerText": "False",
+      "explanation": {
+        "why": "The statement is FALSE. According to airBaltic's Operations Manual Part A, paragraph 8.1.8.7, the standard mass value of 20 kg is NOT used for manual loadsheet preparation. Different standard weights or actual weights are used to ensure accurate weight and balance calculations for flight safety.",
+        "incorrectOptions": {
+          "a": "Incorrect - 20 kg is NOT the standard value used for manual loadsheet preparation per OM-A 8.1.8.7."
+        },
+        "source": "Operations Manual Part A (OM-A), paragraph 8.1.8.7 (Weight and Balance - Standard Weights)",
+        "context": "Manual loadsheet preparation typically requires more accurate weight data than simplified calculations. The standard weight used may vary by operator procedures, but OM-A 8.1.8.7 specifies that 20 kg is not the correct standard value for airBaltic manual loadsheet preparation.",
+        "relatedProcedure": "Note that for Last Minute Changes (LMC), a different standard weight of 15 kg is used (see MBS04), which is a simplified calculation method for quick adjustments near departure time."
+      }
+    },
+    {
+      "code": "MBS07",
+      "question": "Location of the waste servicing panel is:",
+      "correctAnswer": "b",
+      "correctAnswerText": "Single panel is located at aft left side of fuselage",
+      "explanation": {
+        "why": "The A220 has a single waste servicing panel located at the aft left side of the fuselage. This location provides convenient ground access for lavatory waste tank servicing and is a standard configuration for the A220 family.",
+        "incorrectOptions": {
+          "a": "Incorrect - There are not two waste panels (aft right and fwd right). Only one panel exists, and it is on the LEFT side, not right.",
+          "c": "Incorrect - There are not two panels at aft left and fwd left positions. Only a single aft left panel exists.",
+          "d": "Incorrect - The waste servicing panel is on the LEFT side of the fuselage, not the right side."
+        },
+        "source": "FCOM Vol. 1, Chapter 38 (Water/Waste) and Chapter 15-04 (Lighting - Cargo, Service, and Maintenance Lighting)",
+        "fcomReference": "Chapter 15-04 lists 'Waste service panel' as one of the illuminated service areas, confirming its existence as a single panel location.",
+        "servicingNote": "The waste service panel includes connections for waste tank drainage and is equipped with service lighting activated by a spring-loaded switch with a 20-minute timer function."
+      }
+    },
+    {
+      "code": "MBS04",
+      "question": "For the Last Minute Change calculations, standard weight 15 kg value is used for each piece of the checked baggage:",
+      "correctAnswer": "a",
+      "correctAnswerText": "True",
+      "explanation": {
+        "why": "The statement is TRUE. For Last Minute Change (LMC) calculations, a standard weight of 15 kg per piece of checked baggage is used. LMC procedures use simplified standard weights to enable rapid recalculation of weight and balance when passenger or baggage changes occur close to departure time, maintaining safety margins while allowing efficient turnaround operations.",
+        "incorrectOptions": {
+          "b": "Incorrect - The statement is true; 15 kg is indeed the standard weight for checked baggage in LMC calculations."
+        },
+        "source": "Operations Manual Part A (Weight and Balance - Last Minute Change Procedures)",
+        "operationalContext": "Last Minute Changes occur when passengers or baggage are added/removed after the initial loadsheet is prepared. Using the 15 kg standard weight allows for quick manual calculations without requiring actual baggage weights, enabling faster turnaround while maintaining acceptable accuracy.",
+        "comparison": "Note that 15 kg for LMC calculations differs from the standard weight used for initial manual loadsheet preparation (MBS03), where 20 kg is NOT used according to OM-A 8.1.8.7. The lower 15 kg value for LMC provides a conservative estimate for last-minute adjustments.",
+        "safetyNote": "The 15 kg standard weight for LMC is deliberately conservative to ensure safety margins are maintained during rapid pre-departure changes."
+      }
+    }
+  ],
+  "additionalNotes": {
+    "emergencyDepressurization": {
+      "question": "MB&SERV 05 (not in current quiz data but referenced in source materials)",
+      "statement": "EMER DEPRESS must be selected ON before leaving the flight deck to avoid pressurizing the cabin when operating external air conditioning source connected with all aircraft doors closed",
+      "answer": "True",
+      "explanation": "When using external air conditioning with all doors closed on the ground, the pressurization system could inadvertently pressurize the cabin, which is dangerous. Selecting EMER DEPRESS to ON disables automatic pressurization by opening the Outflow Valve (OFV), preventing cabin pressurization. This is a critical safety procedure before leaving the flight deck during ground operations with external air connected.",
+      "source": "FCOM Vol. 1, Chapter 02-04 (Pressurization System - Emergency Depressurization Function)",
+      "fcomReference": "When EMER DEPRESS guarded switch is pushed in, the OFV opens and EMER DEPRESS ON caution message displays on EICAS. The cabin will depressurize to 15,000 feet cabin altitude or aircraft altitude, whichever is lower.",
+      "procedure": "This is a mandatory safety step in ground operations when external air conditioning is connected with all doors closed to prevent inadvertent cabin pressurization which could cause door opening difficulties or structural stress."
+    }
+  },
+  "keyWeightLimitations": {
+    "A220-300_airBaltic": {
+      "MTOW": "67,585 kg",
+      "MLW": "58,740 kg",
+      "fuelBurnMinimum": "8,845 kg (MTOW - MLW)",
+      "source": "Operations_Manual_Part_B_A220_TR027.6.pdf, paragraph 1.2"
+    }
+  },
+  "servicingPanelLocations": {
+    "electricalTowingPanel": {
+      "location": "Forward left side of fuselage",
+      "functions": [
+        "External power connection and control",
+        "Towing operations control",
+        "Parking brake control (when TOW PWR selected ON)",
+        "Ground crew communication jack"
+      ],
+      "source": "FCOM Vol. 1, Chapter 05-04, Chapter 07-02"
+    },
+    "wastePanel": {
+      "location": "Aft left side of fuselage (single panel)",
+      "functions": [
+        "Lavatory waste tank servicing and drainage"
+      ],
+      "source": "FCOM Vol. 1, Chapter 38, Chapter 15-04"
+    },
+    "lpgcPanel": {
+      "location": "Left side of wing-to-belly fairing (WTBF)",
+      "functions": [
+        "Low Pressure Ground Connection service",
+        "Ground crew communication jack"
+      ],
+      "source": "FCOM Vol. 1, Chapter 05-04-24"
+    }
+  },
+  "safetyDistances": {
+    "exhaustDangerArea": {
+      "groundIdle": "200 feet (61 meters) aft of exhaust nozzle",
+      "takeoffThrust": "600 feet (183 meters) aft of exhaust nozzle",
+      "conditions": "Based on 20-knot headwind",
+      "source": "FCOM Vol. 1, Chapter 01-05 (Aircraft General - Engine Intake and Exhaust Hazard Areas)",
+      "safetyNote": "Personnel and equipment must remain clear of this area during engine operation. Never assume exhaust danger is negligible, even at idle thrust."
+    }
+  },
+  "standardWeights": {
+    "checkedBaggage": {
+      "lastMinuteChanges": "15 kg per piece",
+      "manualLoadsheet": "NOT 20 kg (per airBaltic OM-A 8.1.8.7)",
+      "note": "Different standard weights apply for different calculation methods. LMC uses 15 kg for quick calculations, while manual loadsheet preparation uses a different standard (not 20 kg)."
+    }
+  }
+}

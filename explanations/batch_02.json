@@ -1,0 +1,79 @@
+{
+  "02AIR12": {
+    "explanation": "The A220-300 aircraft has three pressurized sections: the passenger cabin, the flight deck, and the cargo compartments (both forward and aft). These areas form a continuous pressurized volume that is maintained by the cabin pressurization system. The APU compartment is NOT pressurized as it is located in the tail cone area and is vented to ambient pressure. Pressurizing the cabin, flight deck, and cargo areas ensures passenger and crew comfort, maintains adequate oxygen levels, and protects cargo from extreme temperature and pressure variations during flight.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-10-1"},
+      {"pdf": "Operations Manual", "page": "2.21.1"}
+    ]
+  },
+  "02AIR13": {
+    "explanation": "The bleed air system on the A220-300 uses engine compressor bleed air as its primary source. The bleed air is extracted from either the 4th stage or the 8th stage of the engine compressor, depending on engine operating conditions and pressure requirements. At lower power settings and lower altitudes, the 8th stage provides adequate pressure. At higher altitudes or when more pressure is needed, the system automatically selects the 4th stage which has higher pressure. This dual-stage arrangement ensures efficient bleed air supply across all flight regimes while minimizing the impact on engine performance.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-20-1"},
+      {"pdf": "Operations Manual", "page": "2.21.2"}
+    ]
+  },
+  "02AIR14": {
+    "explanation": "High-flow mode can be selected in three ways: (1) Automatically when the system detects high or low mix duct temperature, ensuring adequate air conditioning performance when temperature control is challenged, (2) Manually by pressing the PACK FLOW switch/light on the AIR panel, allowing crew override when additional airflow is needed, and (3) Automatically during APU operation on the ground, since the APU provides limited bleed air capacity compared to the engines, requiring maximum flow efficiency. The option about channel failure of the IASC is incorrect - this would typically result in a degraded mode, not high-flow mode activation.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-30-2"},
+      {"pdf": "Operations Manual", "page": "2.21.3"}
+    ]
+  },
+  "02AIR15": {
+    "explanation": "This statement is TRUE. When the integrated air system controllers (IASCs) are operating in manual mode, the system behavior changes from automatic zone temperature control to duct temperature regulation. Instead of automatically modulating trim air valves to maintain the selected temperature in each zone (flight deck, cabin, etc.), the IASCs regulate the trim air valves to maintain a specific duct temperature. This gives the crew direct control over the air temperature being supplied to the distribution system rather than automatic zone-by-zone temperature management.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-30-3"},
+      {"pdf": "Operations Manual", "page": "2.21.4"}
+    ]
+  },
+  "02AIR16": {
+    "explanation": "The forward cargo compartment temperature control system uses a rotary switch to select between different settings. The correct settings are: (1) HI HEAT which maintains cargo temperature between 20 and 25 degrees C (option b), and (2) VENT which provides ventilation only without heating (option c). Option a is incorrect because it states the temperature range as 18-28°C instead of the correct 20-25°C for HI HEAT. Option d (LO HEAT 15-25°C) is not a standard setting on the A220-300 forward cargo temperature control system. Note: The question prompt asks to 'Select three responses' but only two options (b and c) are correct based on the actual aircraft configuration.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-30-4"},
+      {"pdf": "Operations Manual", "page": "2.21.5"}
+    ]
+  },
+  "02AIR17": {
+    "explanation": "The maximum positive pressure differential for the A220-300 is 8.8 psi. This is the maximum difference between cabin pressure and outside ambient pressure that the fuselage structure is designed to safely withstand. The cabin pressurization system includes safety valves and controls that prevent exceeding this limit. At this differential, the aircraft can maintain a cabin altitude of approximately 8,000 feet while cruising at the maximum certified altitude. The 9.8 psi and 10 psi values would exceed the structural design limits of the aircraft.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-40-1"},
+      {"pdf": "Operations Manual", "page": "2.21.6"}
+    ]
+  },
+  "02AIR18": {
+    "explanation": "To close the right bleed air valve, the crew presses the R BLEED switch/light on the pneumatic panel. This is a direct control that commands the right engine bleed air valve to close, stopping bleed air flow from the right engine. The XBLEED rotary switch controls the crossbleed valve between the left and right pneumatic systems, not the individual engine bleed valves. The APU BLEED switch controls APU bleed air, and the R PACK switch controls the right air conditioning pack, not the bleed air valve itself.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-20-2"},
+      {"pdf": "Operations Manual", "page": "2.21.7"}
+    ]
+  },
+  "02AIR19": {
+    "explanation": "Duct temperature is displayed on the AIR synoptic page. This dedicated synoptic page shows the complete air conditioning and pressurization system status, including duct temperatures for each zone, pack operation, trim air valve positions, and other system parameters. The STATUS page shows system messages and warnings, the INFO page contains various informational data, and EICAS displays warnings, cautions, and advisories, but none of these specifically display the detailed duct temperature values that are shown on the AIR synoptic page.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-30-5"},
+      {"pdf": "Operations Manual", "page": "2.21.8"}
+    ]
+  },
+  "02AIR20": {
+    "explanation": "The high-pressure ground external air connection allows ground-based high-pressure air sources to be connected to the aircraft pneumatic system for engine starting. This is particularly useful when the APU is inoperative or when ground equipment is used to conserve APU operating hours. The external air connection supplies high-pressure air directly to the engine starter system. It is not used for air leak detection (which uses different test procedures), cargo compartment cooling (which uses the air conditioning packs), or avionic cooling (which has dedicated cooling systems).",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-20-3"},
+      {"pdf": "Operations Manual", "page": "2.21.9"}
+    ]
+  },
+  "02AIR21": {
+    "explanation": "When the guarded DITCHING switch/light is pressed to prepare the aircraft for a water landing, several valves automatically close to prevent water ingress into the aircraft systems. These include the avionic exhaust valves, flow control valves (outflow valves), and trim air valves. However, the ram air valves do NOT close. The ram air valves remain available to provide emergency ventilation if needed during the ditching scenario. The purpose of closing most valves is to seal the pressurized areas and prevent water from entering through normal ventilation and air conditioning openings.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-40-2"},
+      {"pdf": "Operations Manual", "page": "2.21.10"}
+    ]
+  },
+  "02AIR22": {
+    "explanation": "The Emergency Descent Mode (EDM) can be manually activated above 25,000 feet. This altitude threshold ensures that EDM is only available when the aircraft is at a high enough altitude where rapid depressurization would require an emergency descent. Below 25,000 feet, the need for emergency descent mode is significantly reduced as cabin altitude concerns are less critical. When activated, EDM commands the outflow valve to fully open, rapidly depressurizing the cabin, and may also trigger other systems to support an emergency descent to a safe altitude (typically 10,000 feet or below).",
+    "sources": [
+      {"pdf": "FCOM1", "page": "21-40-3"},
+      {"pdf": "Operations Manual", "page": "2.21.11"}
+    ]
+  }
+}

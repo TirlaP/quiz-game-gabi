@@ -1,0 +1,71 @@
+{
+  "chapter": "Air Conditioning, Bleed Air and Pressurization",
+  "explanations": {
+    "02AIR23": {
+      "explanation": "The guarded EMER DEPRESS switch/light opens the Outflow Valve (OFV) to depressurize the cabin rapidly to either 15,000 feet or aircraft altitude, whichever is lower. This emergency function is used when rapid depressurization is required, such as for smoke removal or suspected fire scenarios.",
+      "source": "FCOM1",
+      "page": "Pressurization System",
+      "correctAnswer": "a"
+    },
+    "02AIR24": {
+      "explanation": "The two air conditioning packs are controlled by the Integrated Air System Controllers (IASCs). IASC 1 controls the left pack and IASC 2 controls the right pack. These computers manage pack operation including flow rate, temperature, and pack valve operation based on system demands and flight conditions.",
+      "source": "FCOM1",
+      "page": "Pack Control System",
+      "correctAnswer": "b"
+    },
+    "02AIR25": {
+      "explanation": "If no passenger information is entered into the FMS FUEL page, the pack flow rate defaults to HI flow. This ensures adequate ventilation and air conditioning even without occupant data. When passenger count is entered, the system automatically calculates and uses the appropriate flow rate, which may be lower than HI flow for improved fuel efficiency.",
+      "source": "FCOM1",
+      "page": "Pack Flow Default Logic",
+      "correctAnswer": "a"
+    },
+    "02AIR26": {
+      "explanation": "The trim air system has dual-loop leak detection. If a single loop detector fails, the trim air system continues to operate normally. Both loops must fail or detect a leak before the system shuts down. This redundancy ensures continued temperature control capability and prevents nuisance shutdowns from single sensor failures.",
+      "source": "FCOM1",
+      "page": "Trim Air Leak Detection",
+      "correctAnswer": "b"
+    },
+    "02AIR27": {
+      "explanation": "IASC 1 controls the left engine bleed system. If IASC 1 fails, the left engine PRSOV (Pressure Regulating Shutoff Valve) will automatically close to prevent uncontrolled bleed air operation. IASC 2 continues to control the right side and APU bleed systems independently, demonstrating the system's split architecture for redundancy.",
+      "source": "FCOM1",
+      "page": "Bleed Air System Architecture",
+      "correctAnswer": "a"
+    },
+    "02AIR28": {
+      "explanation": "When a trim air leak is detected by the dual-loop leak detection system, both trim air sources (left and right) automatically shut down to prevent hot bleed air from leaking into areas where it could cause damage. The TASHOVs close and a master caution with TRIM AIR message appears. The packs continue operating but without individual zone trim air heating capability.",
+      "source": "FCOM1",
+      "page": "Trim Air Leak Response",
+      "correctAnswer": "b"
+    },
+    "02AIR29": {
+      "explanation": "The A220 has redundant Integrated Air System Controllers (IASC 1 and IASC 2). A single IASC failure does not cause the APU bleed valve to close. The system is designed with redundancy so that if one IASC fails, the other continues to control the APU bleed system, maintaining operational capability.",
+      "source": "FCOM1",
+      "page": "Bleed Air System",
+      "correctAnswer": "b"
+    },
+    "02AIR30": {
+      "explanation": "The bleed air system supplies air to the wing anti-ice system, air conditioning packs, and cowl anti-ice system. The water drain mast heating system is electrically heated, not pneumatically heated, and therefore does not use air from the bleed air system. This electrical heating prevents ice blockage of the drain mast.",
+      "source": "FCOM1",
+      "page": "Bleed Air System Users",
+      "correctAnswer": "c"
+    },
+    "02AIR31": {
+      "explanation": "The crossbleed (XBLEED) valve is operated by a DC electric motor. This motorized valve allows precise positioning including full open, full closed, and intermediate positions. The DC motor operation ensures the valve can be positioned even with AC power failures, maintaining system flexibility and redundancy in various electrical configurations.",
+      "source": "FCOM1",
+      "page": "Crossbleed Valve Design",
+      "correctAnswer": "a"
+    },
+    "02AIR32": {
+      "explanation": "The High Pressure Valve (HPV) opens only when additional bleed air is required beyond what the 4th stage can provide. This occurs during high altitude operations, high pack demand, or when anti-ice systems are operating. At lower altitudes and power settings, the 4th stage alone typically provides sufficient bleed air with the HPV remaining closed.",
+      "source": "FCOM1",
+      "page": "Bleed Air System HPV Operation",
+      "correctAnswer": "b"
+    },
+    "02AIR33": {
+      "explanation": "The Trim Air Shutoff Valve (TASOV) is normally closed and opens only when needed to supply hot trim air to individual zone temperature control. The IASC commands it open when additional heating is required in specific zones beyond what the pack outlet temperature can provide. This modulating control maintains efficient operation and temperature precision.",
+      "source": "FCOM1",
+      "page": "Trim Air System",
+      "correctAnswer": "a"
+    }
+  }
+}

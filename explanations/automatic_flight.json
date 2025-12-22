@@ -1,0 +1,299 @@
+{
+  "chapter": "Automatic Flight",
+  "explanations": {
+    "03AF04": {
+      "explanation": "The ASA (Approach Status Annunciator) is displayed below the FMA on the right side of the PFD. It displays active approach status including LAND 3/2, APPR 2/1, or STEEP to inform the crew of the current autoland capability.",
+      "source": "FCOM1",
+      "page": "03-02-10",
+      "correctAnswer": "a"
+    },
+    "03AFL17": {
+      "explanation": "If the approach capability degrades from APPR 2 to APPR 1 above 200 feet AGL, an amber NO APPR 2 message flashes for 5 seconds, followed by a steady green APPR 1 message. APPR 1 indicates CAT I approach capability only, while APPR 2 would indicate CAT II capability.",
+      "source": "FCOM1",
+      "page": "03-04-17",
+      "correctAnswer": "d"
+    },
+    "03AF07": {
+      "explanation": "Moving the tiller or rudder pedals more than 0.8 inches during autoland ground roll is a specific condition that causes autopilot disengagement. This allows the pilot to take manual control of directional steering during the landing rollout.",
+      "source": "FCOM1",
+      "page": "03-03-5, 03-04-10",
+      "correctAnswer": "a"
+    },
+    "03AFL34": {
+      "explanation": "When a track angle error exceeds 75 degrees, the NO VPATH-TKE message is displayed on the HSI, and a flashing amber VPATH is displayed on the FMA. This large track error prevents VPATH operation because the aircraft is too far off the intended vertical path course.",
+      "source": "FCOM1",
+      "page": "03-02-50",
+      "correctAnswer": "b"
+    },
+    "03AFL31": {
+      "explanation": "When the aircraft is over the VOR station, DR (Dead Reckoning) is displayed in white on the FMA to the right of the displayed VOR 1 or VOR 2. This indicates the system is in dead reckoning mode as it transitions over the station where VOR guidance is unreliable.",
+      "source": "FCOM1",
+      "page": "03-02-19",
+      "correctAnswer": "c"
+    },
+    "03AFL19": {
+      "explanation": "During single-engine operation, the AT remains active and controls only the operating engine. If the failed engine is restarted, the AT does not automatically control it until the AT is cycled OFF/ON. Manual movement of the failed engine thrust lever does not disengage the AT system.",
+      "source": "FCOM1",
+      "page": "03-05-19",
+      "correctAnswer": ["a", "b", "d"]
+    },
+    "03AFL13": {
+      "explanation": "Two FD/AT computers are available for flight guidance, but only one is active at a time. They alternate automatically every day or in case of a failure. The active FD/AT computer can be manually changed by pressing the ALTN switch on the Reversion Switch Panel (RSP).",
+      "source": "FCOM1",
+      "page": "03-02-8",
+      "correctAnswer": ["a", "d"]
+    },
+    "03AFL21": {
+      "explanation": "When the heading mode is active below 200 ft AGL during approach or landing phase, HDG flashes on the FMA as a caution to alert the crew that HDG mode is active at low altitude when normally an approach mode (like ILS or VNAV) should be active instead.",
+      "source": "FCOM1",
+      "page": "03-02-11",
+      "correctAnswer": "d"
+    },
+    "03AFL33": {
+      "explanation": "The flight level change speed can be manually selected or automatically supplied by the FMS. The SPD switch on the FCP has FMS/MAN positions that determine whether the speed source is from the FMS or manually selected by the crew.",
+      "source": "FCOM1",
+      "page": "03-02-36",
+      "correctAnswer": "d"
+    },
+    "03AFL11": {
+      "explanation": "The AT system is disengaged when: the A/T DISC switch on the thrust levers is pressed, the thrust levers are moved manually, the AT switch on the FCP is pressed, or an AT system failure is detected. These provide multiple ways for the crew to disengage autothrottle control.",
+      "source": "FCOM1",
+      "page": "03-05-9",
+      "correctAnswer": ["b", "c", "d"]
+    },
+    "03AF03": {
+      "explanation": "The XFR (transfer) switch on the FCP allows selection of the data source for the Automatic Flight Control System (AFCS). Pressing XFR transfers the data source between AFCS 1 and AFCS 2, and resets all FD modes to basic default modes.",
+      "source": "FCOM1",
+      "page": "03-02-6, 03-02-7",
+      "correctAnswer": "a"
+    },
+    "03AFL32": {
+      "explanation": "When climbing or descending to a preselected altitude, ALTS CAP (Altitude Select Capture) displays on the FMA when the capture point is reached. This indicates the altitude capture mode is active and the aircraft is transitioning to level off at the selected altitude.",
+      "source": "FCOM1",
+      "page": "03-02-33",
+      "correctAnswer": "d"
+    },
+    "03AFL41": {
+      "explanation": "While the aircraft tracks the rollout commands during autoland, the rollout command bar is removed from the PFD (and HUD) at less than 30 kt ground speed. Below this speed, manual steering control is expected as the autopilot effectiveness diminishes.",
+      "source": "FCOM1",
+      "page": "03-04-10",
+      "correctAnswer": "d"
+    },
+    "03AFL27": {
+      "explanation": "The navigation preview function is an FMS-specific feature that shows upcoming waypoints, path information, and route data on the displays. This preview capability is only available when FMS is the active navigation mode, not when using VOR or LOC navigation.",
+      "source": "FCOM1",
+      "page": "03-02-13",
+      "correctAnswer": "a"
+    },
+    "03AFL47": {
+      "explanation": "When the ALT hold switch is pressed during a descent through 15,000 feet, but the aircraft pulls out of the descent and stabilizes at 14,500 feet, the system will climb back to maintain the originally selected 15,000 feet. The preselected altitude takes precedence over the current altitude.",
+      "source": "FCOM1",
+      "page": "03-02-32",
+      "correctAnswer": "b"
+    },
+    "03AFL35": {
+      "explanation": "If the approach capability degrades from APPR 2 to APPR 1 above 200 feet AGL (such as passing 900 feet RA on a CAT II approach), an amber NO APPR 2 message flashes for 5 seconds, followed by a steady green APPR 1 message indicating the degraded approach capability.",
+      "source": "FCOM1",
+      "page": "03-04-17",
+      "correctAnswer": "a"
+    },
+    "03AFL28": {
+      "explanation": "The right section of the Flight Control Panel (FCP) contains controls for vertical flight guidance modes including ALT (altitude hold), FLC (flight level change), VS knob (vertical speed), FPA knob (flight path angle), and VNAV switch for vertical navigation.",
+      "source": "FCOM1",
+      "page": "03-02-5",
+      "correctAnswer": "d"
+    },
+    "03AFL30": {
+      "explanation": "The flight director cue is displayed as a magenta circle with lateral bars, and it is smaller than the Flight Path Vector (FPV) symbol. The magenta color distinguishes it from other flight guidance indications on the PFD.",
+      "source": "FCOM1",
+      "page": "03-02-8",
+      "correctAnswer": "d"
+    },
+    "03AFL40": {
+      "explanation": "Between 200 feet and 150 feet AAE (Above Aerodrome Elevation), the ALIGN active mode is displayed on the FMA. During this phase, the autopilot commands the aircraft to align (de-crab) the fuselage with the runway centerline, removing any crosswind crab angle.",
+      "source": "FCOM1",
+      "page": "03-04-8",
+      "correctAnswer": "a"
+    },
+    "03AFL02": {
+      "explanation": "The FMA uses color coding to indicate different states: Green indicates active modes currently in use, White indicates armed modes ready to activate, Amber indicates cautions or degradations, Cyan indicates AUTO sync messages, and Magenta is used for the flight director cue.",
+      "source": "FCOM1",
+      "page": "03-02-9",
+      "correctAnswer": ["a", "b"]
+    },
+    "03AFL26": {
+      "explanation": "When a windshear warning is detected, pressing any TOGA switch on the thrust levers activates the WSHR (windshear) escape guidance mode. This provides optimized pitch and thrust guidance to safely escape the windshear condition.",
+      "source": "FCOM1",
+      "page": "03-02-70, 03-05-19",
+      "correctAnswer": "d"
+    },
+    "03AFL44": {
+      "explanation": "The AT operates in speed control mode (SPD) when the following FD vertical modes are active: Vertical Speed (VS), Flight Path Angle (FPA), and various VNAV modes. In VS descent, the autothrottle adjusts thrust to maintain the selected airspeed.",
+      "source": "FCOM1",
+      "page": "03-05-7",
+      "correctAnswer": "d"
+    },
+    "03AFL38": {
+      "explanation": "When a windshear warning is detected and active, pressing either TOGA switch on the thrust lever activates the WSHR (windshear) escape guidance mode. This automatically provides pitch up commands and maximum thrust to escape the dangerous windshear condition.",
+      "source": "FCOM1",
+      "page": "03-02-70",
+      "correctAnswer": "d"
+    },
+    "03AFL39": {
+      "explanation": "The autopilot (AP) system is available in Fly-By-Wire (FBW) normal mode. It may also be available in direct mode under certain conditions, but is not available in other degraded FBW modes. Normal mode provides full flight envelope protection.",
+      "source": "FCOM1",
+      "page": "03-03-3",
+      "correctAnswer": "c"
+    },
+    "03AF12": {
+      "explanation": "The AT (autothrottle) modes are displayed on the left section of the Flight Mode Annunciator (FMA). These modes include SPD (speed), THRUST, HOLD, RETARD, and others, providing clear indication of the current autothrottle operating mode.",
+      "source": "FCOM1",
+      "page": "03-05-4, 03-05-6",
+      "correctAnswer": "a"
+    },
+    "03AFL23": {
+      "explanation": "The Emergency Descent Mode (EDM) can be manually activated above 25,000 feet by pressing and holding the EDM button on the FCP. This initiates an automatic emergency descent to 10,000 feet at maximum rate in case of cabin depressurization.",
+      "source": "FCOM1",
+      "page": "03-02-72",
+      "correctAnswer": "b"
+    },
+    "03AFL18": {
+      "explanation": "When the airspeed increases above 60 KIAS during takeoff, the HOLD mode is activated to maintain the current thrust setting. This mode remains active until the aircraft reaches 400 feet AGL, when it transitions to SPD mode for airspeed control.",
+      "source": "FCOM1",
+      "page": "03-05-11",
+      "correctAnswer": "c"
+    },
+    "03AFL20": {
+      "explanation": "When using altitude preselect (ALTS mode) and approaching the selected altitude, ALTS CAP (Altitude Select Capture) briefly displays in green during the capture phase. Once the aircraft levels off and is maintaining the selected altitude, it changes to steady green ALTS.",
+      "source": "FCOM1",
+      "page": "03-02-33",
+      "correctAnswer": "d"
+    },
+    "03AFL01": {
+      "explanation": "The HDG (heading) mode is the basic lateral mode and is automatically activated when: the AP is engaged with no mode previously selected, no lateral mode has been selected, a mode is lost or deselected, or a vertical mode is selected without a corresponding lateral mode selected.",
+      "source": "FCOM1",
+      "page": "03-02-11",
+      "correctAnswer": ["b", "c", "d"]
+    },
+    "03AFL37": {
+      "explanation": "During a go-around from an FMS approach, GA (go-around) appears as the active mode in the FMA and FMS appears as the armed mode. The aircraft maintains runway heading until 400 feet RA, where FMS becomes active again to continue lateral guidance along the published missed approach procedure.",
+      "source": "FCOM1",
+      "page": "03-02-68, 03-02-69",
+      "correctAnswer": "b"
+    },
+    "03AFL43": {
+      "explanation": "The AT operates in thrust mode (THRUST) when the FD vertical mode Flight Level Change (FLC) is active. In FLC climb, the autothrottle maintains a specific thrust setting (typically climb thrust) while the pitch controls the airspeed.",
+      "source": "FCOM1",
+      "page": "03-05-10",
+      "correctAnswer": "c"
+    },
+    "03AFL49": {
+      "explanation": "Each dot on the vertical deviation scale represents a 250-foot deviation from the VNAV path. Full scale deflection (showing 2 dots) represents a 500-foot deviation. This provides precise vertical path tracking guidance to the crew.",
+      "source": "FCOM1",
+      "page": "03-02-41",
+      "correctAnswer": "b"
+    },
+    "03AF09": {
+      "explanation": "When the thrust levers are advanced through the 23-degree thrust lever angle position (approximately 68% of N1) during takeoff, the AT is activated and takes over thrust lever control to reach and maintain the takeoff N1. THRUST is displayed in green as the active mode and SPD is displayed in white as the armed mode.",
+      "source": "FCOM1",
+      "page": "03-05-11",
+      "correctAnswer": "a"
+    },
+    "03AF08": {
+      "explanation": "In flight, regardless of thrust lever position, the AT system automatically engages when the TOGA (takeoff/go-around) switch is pressed. This ensures immediate maximum thrust application during a go-around or windshear escape maneuver.",
+      "source": "FCOM1",
+      "page": "03-05-8",
+      "correctAnswer": "a"
+    },
+    "03AFL50": {
+      "explanation": "The vertical deviation scale changes to 75 feet of deviation for each dot when an approach (APPR) mode is selected. This provides more sensitive vertical guidance during the precision approach phase compared to the 250 feet per dot in cruise.",
+      "source": "FCOM1",
+      "page": "03-02-41",
+      "correctAnswer": "b"
+    },
+    "03AFL42": {
+      "explanation": "The AT operates in two primary modes: 1) Thrust mode (THRUST) which maintains a specific thrust setting regardless of airspeed, and 2) Speed mode (SPD) which controls thrust to maintain the selected or FMS-computed airspeed.",
+      "source": "FCOM1",
+      "page": "03-05-6, 03-05-7",
+      "correctAnswer": "a"
+    },
+    "03AFL25": {
+      "explanation": "The half bank mode limits the maximum bank angle used by the flight director to 15 degrees. It is automatically activated in NAV and HDG lateral modes when the aircraft climbs through 31,500 feet to reduce passenger discomfort and control load at high altitude.",
+      "source": "FCOM1",
+      "page": "03-02-26",
+      "correctAnswer": "d"
+    },
+    "03AFL24": {
+      "explanation": "When overspeed protection (OVSP) activates, the flight director cue automatically appears to provide pitch guidance to help reduce airspeed, but the autopilot and autothrottle are NOT automatically engaged. The pilot must manually follow the FD cue or engage the AP.",
+      "source": "FCOM1",
+      "page": "03-02-37",
+      "correctAnswer": "d"
+    },
+    "03AFL15": {
+      "explanation": "The half bank mode is automatically activated in NAV and HDG modes when the aircraft climbs through 31,500 feet. It limits the maximum bank angle used by the FD to 15 degrees. It can also be manually activated below 31,500 feet by pressing the 1/2 BANK switch on the FCP.",
+      "source": "FCOM1",
+      "page": "03-02-26",
+      "correctAnswer": ["a", "c", "e"]
+    },
+    "03AFL46": {
+      "explanation": "With the autothrottle armed for takeoff, it engages and sets takeoff thrust when the thrust levers are manually advanced through the 23-degree thrust lever angle position (approximately 68% of N1). The AT then takes over control to reach and maintain the computed takeoff N1.",
+      "source": "FCOM1",
+      "page": "03-05-11",
+      "correctAnswer": "b"
+    },
+    "03AFL06": {
+      "explanation": "The FMA (Flight Mode Annunciator) displays the active and armed FD modes, Autopilot (AP) status, and Autothrottle (AT) status. It is divided into five sections showing these critical flight guidance parameters to keep the crew informed of the active automation modes.",
+      "source": "FCOM1",
+      "page": "03-02-9",
+      "correctAnswer": ["b", "c", "d"]
+    },
+    "03AFL22": {
+      "explanation": "The autothrottle is normally engaged manually by pressing the AT switch on the FCP. However, it automatically engages during go-around (when TOGA is pressed) and windshear escape (WSHR) modes to ensure immediate and proper thrust response in these critical situations.",
+      "source": "FCOM1",
+      "page": "03-05-7, 03-05-8",
+      "correctAnswer": "d"
+    },
+    "03AFL10": {
+      "explanation": "The HDG (heading) mode is the basic lateral mode that activates when the autopilot is engaged with no mode previously selected. FPA (flight path angle) is the default vertical mode that activates to maintain the current flight path when no other vertical mode is armed.",
+      "source": "FCOM1",
+      "page": "03-02-11, 03-02-28",
+      "correctAnswer": "d"
+    },
+    "03AFL29": {
+      "explanation": "The Flight Mode Annunciator (FMA) is located at the top of each Primary Flight Display (PFD). It is divided into five sections displaying AT mode, lateral mode, AP/AT/data source status, vertical mode, and alternate source information.",
+      "source": "FCOM1",
+      "page": "03-02-9",
+      "correctAnswer": "d"
+    },
+    "03AFL16": {
+      "explanation": "When VNAV mode is active in the approach phase, each dot on the vertical deviation scale represents 75 feet of deviation. The scale automatically changes from the en-route sensitivity (250 feet per dot) to approach sensitivity (75 feet per dot) when an approach mode is selected.",
+      "source": "FCOM1",
+      "page": "03-02-41",
+      "correctAnswer": "b"
+    },
+    "03AFL36": {
+      "explanation": "VPATH (VNAV Path) mode provides vertical guidance along a barometric/GNSS descent path. When intercepting and capturing the VNAV glide path, VPATH displays in green on the FMA as the active vertical mode, indicating the aircraft is tracking the vertical profile.",
+      "source": "FCOM1",
+      "page": "03-02-48",
+      "correctAnswer": "b"
+    },
+    "03AFL14": {
+      "explanation": "Pressing the HDG switch (PUSH SYNC) on the FCP displays a cyan AUTO message on the HSI (replacing the selected heading value), automatically synchronizes the heading bug with the current aircraft heading, and blanks the heading window on the FCP. The heading bug then tracks with the aircraft heading.",
+      "source": "FCOM1",
+      "page": "03-02-16, 03-02-17",
+      "correctAnswer": ["c", "d"]
+    },
+    "03AFL48": {
+      "explanation": "The AT operates in speed control mode (SPD) during FPA (Flight Path Angle) descents. In this mode, the autothrottle adjusts thrust to maintain the selected airspeed while the pitch (FPA) controls the descent rate and flight path.",
+      "source": "FCOM1",
+      "page": "03-05-7",
+      "correctAnswer": "c"
+    },
+    "03AFL45": {
+      "explanation": "The airspeed value in the readout window on the FCP changes automatically from IAS (Indicated Airspeed) to MACH when the aircraft climbs above 31,500 feet. This transition altitude may vary based on operator procedures, with some operators specifying 26,000 feet.",
+      "source": "FCOM1",
+      "page": "03-06-4",
+      "correctAnswer": "b"
+    }
+  }
+}

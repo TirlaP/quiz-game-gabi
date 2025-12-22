@@ -1,0 +1,128 @@
+{
+  "chapter": "Fire and Overheat Protection",
+  "explanations": {
+    "09FRP15": {
+      "explanation": "The A220 aircraft has fire EXTINGUISHING capabilities in four specific areas: Lavatory (automatic fire extinguisher), APU (fire bottle), Engines (two fire bottles with crossfeed capability), and Cargo compartment (HRD and optional LRD bottles). The main landing gear and equipment bays have fire/smoke DETECTION only, without extinguishing capabilities. The nose gear has no fire protection system at all.",
+      "source": "FCOM1",
+      "page": "09-01-1",
+      "correctAnswer": "c",
+      "correctAnswerText": "cargo compartment"
+    },
+    "09FRP16": {
+      "explanation": "The main landing gear (MLG) fire detection system has DUAL overheat detection loops mounted inside the top of each main landing gear wheel well. The FIDEX control unit continuously monitors the status of both overheat detection loops. In normal operation, both loops must detect an overheat condition for a warning to occur. If one detector fails, the system reverts to single detector operation and displays a FIRE SYSTEM FAULT advisory message on EICAS. This is different from the quiz answer file which incorrectly states 'single loop'.",
+      "source": "FCOM1",
+      "page": "09-06-1",
+      "correctAnswer": "c",
+      "correctAnswerText": "Dual overheat detection loops",
+      "note": "The existing answer file incorrectly lists answer 'd. Single overheat detection loop' - this contradicts the FCOM which clearly states 'dual overheat detection loops' on page 09-06-1"
+    },
+    "09FRP14": {
+      "explanation": "The two engine fire-extinguishing bottles are located in the wing-to-body fairing between the two wheel wells. This location is chosen for safety and accessibility from inside the fuselage. Both bottles can be used for either engine, providing redundancy and crossfeed capability. The bottles are not located in the engine nacelles (too dangerous during a fire), tailcone (where APU components are), or engine pylons (not suitable for fire bottle installation).",
+      "source": "FCOM1",
+      "page": "09-02-6",
+      "correctAnswer": "d",
+      "correctAnswerText": "Wing-to-body fairing"
+    },
+    "09FRP07": {
+      "explanation": "The cargo compartment fire extinguishing system operates in two sequential phases when the CARGO BTL switch is pressed (with AVAIL light on): FIRST, the High-Rate Discharge (HRD) bottle discharges RAPIDLY to flood the compartment with Halon and interrupt the fire. SECOND, the Low-Rate Discharge (LRD) bottle discharges SLOWLY to suppress subsequent fires for a minimum of 60 minutes (+15 minutes hold). An optional second LRD bottle can be installed for ETOPS-configured aircraft to provide extended fire suppression.",
+      "source": "FCOM1",
+      "page": "09-04-5",
+      "correctAnswer": "a, c",
+      "correctAnswerText": "a. The low-rate discharge (LRD) bottle discharges slowly to further suppress fires for a minimum of 60 minutes; c. The high-rate discharge (HRD) bottle discharges rapidly, flooding the compartment with Halon to interrupt the fire"
+    },
+    "09FRP01": {
+      "explanation": "When an APU fire is detected during ground operations, the FIDEX control unit automatically performs three critical actions: (1) Immediately shuts down the APU, (2) Sounds the external APU horn to alert ground personnel, and (3) After a 10-second delay, the APU fire-extinguishing bottle discharges automatically. The flight crew can press the APU FIRE guarded switch to override the automatic bottle discharge and silence the APU horn if needed. Note: In flight, detection of an APU fire will NOT cause an automatic shut-down - the crew must manually discharge the bottle.",
+      "source": "FCOM1",
+      "page": "09-08-2",
+      "correctAnswer": "a, b, c",
+      "correctAnswerText": "a. The external APU horn sounds; b. The APU fire extinguisher bottle discharges automatically; c. The APU shuts down automatically"
+    },
+    "09FRP09": {
+      "explanation": "After a fire bottle is discharged (bottle 1 or 2 for engines, or APU bottle), an amber 'BTL LO' advisory message displays on EICAS to indicate that the bottle pressure is abnormally low because the bottle has been discharged. This applies to ENG BTL 1, ENG BTL 2, and APU BTL. Additionally, an amber bar illuminates on the respective BTL switch/light to provide a visual indication that the bottle pressure is low or a squib failure has been detected.",
+      "source": "FCOM1",
+      "page": "09-02-6, 09-08-12",
+      "correctAnswer": "a",
+      "correctAnswerText": "True"
+    },
+    "09FRP10": {
+      "explanation": "When smoke is detected in either the front or mid equipment bay, three indications occur: (1) The EQUIP BAY SMOKE warning message displays on the EICAS page, (2) The master WARNING lights on the glareshield panel illuminate and the 'SMOKE' aural message sounds, and (3) The RECIRC fan shuts down and the associated cargo compartment ventilation shut-off valves close automatically (four cargo bay ventilation valves). Equipment bays have smoke DETECTION only - there is NO fire extinguishing capability, so no bottle is automatically discharged.",
+      "source": "FCOM1",
+      "page": "09-05-2, 09-04-4",
+      "correctAnswer": "b, c, d",
+      "correctAnswerText": "b. EQUIP BAY SMOKE warning message displays on the EICAS; c. RECIRC fan shuts down and four cargo bay ventilation valves close automatically; d. Master WARNING/CAUTION switch/light illuminates on glareshield panel and the 'SMOKE' aural message sounds"
+    },
+    "09FRP13": {
+      "explanation": "To test the fire and overheat protection system at any time, the flight crew presses the FIRE soft switch on the AVIO tab of the AVIONIC synoptic page. When this FIRE soft switch is selected, the cyan IN PROG message is displayed and all fire-related lights illuminate for testing. The FIDEX control unit performs checks of the fire loops and smoke detectors. When the test is completed with no faults, the message 'DONE' is displayed in white beside the FIRE soft switch on the AVIONIC synoptic page.",
+      "source": "FCOM1",
+      "page": "09-08-7",
+      "correctAnswer": "c",
+      "correctAnswerText": "AVIONIC synoptic page",
+      "note": "The existing answer file incorrectly lists answer 'd. FLT TEST page' - the FCOM clearly states the fire test is on the 'AVIONIC synoptic page' (AVIO tab), not a separate FLT TEST page"
+    },
+    "09FRP08": {
+      "explanation": "During the fire protection system test (initiated from the AVIONIC synoptic page FIRE soft switch), the following lights illuminate to verify system integrity: (1) All BTL amber bars (indicating test mode), (2) L ENG, R ENG, APU and CARGO fire switch/lights (red), and (3) All BTL green AVAIL lights. The master WARNING/CAUTION switch/light does NOT illuminate during the test. The L FIRE and R FIRE indicator lights on the ENGINE panel are part of the overall fire detection system but are not specifically listed as illuminating during the test in the standard test procedure.",
+      "source": "FCOM1",
+      "page": "09-08-7 to 09-08-9",
+      "correctAnswer": "b, c, d",
+      "correctAnswerText": "b. All BTL amber bars; c. L ENG, R ENG, APU and CARGO switch/lights; d. All BTL green AVAIL lights",
+      "note": "Option 'a. Master WARNING/CAUTION switch/light' does NOT illuminate during the fire test according to FCOM page 09-08-7"
+    },
+    "09FRP02": {
+      "explanation": "The lavatory fire-extinguisher system is designed to extinguish a fire or source of heat in the lavatory waste bin. The bottle is installed under the sink area with discharge tubes pointing into the waste bin. The extinguisher discharges automatically when the nozzles reach a temperature of 76.5°C (170°F). This is a passive, heat-activated system using fusible caps/plugs that melt when sufficient heat is present. The lavatory fire extinguisher is NOT monitored by the FIDEX control unit and does not send an EICAS message if it discharges.",
+      "source": "FCOM1",
+      "page": "09-07-3",
+      "correctAnswer": "a",
+      "correctAnswerText": "True"
+    },
+    "09FRP05": {
+      "explanation": "The main landing gear bay (MLG) fire detection system includes: (1) Dual overheat detection loops mounted inside the top of each main landing gear wheel well, and (2) EICAS alerting when overheat is detected (MLG BAY OVHT warning message, master WARNING lights, and 'GEAR BAY OVERHEAT' aural message). In normal operation, both loops must detect an overheat condition for a warning to occur. If one detector fails, the system reverts to single detector operation. The MLG has NO fire extinguishing capability - only detection.",
+      "source": "FCOM1",
+      "page": "09-06-1",
+      "correctAnswer": "a, b",
+      "correctAnswerText": "a. Dual overheat detection loops; b. EICAS alerting"
+    },
+    "09FRP03": {
+      "explanation": "The A220 has fire EXTINGUISHING capabilities in exactly four areas: (1) Lavatory - automatic fire extinguisher that discharges when temperature reaches 76.5°C (170°F), (2) Engines - two fire bottles in wing-to-body fairing with crossfeed capability, (3) APU - one fire bottle, and (4) Cargo compartments - HRD bottle plus optional LRD bottle for extended suppression. Main landing gear and equipment bays have DETECTION only (no extinguishing). Nose gear has no fire protection system.",
+      "source": "FCOM1",
+      "page": "09-01-1",
+      "correctAnswer": "b",
+      "correctAnswerText": "Lavatory, Engine, APU, Cargo Compartments"
+    },
+    "09FRP06": {
+      "explanation": "When a fire bottle is discharged, or if a squib (electrical firing device) failure is detected, an amber bar illuminates on the respective BTL (bottle) switch/light. This amber bar indicates either: (1) Bottle pressure is abnormally low (bottle has been discharged), OR (2) A squib failure is detected. This visual indication on the switch confirms the bottle has been used or is not available for use. The amber bar provides immediate feedback to the flight crew about bottle status.",
+      "source": "FCOM1",
+      "page": "09-02-7, 09-03-6",
+      "correctAnswer": "a",
+      "correctAnswerText": "True"
+    },
+    "09FRP04": {
+      "explanation": "The A220 uses dual fire detection loops in critical areas (engines and APU) for redundancy. If one loop fails, the second loop continues to provide fire detection capability, ensuring continued fire protection even with a single loop failure. An EICAS advisory message (e.g., L ENG FIRE DET FAIL or R ENG FIRE DET FAIL) will alert the crew to the loop failure, but fire detection remains functional through the remaining loop. In normal operation, both loops must detect fire for a warning, but after a single loop failure, the system reverts to single loop operation.",
+      "source": "FCOM1",
+      "page": "09-02-2",
+      "correctAnswer": "a",
+      "correctAnswerText": "True"
+    },
+    "09FRP12": {
+      "explanation": "When the APU bottle AVAIL (available) light is illuminated green, pressing the APU BTL switch/light discharges Halon into the APU compartment. The typical sequence for APU fire is: (1) Push the APU FIRE guarded switch to shut down the APU and arm the bottle (AVAIL light illuminates green), (2) Push the APU BTL switch/light to discharge the bottle. The AVAIL light indicates the bottle is armed and ready for discharge. After discharge, an amber bar illuminates on the BTL switch and the advisory message APU BTL LO displays on EICAS.",
+      "source": "FCOM1",
+      "page": "09-08-2 to 09-08-3",
+      "correctAnswer": "b",
+      "correctAnswerText": "APU BTL switch/light"
+    },
+    "09FRP17": {
+      "explanation": "An optional Low-Rate Discharge (LRD) fire extinguishing bottle can be installed in the cargo compartment to provide a longer period of fire suppression. The standard cargo fire system includes one HRD (High-Rate Discharge) bottle that rapidly floods the compartment to interrupt the fire, and one LRD bottle that slowly discharges to suppress fires for a minimum of 60 minutes (+15 minutes hold). For ETOPS-configured aircraft requiring extended fire suppression capability, a second LRD bottle can be optionally installed to provide an even longer suppression period.",
+      "source": "FCOM1",
+      "page": "09-04-5",
+      "correctAnswer": "d",
+      "correctAnswerText": "A low-rate discharge (LRD) fire extinguishing bottle"
+    },
+    "09FRP11": {
+      "explanation": "When an engine fire is detected, the following four indications occur: (1) The L ENG or R ENG FIRE switch/light illuminates red on the Engine and APU Fire Panel, (2) The L ENG FIRE or R ENG FIRE warning message displays on EICAS, (3) The 'FIRE' aural warning sounds and the master WARNING light illuminates on the glareshield, and (4) The L FIRE or R FIRE indicator light illuminates on the ENGINE panel. The 'Engine BTL LO' advisory message is NOT an initial fire detection indication - it only appears AFTER a bottle has been discharged to indicate low bottle pressure.",
+      "source": "FCOM1",
+      "page": "09-02-3 to 09-02-4",
+      "correctAnswer": "c, d, e, f",
+      "correctAnswerText": "c. L ENG or R ENG FIRE aural warning sound and master WARNING CAUTION switch/light illuminates; d. L ENG or R ENG FIRE switch/light illuminated on the Engine and APU Fire Panel; e. L or R FIRE light illuminated on ENGINE panel; f. L ENG or R ENG FIRE warning message on EICAS",
+      "note": "The question asks for FOUR responses. Based on FCOM, the four main indications are: Fire switch/light (d), FIRE indicator on ENGINE panel (e), FIRE warning message on EICAS (f), and aural warning + master WARNING (c). Option 'a. Engine BTL LO advisory' is incorrect as this appears AFTER bottle discharge, not during initial fire detection. Option 'b. FIRE advisory message' is incorrect because it's a WARNING message, not advisory."
+    }
+  }
+}

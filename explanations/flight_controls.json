@@ -1,0 +1,179 @@
+{
+  "chapter": "Flight controls",
+  "explanations": {
+    "10FCT16": {
+      "explanation": "Ground spoilers operate automatically only in normal mode and PFCC direct mode. In REU direct mode, there is no automatic ground lift dumping function. In AFCU direct mode, multifunction spoilers (MFSs) are not available at all. Therefore, ground spoilers are not available in both AFCU direct mode and REU direct mode.",
+      "source": "FCOM1",
+      "page": "10-04-10 to 10-04-11",
+      "correctAnswer": "a, b"
+    },
+    "10FCT21": {
+      "explanation": "The high-lift system consists of slats and flaps. There are four slat panels on each wing and two Fowler-type flaps on each wing. Ailerons and elevators are primary flight controls, not part of the high-lift system.",
+      "source": "FCOM1",
+      "page": "10-05-1 to 10-05-2",
+      "correctAnswer": "a, c"
+    },
+    "10FCT17": {
+      "explanation": "Automatic nose-up pitch compensation is provided in a turn for bank angles of up to 33 degrees. Beyond this bank angle, aft sidestick must be applied to maintain flight path. This is part of the pitch compensation in turns function of the FBW normal mode.",
+      "source": "FCOM1",
+      "page": "10-02-14",
+      "correctAnswer": "d"
+    },
+    "10FCT20": {
+      "explanation": "The hydraulic brakes hold the slats and flaps in their commanded positions between selections. They can also stop the motion of the slats/flaps if an abnormal condition is detected, such as asymmetry or uncommanded runaway extension. They do not activate during single motor or hydraulic failures.",
+      "source": "FCOM1",
+      "page": "10-05-2",
+      "correctAnswer": "a, c"
+    },
+    "10FCT01": {
+      "explanation": "Only one PFCC is in control of the FBW system at a time, automatically selected at power-up. Although there are three PFCCs in the aircraft, they do not all control simultaneously. A PFCC may be selected off using the guarded switches on the overhead PRIM FLT CTRL panel in case of a malfunction.",
+      "source": "FCOM1",
+      "page": "10-02-4",
+      "correctAnswer": "a, d"
+    },
+    "10FCT04": {
+      "explanation": "The FBW system commands all primary flight controls: ailerons, elevators, and rudder. For secondary flight controls, it commands the horizontal stabilizer, multifunction spoilers, and ground spoilers, but NOT flaps and slats (the high-lift system is not part of the FBW system).",
+      "source": "FCOM1",
+      "page": "10-02-1, 10-05-3",
+      "correctAnswer": "c, d"
+    },
+    "10FCT07": {
+      "explanation": "The FBW direct mode has three submodes: PFCC direct mode (when data input fails from ADSP or IRS), REU direct mode (when all PFCCs fail), and AFCU direct mode (when multiple REUs fail). PCU direct is not a valid FBW mode.",
+      "source": "FCOM1",
+      "page": "10-02-36 to 10-02-45",
+      "correctAnswer": "a, b, c"
+    },
+    "10FCT30": {
+      "explanation": "Following an engine failure in flight, the engine out compensation provides partial automatic yaw compensation. The rudder is automatically applied to counter the yaw caused by asymmetric thrust. This compensation helps control the aircraft during and after the failure without fully masking the engine failure.",
+      "source": "FCOM1",
+      "page": "10-02-35",
+      "correctAnswer": "d"
+    },
+    "10FCT10": {
+      "explanation": "When the sidestick AP/PTY pushbutton is pressed and held for momentary priority: (1) the autopilot disconnects if engaged, (2) the onside glareshield SIDESTICK PTY green legend flashes and opposite side red arrow illuminates, and (3) a 'PRIORITY LEFT' or 'PRIORITY RIGHT' aural message sounds. The autopilot does not remain engaged.",
+      "source": "FCOM1",
+      "page": "10-03-12 to 10-03-14",
+      "correctAnswer": "b, c, d"
+    },
+    "10FCT28": {
+      "explanation": "When spoilers have been manually deployed and a bank requiring roll assist is initiated, the FBW system partially retracts the high-wing multifunction spoilers to assist with the roll. The low-wing spoilers are not retracted; instead, additional deployment may occur on the high wing.",
+      "source": "FCOM1",
+      "page": "10-04-3",
+      "correctAnswer": "c"
+    },
+    "10FCT15": {
+      "explanation": "The horizontal stabilizer (HSTAB) is electrically controlled and electrically actuated (not hydraulically actuated). In FBW direct mode, it is trimmed conventionally using the pitch trim switches. In normal mode, automatic positioning occurs through the FBW system.",
+      "source": "FCOM1",
+      "page": "10-04-1, 10-02-39",
+      "correctAnswer": "a, c"
+    },
+    "10FCT24": {
+      "explanation": "The Remote Electronic Units (REUs) transmit commands received from the PFCCs to both the hydraulic Power Control Units (PCUs) that move the flight control surfaces and to the HSTAB Motor Control Electronics (MCE) unit that positions the horizontal stabilizer.",
+      "source": "FCOM1",
+      "page": "10-02-7",
+      "correctAnswer": "c"
+    },
+    "10FCT23": {
+      "explanation": "In the FBW system, the Remote Electronic Units (REUs) position the control surfaces through hydraulic actuators (PCUs). The PFCCs compute the commands, but the REUs transmit those commands to the hydraulic actuators that physically move the surfaces.",
+      "source": "FCOM1",
+      "page": "10-02-7",
+      "correctAnswer": "c"
+    },
+    "10FCT05": {
+      "explanation": "If all three PFCCs fail, the system reverts to REU direct mode. In this mode, the REUs receive their inputs directly from the flight deck controls (through the IIMs) rather than from the PFCCs. The REUs then command the hydraulic actuators and electric trim motor directly.",
+      "source": "FCOM1",
+      "page": "10-02-7, 10-02-42",
+      "correctAnswer": "d"
+    },
+    "10FCT25": {
+      "explanation": "In the FBW system, the Remote Electronic Units (REUs) position the control surfaces through hydraulic actuators. The REUs receive commands from the PFCCs and transmit them to the Power Control Units (PCUs), which are the hydraulic actuators that physically move the control surfaces.",
+      "source": "FCOM1",
+      "page": "10-02-7",
+      "correctAnswer": "d"
+    },
+    "10FCT18": {
+      "explanation": "Only one PFCC is in control of the FBW system at any given time. Although there are three PFCCs installed in the aircraft (two in the forward equipment bay and one in the mid equipment bay), they do not operate simultaneously. The PFCC in control is automatically selected at power-up.",
+      "source": "FCOM1",
+      "page": "10-02-4",
+      "correctAnswer": "a"
+    },
+    "10FCT27": {
+      "explanation": "The Alternate Flight Control Unit (AFCU) routes signals directly from the flight deck controls to the PCUs or HSTAB MCE units in the event of a failure of the Remote Electronic Units (REUs). This creates the AFCU direct mode, which bypasses the REUs when multiple REU failures occur.",
+      "source": "FCOM1",
+      "page": "10-02-7, 10-02-44",
+      "correctAnswer": "d"
+    },
+    "10FCT22": {
+      "explanation": "The maximum altitude with slats/flaps extended is 20,000 feet. This operational limitation ensures the high-lift system operates within its designed envelope and prevents potential structural or system issues at higher altitudes.",
+      "source": "Operations Manual",
+      "page": "Limitations section",
+      "correctAnswer": "a"
+    },
+    "10FCT29": {
+      "explanation": "Selecting the ALTN FLAP switch to DPLY (deploy) overrides the SLAT/FLAP lever and deploys the slats and flaps to position 3. When deployed to position 3, the status message ALTN FLAP DPLY is displayed on the EICAS page. Position 3 corresponds to 21 degrees slats and 15 degrees flaps.",
+      "source": "FCOM1",
+      "page": "10-05-4",
+      "correctAnswer": "a"
+    },
+    "10FCT12": {
+      "explanation": "Latched sidestick priority differs from momentary priority in two ways: (1) The PTY green legend on the onside glareshield SIDESTICK switch/light illuminates steadily (not flashing), and (2) The disabled sidestick cannot obtain priority when the AP/PTY switch is pressed - priority must first be cancelled from the active side.",
+      "source": "FCOM1",
+      "page": "10-03-14 to 10-03-15",
+      "correctAnswer": "b, d"
+    },
+    "10FCT06": {
+      "explanation": "Following an engine failure in flight, the FBW system automatically provides partial yaw compensation. The engine out compensation applies rudder automatically to help counter the yaw caused by asymmetric thrust, assisting in controlling the aircraft without fully masking the engine failure.",
+      "source": "FCOM1",
+      "page": "10-02-35",
+      "correctAnswer": "d"
+    },
+    "10FCT26": {
+      "explanation": "The horizontal stabilizer (HSTAB) is electrically controlled, using the Motor Control Electronics (MCE) unit for actuation. It is NOT hydraulically actuated. In FBW direct mode, it must be trimmed conventionally (not automatically positioned). In FBW normal mode, automatic positioning occurs.",
+      "source": "FCOM1",
+      "page": "10-04-1, 10-02-39",
+      "correctAnswer": "a"
+    },
+    "10FCT03": {
+      "explanation": "The Alternate Flight Control Unit (AFCU) routes command signals directly to one Power Control Unit (PCU) of a control surface with failed REUs and to a single channel of the horizontal stabilizer Motor Control Electronics (MCE) unit. This provides an independent backup control path when REUs fail.",
+      "source": "FCOM1",
+      "page": "10-02-7, 10-02-44",
+      "correctAnswer": "b, d"
+    },
+    "10FCT08": {
+      "explanation": "This is a matching question about fly-by-wire high angle-of-attack protection and sidestick position. The correct answer relates to how the FBW system provides protection against stall by limiting the aircraft's angle of attack based on sidestick inputs.",
+      "source": "FCOM1",
+      "page": "10-02-47 to 10-02-48",
+      "correctAnswer": "c"
+    },
+    "10FCT19": {
+      "explanation": "On the EICAS indicator during slat/flap selection: (1) A white number in a box above the position indicator displays the last achieved extension during surface movement, (2) Surfaces in transit display an animated white line moving along the indicator to the cyan markers, and (3) Cyan markers identify the selected surface positions. Slats display as a position indicator, not with text symbols like IN/OUT/MID/FULL.",
+      "source": "FCOM1",
+      "page": "10-05-4 to 10-05-5",
+      "correctAnswer": "b, c, d"
+    },
+    "10FCT11": {
+      "explanation": "When simultaneous operation of both sidesticks is detected (dual input), two indications occur: (1) A red DUAL message displays on both PFDs, and (2) A 'DUAL INPUT' aural message is activated. The system algebraically sums the inputs from both sidesticks when this occurs.",
+      "source": "FCOM1",
+      "page": "10-03-12",
+      "correctAnswer": "c, d"
+    },
+    "10FCT14": {
+      "explanation": "The four multifunction spoilers (MFSs) on each wing provide three main functions: (1) Ground lift dumping during landing rollout, (2) Roll assist to help with roll control, and (3) Speed braking (proportional lift dumping) when deployed in flight. They do not provide aileron assist during engine inoperative conditions.",
+      "source": "FCOM1",
+      "page": "10-04-2 to 10-04-3",
+      "correctAnswer": "a, b, c"
+    },
+    "10FCT02": {
+      "explanation": "This statement is TRUE. In the fly-by-wire (FBW) system, the Remote Electronic Units (REUs) position the control surfaces through hydraulic actuators. The REUs receive commands from the PFCCs and transmit them to the Power Control Units (PCUs), which are electrically-controlled hydraulic actuators.",
+      "source": "FCOM1",
+      "page": "10-02-7",
+      "correctAnswer": "a"
+    },
+    "10FCT13": {
+      "explanation": "This statement is TRUE. The aileron trim switch is inhibited in fly-by-wire normal mode because the FBW system automatically provides turn coordination and does not require manual aileron trim. Aileron trim is only available in direct modes when automatic coordination is not available.",
+      "source": "FCOM1",
+      "page": "10-03-21",
+      "correctAnswer": "a"
+    }
+  }
+}

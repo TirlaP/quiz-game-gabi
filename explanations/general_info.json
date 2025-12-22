@@ -1,0 +1,65 @@
+{
+  "chapter": "General information",
+  "explanations": {
+    "01GEN10": {
+      "explanation": "The pilot seat on the A220 can be adjusted vertically using either electrical controls or mechanical backup systems. Modern commercial aircraft typically provide electrical controls for seat height adjustment for convenience and precision, but also include mechanical backup systems to ensure seat adjustability in case of electrical system failures. This redundancy is a standard safety feature in commercial aviation, allowing pilots to maintain proper seating position and visibility regardless of electrical system status.",
+      "source": "Operations Manual / FCOM1",
+      "page": "Cockpit Equipment Section",
+      "correctAnswer": "c (Electrically or mechanically)"
+    },
+    "01GEN03": {
+      "explanation": "The A220 requires a pavement width of 23.50 meters to complete a 180-degree turn. This specification is critical for airport ground operations and determines the minimum runway width required for the aircraft to perform a complete turnaround. This dimension is calculated based on the aircraft's wheelbase, turning radius, and wing tip clearance requirements during maximum nose wheel steering deflection. The pavement width requirement is documented in the Aircraft Characteristics for Airport Planning manual, which airport operators use to determine compatibility with their infrastructure.",
+      "source": "Operations Manual Part B / Aircraft Characteristics",
+      "page": "Ground Maneuvering Section",
+      "correctAnswer": "d (23.50 m)"
+    },
+    "01GEN04": {
+      "explanation": "This statement is TRUE. The A220 is exclusively powered by two Pratt & Whitney PW1500G series engines. The PW1500G is a member of the Pratt & Whitney GTF (Geared Turbofan) family, featuring advanced geared turbofan technology that provides superior fuel efficiency, reduced noise, and lower emissions compared to previous-generation engines. The PW1500G was specifically developed for the A220 (originally Bombardier CSeries) and features a 73-inch fan diameter with a 12:1 bypass ratio, delivering up to 25% fuel savings per seat compared to prior-generation aircraft. This engine achieved Transport Canada type certification in February 2013 and entered commercial service in 2016.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Powerplant Section - Engine Description",
+      "correctAnswer": "a (True)"
+    },
+    "01GEN02": {
+      "explanation": "The A220 aircraft has 2 cargo compartments. The cargo hold configuration is designed to maximize available storage space within the aircraft's fuselage while maintaining structural integrity and pressurization boundaries. The forward and aft cargo compartments provide storage for passenger baggage, cargo containers, and other freight. The compartments are accessible through dedicated cargo doors and are equipped with fire detection and suppression systems. The OFV (Outflow Valve) is located on the aft pressure bulkhead of the forward cargo compartment.",
+      "source": "Operations Manual Part B",
+      "page": "Aircraft General - Cargo Compartments",
+      "correctAnswer": "a (2)"
+    },
+    "01GEN07": {
+      "explanation": "The Pratt & Whitney PW1500G series engines are installed on the A220. This advanced geared turbofan (GTF) engine represents a significant technological advancement in commercial aviation propulsion. The PW1500G series was specifically tailored for the A220 aircraft family and features a unique geared fan design that allows the fan and low-pressure turbine to operate at their optimal speeds, resulting in exceptional fuel efficiency. The engine provides thrust in the 19,000 to 24,000 pound-force range (depending on variant) and delivers double-digit fuel reductions, 20% reduction in CO2 emissions, and a 75% smaller noise footprint compared to previous-generation engines. The PW1500G is the only engine option for the A220, unlike many aircraft that offer multiple engine choices.",
+      "source": "FCOM1",
+      "page": "Powerplant - Engine Type",
+      "correctAnswer": "b (Pratt & Whitney PW1500G series engines)"
+    },
+    "01GEN06": {
+      "explanation": "The wing span of the A220 is 35.1 meters (115 feet 1 inch). This dimension is consistent across both the A220-100 and A220-300 variants, as they share the same wing design with 99% commonality. The wing is constructed using advanced carbon fiber composite materials, which provides significant weight savings while maintaining structural strength. The wing design features optimized aerodynamics for improved fuel efficiency and performance. The 35.1-meter wingspan is a critical dimension for airport gate compatibility, taxiway clearances, and aircraft parking position planning. This measurement is part of the aircraft's basic dimensions that determine which airport gates and stands the aircraft can use.",
+      "source": "Operations Manual Part B / Aircraft Characteristics",
+      "page": "Principal Dimensions",
+      "correctAnswer": "b (35.1 m)"
+    },
+    "01GEN08": {
+      "explanation": "The fuselage length of the A220-300 is 38.7 meters (127 feet). The A220-300 is the larger variant of the A220 family, featuring a fuselage that is 3.7 meters (12 feet) longer than the A220-100, which measures 35 meters in length. This additional fuselage length allows the A220-300 to accommodate between 120 and 160 passengers, compared to the A220-100's capacity of 100 to 135 passengers. Despite the different fuselage lengths, both variants share 99% commonality in systems and components, enabling significant cost savings for operators and allowing pilots to fly both versions with the same type rating. The fuselage features an aluminium-lithium center section with a cabin width of 3.28 meters, offering wide seats and panoramic windows.",
+      "source": "Operations Manual Part B / Aircraft Characteristics",
+      "page": "Principal Dimensions - A220-300",
+      "correctAnswer": "d (38.7m)"
+    },
+    "01GEN05": {
+      "explanation": "The A220 flight deck is equipped with three key configurations: (b) Overhead panel, main instrument panel, glareshield, center pedestal, and side consoles; (c) Five LCD display units and sidesticks; and (d) Two crew seats and one observer seat. This represents a modern glass cockpit design where: (b) The cockpit layout includes all standard control panels - the overhead panel contains controls for most aircraft systems, the main instrument panel houses the display units, the glareshield contains autopilot and mode control panels, the center pedestal has engine controls and communication panels, and side consoles provide additional switches and circuit breakers. (c) Five large, high-resolution interchangeable LCD display units replace traditional round-dial instruments, providing exceptional visibility and increasing pilot awareness. The sidestick controllers (rather than traditional control yokes) offer intuitive fly-by-wire control with reduced pilot workload. (d) The flight deck accommodates two pilot seats (captain and first officer) plus one observer seat, which is standard for commercial transport aircraft. Option (a) is incorrect because the A220 uses LCD displays and sidesticks, not electromechanical instruments and yokes.",
+      "source": "FCOM1",
+      "page": "Flight Deck Description",
+      "correctAnswer": "b, c, d"
+    },
+    "01GEN09": {
+      "explanation": "The overhead panel contains the controls and indications for most of the aircraft systems. This is the primary function and defining characteristic of the overhead panel in modern commercial aircraft cockpits, including the A220. The overhead panel is strategically positioned above the pilots' heads and provides centralized access to system controls for electrical, hydraulic, fuel, air conditioning, pressurization, ice protection, lighting, and other essential aircraft systems. Each system typically has associated switches, indicators, and annunciators on the overhead panel, allowing pilots to monitor and control aircraft systems efficiently. Option (a) is incorrect because navigation and communication controls are primarily located on the center pedestal and glareshield. Option (c) is incorrect because IRS and navigation equipment controls are not exclusively on the overhead panel. Option (d) is incorrect because circuit breaker panels are typically located on side panels or other locations, not on the main overhead panel.",
+      "source": "FCOM1",
+      "page": "Flight Deck - Overhead Panel Description",
+      "correctAnswer": "b (The overhead panel contains the controls and indications for most of the aircraft systems)"
+    },
+    "01GEN01": {
+      "explanation": "The unpressurized sections on the A220 aircraft are: (a) Nose gear bay, (b) Main gear bay, and (d) Tailcone. Aircraft pressurization is contained within the pressure vessel formed by the forward and aft pressure bulkheads. Areas outside this pressure vessel remain unpressurized and are subject to ambient atmospheric pressure: (a) The nose gear bay is located forward of or below the forward pressure bulkhead in an unpressurized zone that accommodates the retractable nose landing gear. (b) The main gear bays are unpressurized compartments that house the main landing gear when retracted. These bays are isolated from the pressurized cabin area. (d) The tailcone (aft of the aft pressure bulkhead) is unpressurized and constructed of titanium. Option (c) is incorrect because the cargo compartments on the A220 are pressurized - they are located within the pressure vessel between the forward and aft pressure bulkheads. The OFV (Outflow Valve) is even located on the aft pressure bulkhead of the forward cargo compartment, confirming that cargo compartments are part of the pressurized area.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Aircraft General - Pressurization System",
+      "correctAnswer": "a, b, d"
+    }
+  }
+}

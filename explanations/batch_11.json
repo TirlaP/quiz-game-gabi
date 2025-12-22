@@ -1,0 +1,74 @@
+{
+  "05COM13": {
+    "explanation": "The green READY communication flag on the EICAS is a signal from the cabin crew to the flight crew indicating that the cabin is secure and ready for takeoff or landing. This includes confirmation that passengers are seated, seatbelts are fastened, cabin doors are armed, tray tables and seat backs are in their upright positions, and all cabin safety requirements are met. This is a standard communication procedure between cabin crew and flight crew that ensures safe departure or arrival.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-13-00"}
+    ]
+  },
+  "05COM14": {
+    "explanation": "The MECH CALL pushbutton allows the flight crew to call ground maintenance personnel. When pressed, it activates a horn that sounds in the nose landing gear service area where maintenance personnel typically work during ground servicing and pre-flight checks. This provides a way for the crew to get the attention of ground crew without using the intercom, leaving the flight deck, or relying on hand signals.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-13-00"}
+    ]
+  },
+  "05COM15": {
+    "explanation": "To initiate an emergency cabin call from the flight deck to the cabin crew, the pilot must press and hold the CAB (cabin) transmit pushbutton for more than 3 seconds. This deliberate action (requiring more than 3 seconds of continuous pressing) prevents accidental emergency calls while ensuring a quick and standardized way to alert cabin crew in true emergencies. The extended press time distinguishes emergency calls from normal cabin calls and triggers special alerting in the cabin.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-13-00"}
+    ]
+  },
+  "05COM16": {
+    "explanation": "When the cabin crew initiates a priority cabin call, multiple indications alert the flight crew to ensure the call is not missed: The CALL legend flashes on the CAB (cabin) transmit pushbutton providing a visual indication at the control location, an aural tone sounds to ensure immediate attention even if the crew is not looking at the panels, and a yellow CABIN communication flag flashes on the EICAS, providing a persistent visual alert on the primary flight display. This multi-modal alerting ensures urgent cabin communications receive immediate attention.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-13-00"}
+    ]
+  },
+  "05COM17": {
+    "explanation": "The data link communication system provides two-way digital communication between the aircraft and the ACARS (Aircraft Communications Addressing and Reporting System) network. This allows for the exchange of text messages, weather data, flight plans, clearances, maintenance data, and other operational information between the aircraft and airline operations, ATC, and other ground-based services. The system operates automatically in the background over VHF Data Link (VDL) and/or SATCOM.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-14-00"}
+    ]
+  },
+  "05COM18": {
+    "explanation": "The ATS MENU page displays air traffic service functions including Departure and oceanic clearances (pre-departure clearances, PDC, and oceanic route clearances received via datalink) and ATIS (Automatic Terminal Information Service) and TWIP (Terminal Weather Information for Pilots). These are the primary ATS datalink services used for routine flight operations, reducing voice communication workload and potential for miscommunication while providing text-based clearances and weather information.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-14-00"}
+    ]
+  },
+  "05COM19": {
+    "explanation": "The datalink communication system uses two primary transmission systems: VHF Data Link (VDL), which provides line-of-sight data communication with ground stations (typically up to 200-250 nautical miles), and Satellite Communications (SATCOM), which provides beyond line-of-sight global coverage including oceanic and remote areas. The system can automatically switch between these transmission methods based on availability and signal strength to maintain continuous datalink connectivity.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-14-00"}
+    ]
+  },
+  "05COM20": {
+    "explanation": "When a new datalink message is received, multiple alerts notify the crew to ensure messages are not missed: On the DLK (datalink) page, the bottom right soft key becomes active (often with an indication showing unread messages) allowing immediate access to the message, a DLK annunciation flashes on the EICAS to provide a visual alert on the primary flight display, and an aural tone sounds to ensure the crew is aware even if not looking at the displays. This multi-sensory alerting ensures important operational messages receive prompt attention.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-14-00"}
+    ]
+  },
+  "05COM21": {
+    "explanation": "The selected communication radio volume can be adjusted without unlatching the knob. This allows pilots to quickly adjust the volume of the actively selected COM radio (the one they are currently using for transmission and reception) without having to unlatch the knob first. This design provides quick access to the most frequently adjusted audio control while preventing inadvertent changes to other audio sources by requiring those knobs to be unlatched before adjustment.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-13-00"}
+    ]
+  },
+  "05COM22": {
+    "explanation": "The A220 provides three comprehensive methods for radio control and tuning: Control Tuning Panels (CTPs) which are dedicated physical panels with integrated displays for direct radio control, Display Tuning through the multifunction displays using line select keys and on-screen controls, and Graphical Tuning through the FMS which can automatically tune frequencies based on flight plan waypoints, airports, or ARTCCs selected on the navigation display. This redundancy and flexibility allows pilots to use the most convenient and efficient method for the current situation.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-12-00"}
+    ]
+  },
+  "05COM23": {
+    "explanation": "The VHF CONTROL page allows pilots to adjust the squelch level for VHF radios. Squelch control helps filter out background noise and interference, only allowing signals above a certain strength threshold to be heard. Adjustable squelch levels (typically SQ1, SQ2, SQ3) allow pilots to optimize reception based on signal conditions - using lower squelch in areas with weak signals and higher squelch in high-noise environments to reduce cockpit audio clutter.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-12-00"}
+    ]
+  },
+  "05COM24": {
+    "explanation": "Based on the CTP display image, the transmission mode selected is UV (Upper sideband Voice). This is the standard mode for VHF voice communications. The UV mode indication shows that the radio is configured for normal voice communications rather than data mode or other specialized transmission modes. On modern avionics, the transmission mode is clearly displayed to ensure pilots are aware of the current radio configuration.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "23-12-00"}
+    ]
+  }
+}

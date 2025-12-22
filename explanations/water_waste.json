@@ -1,0 +1,132 @@
+{
+  "chapter": "Water and Waste",
+  "aircraft": "A220",
+  "questions": [
+    {
+      "code": "20WTR06",
+      "question": "Water and waste system - The waste system's vacuum pump automatically shuts down:",
+      "correct_answer": "a",
+      "correct_text": "When aircraft altitude exceeds 16000 feet or differential pressure is above 2,5 pounds per square inch",
+      "explanation": "The vacuum waste system's pump is designed to shut down automatically at high altitudes for two key reasons:\n\n1. SAFETY: At aircraft altitudes above 16,000 feet or when cabin differential pressure exceeds 2.5 PSI, the natural pressure differential between the cabin and outside atmosphere is sufficient to maintain vacuum in the waste system without requiring the vacuum pump to operate.\n\n2. EFFICIENCY: Using the natural pressure differential at altitude saves electrical power and reduces wear on the vacuum pump motor. The system leverages the physics of high-altitude flight where outside atmospheric pressure is significantly lower than cabin pressure.\n\n3. SYSTEM PROTECTION: This automatic shutdown prevents the vacuum pump from operating unnecessarily when the pressure differential alone can maintain adequate vacuum for waste collection.\n\nThe 16,000 feet threshold and 2.5 PSI differential pressure are the operational limits programmed into the Water and Waste System Controller to optimize system performance while conserving resources.",
+      "why_other_answers_wrong": {
+        "b": "Cabin pressure altitude of 10,000 feet is too low. The system is designed to use natural pressure differential at higher altitudes (16,000 feet actual aircraft altitude), not cabin altitude.",
+        "c": "The vacuum pump shutdown is based on pressure differential and altitude, not on time-based cabin pressure stability. A 10-minute timer for pressure changes is not how the system operates.",
+        "d": "The vacuum pump does not shut down immediately after takeoff. It continues to operate until the aircraft reaches the specified altitude/pressure differential threshold."
+      },
+      "references": [
+        "A220 FCOM - Water and Waste System",
+        "ATA Chapter 38 - Water/Waste"
+      ]
+    },
+    {
+      "code": "20WTR05",
+      "question": "What does the water and waste system controller monitor? (Select three responses)",
+      "correct_answer": ["a", "c", "d"],
+      "correct_text": ["Pressure", "Water levels", "Temperature"],
+      "explanation": "The Water and Waste System Controller is a sophisticated electronic control unit that continuously monitors multiple parameters to ensure safe and efficient operation:\n\n1. PRESSURE (Option A - Correct):\n   - Monitors water system pressure to ensure adequate pressure for distribution to lavatories and galley\n   - Monitors waste system vacuum pressure to ensure proper waste collection\n   - Detects pressure anomalies that could indicate leaks or system malfunctions\n   - Controls pressure regulation valves\n\n2. WATER LEVELS (Option C - Correct):\n   - Monitors potable water tank level to prevent system operation when tank is empty\n   - Monitors waste tank level to prevent overfilling\n   - Provides input for system activation/deactivation based on tank status\n   - Sends level information to maintenance systems\n\n3. TEMPERATURE (Option D - Correct):\n   - Monitors water temperature to prevent freezing in lines and tanks\n   - Controls drain heater operation to protect against ice formation\n   - Essential for cold weather operations and high-altitude flight\n   - Monitors temperature for water purge operations\n\n4. CONTAMINATION (Option B - Incorrect):\n   - The system controller does NOT monitor contamination\n   - Contamination detection would require chemical sensors not present in the basic water/waste system\n   - Water quality and contamination are monitored through ground servicing procedures, not by the aircraft system controller",
+      "why_other_answers_wrong": {
+        "b": "Contamination monitoring is NOT a function of the water and waste system controller. The system monitors physical parameters (pressure, level, temperature) but does not have sensors to detect biological or chemical contamination. Water quality is managed through proper ground servicing and maintenance procedures, not real-time airborne monitoring."
+      },
+      "references": [
+        "A220 FCOM - Water and Waste System Controller Functions",
+        "ATA Chapter 38 - Water/Waste System Monitoring"
+      ]
+    },
+    {
+      "code": "20WTR02",
+      "question": "When is the potable water system automatically activated? (Select three responses)",
+      "correct_answer": ["a", "b", "d"],
+      "correct_text": ["When the water system service panel door is closed", "When electrical power is available", "When water is in the tank"],
+      "explanation": "The potable water system has automatic activation logic that requires ALL three conditions to be met simultaneously for safe and proper operation:\n\n1. WATER SYSTEM SERVICE PANEL DOOR IS CLOSED (Option A - Correct):\n   - The service panel door has a position sensor/switch\n   - When open (during servicing), it prevents system activation for safety\n   - Closing the door signals that servicing is complete and the system is ready for operation\n   - This is a critical safety interlock to prevent water spray or system operation during maintenance\n\n2. ELECTRICAL POWER IS AVAILABLE (Option B - Correct):\n   - The water system requires electrical power for:\n     * Water pumps to pressurize the system\n     * System controller operation\n     * Heater operation (when needed)\n     * Valve control\n   - Power can be from APU, engines, external power, or battery\n   - Without electrical power, the system cannot function\n\n3. WATER IS IN THE TANK (Option D - Correct):\n   - Water level sensors detect presence of water in the potable water tank\n   - Prevents pump operation when tank is empty (dry running protection)\n   - Running pumps without water would cause damage and overheating\n   - System will not activate if tank is empty even if other conditions are met\n\n4. ONLY WHEN AIRCRAFT IS ON THE GROUND (Option C - Incorrect):\n   - The potable water system is NOT restricted to ground operation only\n   - The system operates both on ground AND in flight\n   - Passengers and crew need access to water at lavatories and galleys during flight\n   - This is a key differentiator from some servicing functions that ARE ground-only",
+      "why_other_answers_wrong": {
+        "c": "The potable water system is NOT restricted to ground operation only. It operates in flight to supply water to lavatories and galleys. The system needs to be available throughout the flight for passenger and crew use. Only certain servicing functions (like water purge) are restricted to specific flight conditions."
+      },
+      "references": [
+        "A220 FCOM - Potable Water System Activation Logic",
+        "ATA Chapter 38 - Water System Operation"
+      ]
+    },
+    {
+      "code": "20WTR04",
+      "question": "Water level and waste status displays on the EICAS.",
+      "correct_answer": "b",
+      "correct_text": "False",
+      "explanation": "The correct answer is FALSE because water level and waste status information is NOT displayed on the EICAS (Engine Indicating and Crew Alerting System).\n\nHere's why:\n\n1. EICAS FUNCTION:\n   - EICAS is primarily focused on engine parameters, critical flight systems, and alerts\n   - EICAS displays engine data (N1, N2, EGT, fuel flow, oil pressure/temperature, etc.)\n   - EICAS shows critical system warnings and cautions\n   - Water and waste are non-critical utility systems that don't require constant flight crew monitoring\n\n2. WHERE WATER/WASTE STATUS IS ACTUALLY DISPLAYED:\n   - Water level and waste status are displayed on the CMS (Cabin Management System) pages\n   - Specifically on the CMS LAVATORY page\n   - This is accessible through the MFD (Multi-Function Display) system pages\n   - Flight crew and cabin crew can access this information when needed, but it's not constantly displayed\n\n3. SYSTEM DESIGN PHILOSOPHY:\n   - Only essential flight-critical information appears on EICAS\n   - Utility system status (water, waste, cabin, etc.) is relegated to synoptic pages\n   - This prevents cluttering EICAS with non-essential data\n   - Alerts from water/waste system (if critical) would appear on EICAS, but not routine status\n\n4. ALERT LOGIC:\n   - If a water or waste system fault occurs, a message may appear on EICAS memo or caution/warning\n   - But normal operating status (tank levels, system status) is shown only on CMS pages\n\nTherefore, the statement is FALSE - water level and waste status displays on the CMS, not EICAS.",
+      "why_other_answers_wrong": {
+        "a": "True is incorrect because EICAS does not display water level and waste status. This information is shown on the CMS LAVATORY page, not on EICAS. EICAS is reserved for engine parameters and critical system alerts."
+      },
+      "references": [
+        "A220 FCOM - EICAS Display Format",
+        "A220 FCOM - CMS Lavatory Page",
+        "Flight Deck Display Systems"
+      ]
+    },
+    {
+      "code": "20WTR07",
+      "question": "Water and waste system - The CMS LAVATORY screen purge of the potable water from the water tank and lines function becomes active when:",
+      "correct_answer": "c",
+      "correct_text": "landing gear is in the up position, drain heaters are operative, WATER PURGE soft switch is pressed on the CMS LAVATORY page, and aircraft altitude is below 10000 feet",
+      "explanation": "The water purge function has very specific activation conditions designed to ensure safe drainage of the potable water system. ALL conditions must be met:\n\n1. LANDING GEAR IS IN THE UP POSITION (Correct - Option C):\n   - This ensures the aircraft is in flight, not on the ground\n   - Prevents accidental purging during ground operations\n   - UP position confirms intentional flight operation\n   - Safety interlock to prevent water purge during taxi or ground servicing\n\n2. DRAIN HEATERS ARE OPERATIVE (Correct - Option C):\n   - Critical for cold weather operations\n   - Prevents ice formation during water drainage\n   - At altitude, temperatures can be well below freezing\n   - Ice in drain lines could cause blockage or structural issues\n   - Heaters must be working to ensure water drains as liquid, not ice\n\n3. WATER PURGE SOFT SWITCH IS PRESSED ON CMS LAVATORY PAGE (Correct - Option C):\n   - Manual activation required - not automatic\n   - Crew must deliberately select this function\n   - Accessed through the CMS (Cabin Management System) interface\n   - Prevents inadvertent activation\n\n4. AIRCRAFT ALTITUDE IS BELOW 10,000 FEET (Correct - Option C):\n   - Low altitude requirement for several reasons:\n     * Warmer ambient temperature reduces ice formation risk\n     * Lower cabin differential pressure reduces purge system stress\n     * Typically during descent phase when water purge might be needed\n     * Safety margin for any unexpected issues during purge\n   - 10,000 feet is a standard aviation threshold for many operations\n\nWHY THE SPECIFIC CONDITIONS:\n- The combination ensures purge only occurs when safe and intentional\n- Gear UP = in flight (not on ground where purge would be inappropriate)\n- Heaters operative = prevents ice formation in drain system\n- Manual selection = prevents accidental activation\n- Below 10,000 ft = safer altitude regime with warmer temperatures",
+      "why_other_answers_wrong": {
+        "a": "Aircraft airborne is too vague and doesn't specify the required conditions. The system needs specific parameters: gear up, heaters operative, altitude below 10,000 feet, and manual activation.",
+        "b": "Landing gear DOWN is incorrect. The purge function requires gear UP (in flight position) to prevent activation during ground operations. Gear down would indicate aircraft on ground or during approach/landing which is not the correct condition.",
+        "d": "Altitude below 15,000 feet is incorrect. The system specifically requires altitude below 10,000 feet, not 15,000 feet. The 10,000-foot limit provides a safer margin with warmer ambient temperatures and lower differential pressure."
+      },
+      "references": [
+        "A220 FCOM - Water Purge System Operation",
+        "A220 FCOM - CMS Lavatory Page Functions",
+        "ATA Chapter 38 - Water System Servicing"
+      ]
+    },
+    {
+      "code": "20WTR01",
+      "question": "Which functions are monitored by the vacuum waste system. (Select three responses)",
+      "correct_answer": ["a", "b", "c"],
+      "correct_text": ["Waste system servicing", "Waste storage", "Waste collection"],
+      "explanation": "The vacuum waste system monitors three primary functional areas that encompass the complete waste management cycle:\n\n1. WASTE SYSTEM SERVICING (Option A - Correct):\n   - Monitors service panel door position (open/closed)\n   - Tracks servicing operations status\n   - Ensures system is not active during ground servicing\n   - Monitors connections and valves during waste tank drainage\n   - Provides interlocks to prevent system operation when service panel is open\n   - Essential for ground crew safety during waste removal\n\n2. WASTE STORAGE (Option B - Correct):\n   - Monitors waste tank level/capacity\n   - Detects when tank is approaching full\n   - Provides alerts when tank needs servicing\n   - Tracks storage capacity to prevent overfilling\n   - Monitors tank integrity and seal status\n   - Essential for knowing when ground servicing is required\n\n3. WASTE COLLECTION (Option C - Correct):\n   - Monitors vacuum pump operation and pressure\n   - Tracks flush valve operation in lavatories\n   - Monitors waste transport from toilets to tank\n   - Detects blockages or system malfunctions\n   - Ensures proper vacuum levels for waste collection\n   - Monitors rinse cycle operation\n   - Controls automatic pump activation/deactivation\n\n4. CONTAMINATION (Option D - Incorrect):\n   - NOT monitored by the vacuum waste system\n   - The system monitors mechanical and operational parameters only\n   - No biological or chemical sensors for contamination detection\n   - Contamination prevention is handled through:\n     * Proper system design (sealed system)\n     * Ground servicing procedures\n     * Maintenance practices\n   - The system doesn't have contamination detection capability\n\nTogether, these three monitored functions (Servicing, Storage, Collection) provide complete oversight of the waste system's operational cycle from collection through storage to ground servicing.",
+      "why_other_answers_wrong": {
+        "d": "Contamination is NOT monitored by the vacuum waste system. The system monitors operational and mechanical parameters (servicing status, storage level, collection performance) but does not have sensors to detect biological or chemical contamination. Contamination prevention is managed through system design and ground servicing procedures, not real-time monitoring."
+      },
+      "references": [
+        "A220 FCOM - Vacuum Waste System Functions",
+        "ATA Chapter 38 - Waste System Monitoring",
+        "Water and Waste System Controller Description"
+      ]
+    },
+    {
+      "code": "20WTR03",
+      "question": "The vacuum waste system is active when aircraft power is available, the waste tank is not full and the service panel door is closed.",
+      "correct_answer": "a",
+      "correct_text": "True",
+      "explanation": "The statement is TRUE. The vacuum waste system activates automatically when ALL three conditions are simultaneously met:\n\n1. AIRCRAFT POWER IS AVAILABLE:\n   - The vacuum waste system requires electrical power to operate:\n     * Vacuum pump motor\n     * Flush valve solenoids\n     * System controller\n     * Rinse pump\n     * Monitoring sensors\n   - Power source can be:\n     * Engine generators (in flight)\n     * APU generator (on ground or in flight)\n     * External power (on ground)\n     * Battery (emergency, limited duration)\n   - Without electrical power, the system cannot function\n\n2. WASTE TANK IS NOT FULL:\n   - Tank level sensors detect waste quantity\n   - When tank reaches capacity threshold:\n     * System automatically deactivates to prevent overfilling\n     * Lavatory \"TOILET INOP\" signs illuminate\n     * Crew is alerted that servicing is required\n   - If tank is not full:\n     * System remains available for normal operation\n     * Adequate storage capacity exists\n   - This prevents:\n     * Spillage or overflow\n     * System damage\n     * Operational issues\n\n3. SERVICE PANEL DOOR IS CLOSED:\n   - Service panel door position switch/sensor detects door status\n   - When door is OPEN (during ground servicing):\n     * System is inhibited from activation\n     * Safety interlock prevents operation\n     * Protects ground crew during waste removal\n   - When door is CLOSED:\n     * Signals servicing is complete\n     * System is ready for normal operation\n     * Safety interlock is released\n   - Critical safety feature to prevent:\n     * Accidental system activation during servicing\n     * Injury to ground personnel\n     * Waste spillage during servicing\n\nAUTOMATIC ACTIVATION LOGIC:\n- The system uses AND logic: Power available AND tank not full AND door closed = System Active\n- If ANY condition is not met, system remains inactive\n- This automatic activation ensures:\n   * System is ready when needed\n   * Safe operation\n   * No crew action required for normal operation\n   * Protection against unsafe conditions\n\nWHY THIS DESIGN:\n- Simplifies operation (automatic, no crew action needed)\n- Ensures safety (service panel interlock)\n- Prevents system damage (tank full protection)\n- Reliable operation (power available check)",
+      "why_other_answers_wrong": {
+        "b": "False is incorrect. The statement accurately describes the vacuum waste system activation conditions. The system DOES automatically activate when all three conditions are met: power available, tank not full, and service panel door closed. This is the designed operating logic of the system."
+      },
+      "references": [
+        "A220 FCOM - Vacuum Waste System Operation",
+        "A220 FCOM - Waste System Activation Logic",
+        "ATA Chapter 38 - Waste System Description"
+      ]
+    }
+  ],
+  "summary": {
+    "total_questions": 7,
+    "system_overview": "The A220 Water and Waste system consists of two main subsystems: the potable water system for supplying clean water to lavatories and galleys, and the vacuum waste system for collecting and storing waste from lavatories. Both systems are controlled by the Water and Waste System Controller, which monitors pressure, temperature, and levels, and provides automatic activation logic based on operational conditions.",
+    "key_operational_points": [
+      "Vacuum pump automatically shuts down above 16,000 feet or above 2.5 PSI differential pressure to use natural pressure differential",
+      "System controller monitors pressure, water levels, and temperature (but NOT contamination)",
+      "Potable water system activates when: service door closed, power available, and water in tank",
+      "Water/waste status shown on CMS LAVATORY page, NOT on EICAS",
+      "Water purge requires: gear up, heaters operative, manual selection, and altitude below 10,000 feet",
+      "Vacuum waste system monitors: servicing, storage, and collection functions",
+      "Vacuum waste system activates when: power available, tank not full, and service panel door closed"
+    ],
+    "safety_features": [
+      "Service panel door interlocks prevent operation during servicing",
+      "Automatic pump shutdown prevents dry running and saves power at altitude",
+      "Tank level monitoring prevents overfilling",
+      "Drain heater requirement prevents ice formation during water purge",
+      "Altitude restrictions on water purge ensure safe operation"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "chapter": "Auxiliary Power Unit",
+  "explanations": {
+    "04APU07": {
+      "explanation": "When the APU rotary switch is positioned to OFF, the Electronic Control Unit (ECU) does NOT shut down the APU immediately. Instead, it initiates a 60-second cooldown period to allow the APU to cool down properly, especially if it was providing bleed air. During this cooldown, the APU continues to run at idle speed. After the cooldown period completes and the APU shuts down, the inlet door then closes automatically. This controlled shutdown sequence protects the APU from thermal stress.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU Operations - Shutdown Procedures",
+      "correctAnswer": "c,d"
+    },
+    "04APU11": {
+      "explanation": "An APU start requires either TRU 3 (Transformer Rectifier Unit 3) when AC power is available, OR both batteries when no AC power is available. TRU 3 converts AC power to DC power needed for the APU start sequence. When using batteries, both batteries work together - Battery 1 powers the ECU while Battery 2 powers the APU starter motor. TRU 2 is not used for APU starts, and Battery 2 alone is insufficient.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU Operations - Power Requirements for Starting",
+      "correctAnswer": "a,b"
+    },
+    "04APU09": {
+      "explanation": "This statement is TRUE. The Electronic Control Unit (ECU) provides complete automated control of the APU from start through shutdown. The ECU is certified for unattended operation on the ground, meaning the APU can operate safely without crew supervision while on the ground. The ECU monitors all critical parameters (temperature, pressure, speed, etc.) and will automatically shut down the APU if any fault conditions occur, ensuring safe operation even when unattended.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - ECU Control and Certification",
+      "correctAnswer": "a"
+    },
+    "04APU16": {
+      "explanation": "The APU provides an alternate source of AC electrical power at 3 phase, 400 Hz, 115 VAC. This is the standard aircraft electrical specification used in commercial aviation. The 3-phase configuration provides more efficient power distribution, 400 Hz frequency (instead of 50/60 Hz ground power) allows smaller and lighter transformers and components (critical for aircraft weight), and 115 VAC is the standard aircraft voltage. The APU generator is variable frequency during start but stabilizes at 400 Hz once running.",
+      "source": "FCOM1 - APU System, Aircraft Electrical Power Standards",
+      "page": "APU System - Electrical Power Generation Specifications",
+      "correctAnswer": "b"
+    },
+    "04APU18": {
+      "explanation": "During the APU start sequence, when the RPM reaches above 70% (typically around 95-99% plus a 2-second stabilization), the 'APU ON' status message appears on EICAS (Engine Indicating and Crew Alerting System). This indicates the APU has successfully completed its start cycle and is now running normally. At lower speeds (around 40-60% RPM), the white START light extinguishes, but the APU ON message only appears once the APU reaches operational speed above 70%.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU Operations - Start Sequence Indications",
+      "correctAnswer": "d"
+    },
+    "04APU01": {
+      "explanation": "The APU inlet door position is controlled by the Electronic Control Unit (ECU). The ECU determines the optimal door position (fully open, intermediate, or fully closed) based on multiple inputs including weight-on-wheels signal, Mach number, Total Air Temperature (TAT), and Air Data System (ADS) information. On the ground, the door typically opens fully, while in flight it may modulate to an intermediate position to optimize airflow. The ECU automatically manages door position without pilot input.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - Inlet Door Control",
+      "correctAnswer": "d"
+    },
+    "04APU05": {
+      "explanation": "In flight, the ECU initiates an automatic shutdown ONLY when a critical ECU fault occurs (such as loss of DC power to the ECU). Other conditions like low oil pressure, high oil temperature, or uncommanded door position do NOT cause automatic shutdown in flight - they only trigger warnings. This is because shutting down the APU in flight could eliminate a critical backup power source. On the ground, more conditions will trigger automatic shutdown. Even an APU fire does not cause automatic shutdown in flight (ground only).",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - Automatic Shutdown Logic (Flight vs Ground)",
+      "correctAnswer": "a"
+    },
+    "04APU12": {
+      "explanation": "APU start restrictions are: Maximum 3 start attempts with 2 minutes of cooling between each start attempt. After 3 attempts, you must wait 1 hour before attempting additional starts. This limitation protects the APU starter motor from overheating and prevents damage to the APU during repeated start attempts. The cooling periods allow the starter motor and APU components to cool down adequately. These restrictions are critical for maintaining APU reliability and preventing component damage.",
+      "source": "FCOM1 - APU System Limitations, Operations Manual Part B A220",
+      "page": "APU Limitations - Start Attempt Restrictions",
+      "correctAnswer": "b"
+    },
+    "04APU15": {
+      "explanation": "If a high oil temperature condition occurs while the aircraft is IN FLIGHT, the APU remains in operation. This is a critical design feature - the APU will NOT shut down automatically for high oil temperature in flight because it may be providing essential backup electrical power or bleed air. A caution message will display alerting the crew, but the APU continues to run. On the ground, the same condition would cause an automatic shutdown. This flight vs ground logic prioritizes maintaining power availability during flight operations.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - High Oil Temperature Logic (Flight Protection)",
+      "correctAnswer": "d"
+    },
+    "04APU10": {
+      "explanation": "Fuel is supplied to the APU by three possible sources: (1) Either left OR right AC boost pump when AC power is available - not just the left pump, (2) Suction feed if no AC power is available or the left engine is not operating - the APU's fuel control unit creates suction to draw fuel, (3) The left engine main ejector pump when the left engine is operating - this provides fuel pressure from engine operation. These three methods ensure the APU has fuel supply in all operating conditions.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - Fuel Supply Configuration",
+      "correctAnswer": "b,c,d"
+    },
+    "04APU08": {
+      "explanation": "The main purpose of the APU is to provide an alternate source of AC electrical power AND bleed air during ground and flight operations. The APU does NOT directly provide DC power - it provides AC power, which is then converted to DC by the aircraft's Transformer Rectifier Units (TRUs). The APU's two primary functions are: (1) supplying 3-phase AC electrical power (115 VAC, 400 Hz) to the aircraft electrical system, and (2) providing pneumatic bleed air for air conditioning, pressurization, and engine starting.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - Primary Functions and Purpose",
+      "correctAnswer": "a,c"
+    },
+    "04APU02": {
+      "explanation": "The APU air inlet door position AND APU performance parameters (such as RPM and exhaust gas temperature/EGT) are displayed on the STATUS synoptic page. This dedicated page shows APU operational status including door position (OPEN/CLOSED), RPM, EGT, oil pressure, oil temperature, and other key parameters. The STATUS page consolidates critical APU information for crew monitoring. The door position is specifically shown as either OPEN or CLOSED on this page.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - EICAS Display and STATUS Synoptic Page",
+      "correctAnswer": "a"
+    },
+    "04APU19": {
+      "explanation": "When a critical ECU fault occurs (such as loss of DC power to the ECU), the APU will shut down immediately whether on the ground OR in flight. Critical ECU faults are treated the same in both flight regimes because the ECU can no longer safely control the APU. Without ECU control, the APU cannot be safely operated. This is different from other faults like high oil temperature, which only cause shutdown on ground but not in flight. Critical ECU faults represent a complete loss of APU control capability.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - Critical ECU Fault Shutdown Logic",
+      "correctAnswer": "a"
+    },
+    "04APU03": {
+      "explanation": "The ECU commands an APU Built-In Test (BITE) when the APU rotary switch is in the START position for at least 3 seconds. During this time, the ECU performs a self-test to verify all APU systems are functioning properly before initiating the start sequence. The BITE test checks ECU functionality, sensors, and control systems. During the test, 'APU IN BITE' message displays on ED2 (EICAS Display 2). If the BITE test fails, the APU FAIL light illuminates and the start is aborted.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU Operations - BITE Test Initiation",
+      "correctAnswer": "c"
+    },
+    "04APU17": {
+      "explanation": "The ECU (Electronic Control Unit) is the component that controls and monitors the APU. The ECU provides complete automated control including: start sequence management, shutdown procedures, inlet door positioning, fuel flow control, monitoring of all APU parameters (temperature, pressure, speed), fault detection and protection, and automatic shutdown when necessary. The ECU is the 'brain' of the APU system. Other units mentioned (ECP is not a standard term, PFCC controls flight controls, FCU is Fuel Control Unit which is controlled BY the ECU).",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - Electronic Control Unit (ECU) Functions",
+      "correctAnswer": "b"
+    },
+    "04APU14": {
+      "explanation": "A failed/slow/hot/hung start will cause the APU to shutdown automatically on the ground OR in flight. These start abnormalities indicate the APU is not starting properly and continuing the start could cause damage. In contrast: low oil pressure causes shutdown on ground only (not in flight), excessive oil temperature causes shutdown on ground only (not in flight), and an APU fire causes automatic shutdown on ground only (not in flight). Failed starts are dangerous in both regimes and warrant immediate shutdown.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - Automatic Shutdown Conditions",
+      "correctAnswer": "c"
+    },
+    "04APU06": {
+      "explanation": "The APU can be started with three possible power sources: (1) External power - when ground AC power is connected, it powers the aircraft systems including APU start capability, (2) Both aircraft batteries - Battery 1 powers the ECU while Battery 2 powers the starter motor, (3) AC power through Transformer Rectifier Unit 3 (TRU 3) - when AC power is available (from external power or engine generators), TRU 3 converts it to DC for APU start. Battery 1 alone is insufficient - both batteries are needed if using battery power.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU Operations - Power Source Requirements for Starting",
+      "correctAnswer": "a,c,d"
+    },
+    "04APU04": {
+      "explanation": "The APU FAIL light illuminates for three conditions: (1) APU fire detection fails on the ground - indicates the fire detection system is not functioning, creating a safety hazard for unattended ground operations, (2) Failed start - indicates the APU did not start properly (slow start, hot start, hung start, or no start), (3) Failure of built-in-test (BITE) - indicates the ECU's self-test detected a fault before starting. Moving the rotary switch to OFF is a normal operation and does NOT illuminate the FAIL light - it's a commanded shutdown.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - FAIL Light Illumination Conditions",
+      "correctAnswer": "b,c,d"
+    },
+    "04APU13": {
+      "explanation": "When the APU rotary switch is placed to the START position for three seconds, the APU fuel shutoff valve opens. This is part of the start sequence preparation. During these initial 3 seconds, the ECU also performs a BITE test to verify system functionality. After the BITE test completes successfully and the fuel shutoff valve opens, the APU fuel pump is energized, the inlet door opens (on ground), and then the start sequence proceeds. The fuel shutoff valve opening is critical to allow fuel flow to the APU for combustion during start.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU Operations - Start Sequence Initiation",
+      "correctAnswer": "a"
+    },
+    "04APU20": {
+      "explanation": "APU oil quantity, pressure, and temperature values are displayed on the STATUS page (STATUS synoptic page). This page consolidates all APU performance parameters in one location, including oil system parameters, RPM, EGT (exhaust gas temperature), and inlet door position. While there is no dedicated 'APU synoptic page' on the A220, the STATUS page serves as the primary display for APU system monitoring. The HYD page shows hydraulic system information only, and INFO page shows different aircraft information.",
+      "source": "FCOM1 - APU System, SmartCockpit A220 APU Documentation",
+      "page": "APU System - Oil System Parameter Display on STATUS Page",
+      "correctAnswer": "b"
+    }
+  },
+  "sources": [
+    {
+      "name": "Airbus A220 Flight Crew Operating Manual Volume 1 (FCOM1)",
+      "reference": "A220-300_FCOM1.pdf",
+      "chapters": "APU System Description, APU Operations, APU Limitations"
+    },
+    {
+      "name": "Operations Manual Part B A220 TR027.6",
+      "reference": "Operations_Manual_Part_B_A220_TR027.6.pdf",
+      "chapters": "APU Operating Procedures and Limitations"
+    },
+    {
+      "name": "SmartCockpit - Airbus A220 APU Training",
+      "url": "https://www.smartcockpit.com/wp_quiz/airbus-a220-apu/",
+      "description": "Professional airline training guide for A220 APU system"
+    },
+    {
+      "name": "Aircraft Electrical Power Standards",
+      "description": "Industry standard specifications for aircraft AC power: 3-phase, 115 VAC, 400 Hz",
+      "references": "General aviation electrical system design standards"
+    }
+  ],
+  "summary": {
+    "totalQuestions": 20,
+    "keyTopics": [
+      "APU shutdown procedures and cooldown periods (60 seconds)",
+      "APU starting power requirements (TRU 3 or both batteries)",
+      "Electronic Control Unit (ECU) functions and control logic",
+      "APU electrical power output (3-phase, 400 Hz, 115 VAC)",
+      "APU fuel supply sources (AC boost pumps, suction feed, engine ejector)",
+      "APU automatic shutdown logic (different for ground vs flight)",
+      "APU start restrictions (3 attempts, 2 min cooling, 1 hour wait)",
+      "APU inlet door control by ECU",
+      "APU BITE test procedures",
+      "APU display locations (STATUS synoptic page)",
+      "Flight vs ground shutdown protection philosophy"
+    ],
+    "criticalConcepts": [
+      "Flight vs Ground Protection Logic: Many APU faults (high oil temp, low oil pressure, fire) only cause automatic shutdown on GROUND, not in flight. This protects backup power availability during flight. Only critical ECU faults and failed starts cause shutdown in both regimes.",
+      "Cooldown Period: 60-second cooldown when APU switch positioned to OFF, especially after bleed air use, protects APU from thermal stress.",
+      "Dual Battery Requirement: Both batteries needed for battery-only start - Battery 1 powers ECU, Battery 2 powers starter motor.",
+      "ECU Control: ECU certified for unattended ground operation, controlling all aspects from door position to shutdown.",
+      "AC Power Only: APU provides AC power (3-phase, 400 Hz, 115 VAC), not DC. TRUs convert APU AC to DC for aircraft systems."
+    ]
+  }
+}

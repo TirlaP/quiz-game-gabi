@@ -1,0 +1,137 @@
+{
+  "chapter": "Landing Gear",
+  "explanations": {
+    "14LDG20": {
+      "explanation": "The LGSCU (Landing Gear and Steering Control Unit) is the dedicated computer that commands and monitors all nosewheel steering functions. The EMAs are actuators that execute commands, while the LGSCU provides the control logic and monitoring. The FBW system provides steering inputs but the LGSCU controls the actual steering system.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "b"
+    },
+    "14LDG04": {
+      "explanation": "Pressing the guarded GEAR AURAL switch cancels the continuous 'GEAR' warning when attempting to land with gear not down and locked. This action illuminates the CNCL legend on the switch, mutes the aural warning, and displays a GEAR AURAL CNCL status message on the EICAS to inform the crew that the warning has been intentionally cancelled.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "a, b, c"
+    },
+    "14LDG15": {
+      "explanation": "When conditions are safe for towing (parking brake released and nosewheel steering OFF), the system indicates this through two indications: the TOW/NO TOW light indicator on the nose landing gear shows green, and the green TOW legend illuminates on the electrical towing service panel. These visual confirmations ensure ground crew can safely tow the aircraft.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "a, c"
+    },
+    "14LDG10": {
+      "explanation": "Fusible plugs are safety devices designed to prevent tire explosion due to overheating. The three fusible plugs on each MLG wheel are designed to melt at approximately 200°C, releasing tire pressure before the tire can fail catastrophically. This temperature threshold provides adequate protection while avoiding false activations during normal hot brake conditions.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "a"
+    },
+    "14LDG13": {
+      "explanation": "Each landing gear assembly is equipped with 4 proximity sensors to provide redundant position monitoring. These sensors detect and confirm gear position (up and locked, or down and locked) for system safety and to provide accurate indications to the crew on the EICAS and gear position indicators.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "d"
+    },
+    "14LDG11": {
+      "explanation": "The brake temperature monitoring system monitors TEMPERATURE, not tire pressure. This is a common misconception - while the MLG wheel wells do have a brake temperature monitoring system, tire pressure information is provided by separate tire pressure sensors, not the brake temperature system. Each system serves a distinct function.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "b"
+    },
+    "14LDG03": {
+      "explanation": "When the guarded ALTN GEAR switch is set to DN position, it initiates the alternate landing gear extension system. This action releases the landing gear uplocks, allowing the gear to free-fall and extend by gravity. Simultaneously, an ALTN GEAR DN status message displays on the EICAS to inform the crew that alternate extension is in progress.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "b, c"
+    },
+    "14LDG02": {
+      "explanation": "During normal gear retraction, hydraulic pressure performs three sequential functions: First, it unlocks the downlocks that hold the gear in the extended position. Second, it powers the actuators to pull the main landing gear inward and the nose landing gear forward into the wheel wells. Third, once the gear reaches the up position, hydraulic pressure locks the gear up via uplocks, and then pressure is removed as the mechanical locks hold the gear without continuous hydraulic pressure.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "a, b, c"
+    },
+    "14LDG18": {
+      "explanation": "The derotation function is a braking protection feature that limits braking force after main wheel touchdown when the nose gear is still in the air. This prevents excessive braking that could cause premature or hard nose gear touchdown, ensuring a controlled landing sequence and preventing damage to the nose landing gear.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "a"
+    },
+    "14LDG14": {
+      "explanation": "During normal landing gear extension, the ALTN GEAR DN advisory message appearing on the EICAS indicates that the automatic dormancy check of the alternate extension system is in progress. This is a normal, automatic test that verifies the alternate gear extension system remains functional and ready for use if needed. It is not an indication of a problem with normal extension.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "d"
+    },
+    "14LDG21": {
+      "explanation": "The guarded ALTN GEAR switch in the DN position is specifically designed to release the landing gear uplocks, allowing the gear to free-fall and extend by gravity. This is the alternate/emergency extension method used when normal hydraulic extension is not available. The landing gear lever DN position uses normal hydraulic extension, not free-fall.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "c"
+    },
+    "14LDG16": {
+      "explanation": "The A220 features an advanced electric brake system consisting of electromechanical actuators (EMAs) and carbon brake stacks. This represents a departure from traditional hydraulic brake systems, offering improved efficiency, reduced weight, and better control. The carbon brake stacks provide excellent heat dissipation and wear characteristics.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "a"
+    },
+    "14LDG08": {
+      "explanation": "In alternate braking mode, no automatic protections are available. This means functions like antiskid, derotation, touchdown protection, and locked wheel protection are all unavailable. Pilots must apply brakes carefully and manually to prevent wheel lockup and maintain directional control, as they would in a conventional brake system without protections.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "c"
+    },
+    "14LDG07": {
+      "explanation": "Landing gear retraction braking is the specific protection function that automatically stops the main wheels from rotating during gear retraction. This prevents the wheels from spinning in the wheel wells, which could cause damage to the gear, wheel well structure, and surrounding components. The braking is applied automatically as part of the retraction sequence.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "c"
+    },
+    "14LDG17": {
+      "explanation": "The landing gear retraction sequence on the A220 is designed for optimal aerodynamics and space efficiency. The main landing gear is pulled inward toward the fuselage centerline, while the nose landing gear is pulled forward into the nose wheel well. This retraction pattern allows the gear to fit efficiently into the aircraft structure.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "b"
+    },
+    "14LDG19": {
+      "explanation": "The A220 features electric brakes on the main landing gear, utilizing electromechanical actuators instead of traditional hydraulic brakes. However, the nose landing gear steering system uses hydraulic pressure (from Hydraulic System 2) to actuate the steering mechanism, providing the force needed to turn the nose wheels during ground operations.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "a"
+    },
+    "14LDG12": {
+      "explanation": "The antiskid protection system operates across a wide speed range from 10 knots up to 204 knots. Below 10 knots, antiskid is automatically deactivated as wheel speed becomes too slow for effective antiskid operation. The 204-knot upper limit covers all normal landing and rejected takeoff scenarios, providing protection throughout the critical braking phases.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "a"
+    },
+    "14LDG22": {
+      "explanation": "The autobrake function provides automatic braking in two scenarios: after landing (when armed) and during a rejected takeoff (RTO). When armed and activated, the autobrake system automatically applies brakes at a predetermined rate, allowing the pilot to focus on directional control and other tasks. This is distinct from protection functions like derotation or touchdown protection, which limit or modulate braking force.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "c"
+    },
+    "14LDG05": {
+      "explanation": "The main landing gear (MLG) is equipped with electric brakes on each wheel, utilizing electromechanical actuators and carbon brake stacks. The system also includes parking brake functionality, which can be engaged to hold the aircraft stationary on the ground. The parking brake works through the electric brake system to maintain brake application without continuous pilot input.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "a"
+    },
+    "14LDG09": {
+      "explanation": "The autobrake function activates in two primary situations: during a rejected takeoff when speed exceeds 60 kt (with RTO mode armed), and at touchdown during landing (with landing autobrake mode armed). During RTO, the 60-kt threshold ensures autobrake only activates when aircraft speed is high enough to require automated braking assistance. At touchdown, wheel spin-up signals autobrake activation.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "b, d"
+    },
+    "14LDG01": {
+      "explanation": "The nosewheel steering system is powered by Hydraulic System No. 2 on the A220. This hydraulic pressure actuates the steering mechanism, providing the force necessary to turn the nose wheels during taxi, takeoff, and landing rollout. The hydraulic system provides reliable, powerful steering control for ground operations.",
+      "source": "FCOM1",
+      "page": "14-31-00",
+      "correctAnswer": "a"
+    },
+    "14LDG06": {
+      "explanation": "Electric brakes are installed on each wheel of the main landing gear. Each MLG wheel has its own electromechanical actuator (EMA) that controls the brake for that specific wheel. This provides independent braking control for each wheel, enabling advanced features like antiskid protection and optimal brake force distribution across all main gear wheels.",
+      "source": "FCOM1",
+      "page": "14-32-00",
+      "correctAnswer": "a"
+    }
+  }
+}

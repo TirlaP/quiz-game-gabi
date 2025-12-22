@@ -1,0 +1,173 @@
+{
+  "chapter": "Navigation",
+  "explanations": {
+    "16NAV01": {
+      "explanation": "The standby navigation display on the CTP is designed with automatic fallback logic. It primarily displays navigation data from the onside (same side) FMS for normal operations. If the onside FMS becomes unavailable or fails, the system automatically switches to display cross-side FMS data, ensuring continuous navigation capability.",
+      "source": "FCOM1 - Navigation Systems",
+      "page": "Navigation Display Systems section",
+      "correctAnswer": "a"
+    },
+    "16NAV02": {
+      "explanation": "The TUNE page for display tuning can be accessed through multiple methods to provide operational flexibility. Pilots can access it by pressing the CNS QAK (Quick Access Key) on the MKPs (Multifunction Keyboard Panels), pressing the CNS pushbutton on the CTPs (Control Tuning Panels), or through the MENU pushbutton on the CCPs (Cursor Control Panels) and selecting CNS.",
+      "source": "FCOM1 - CNS Controls",
+      "page": "Control Tuning Panel section",
+      "correctAnswer": "a, b, c"
+    },
+    "16NAV03": {
+      "explanation": "The nav-to-nav preview function displays localizer data on the HSI when two conditions are met: a localizer-based approach must be selected in the FMS (ensuring the system knows which approach to preview), and the aircraft must be within 31 nm of the destination airport (the range limit for preview functionality). This allows pilots to preview the approach before actually intercepting it.",
+      "source": "FCOM1 - Navigation Preview",
+      "page": "Nav-to-Nav Functions section",
+      "correctAnswer": "a, b"
+    },
+    "16NAV04": {
+      "explanation": "The NAV SRC button on the left CTP cycles through navigation sources in a specific sequence: Onside FMS, Onside VHF NAV, Cross-side FMS, Cross-side VHF NAV. This sequence starts with the primary navigation source (onside FMS) and progresses through available alternatives in order of priority and redundancy.",
+      "source": "FCOM1 - Navigation Source Selection",
+      "page": "CTP Navigation Controls section",
+      "correctAnswer": "d"
+    },
+    "16NAV05": {
+      "explanation": "The GNSS tab displays three key pieces of information: the direction and distance between FMS position and calculated GNSS position (showing any position offset), the number of satellites being tracked by GNSS 1 and GNSS 2 (indicating signal quality), and the individual GNSS 1 and GNSS 2 positions. The blended position solution is calculated internally but not displayed on this tab.",
+      "source": "FCOM1 - GNSS Systems",
+      "page": "FMS POS Page section",
+      "correctAnswer": "a, b, d"
+    },
+    "16NAV06": {
+      "explanation": "The A220 has three IRS units providing redundancy. When the onside IRS fails and IRS 3 is not available, the system automatically uses the cross-side IRS to maintain attitude and navigation data. This automatic switching ensures continuous operation without pilot intervention.",
+      "source": "FCOM1 - IRS Architecture",
+      "page": "IRS Redundancy section",
+      "correctAnswer": "a"
+    },
+    "16NAV07": {
+      "explanation": "When an IRS is in normal operating mode and fully functional, the IRS tab of the FMS POS page displays 'NAVIGATION' to indicate that the system is providing navigation data. This distinguishes it from other modes like alignment or attitude-only mode. The term 'NAVIGATION' confirms full IRS capability including position, velocity, attitude, and heading.",
+      "source": "FCOM1 - IRS Modes",
+      "page": "IRS Status Indications section",
+      "correctAnswer": "b"
+    },
+    "16NAV08": {
+      "explanation": "The GNSS computed position is displayed in two locations on the FMS: on the FMS tab of the FMS POS page (showing the FMS's blended position using GNSS data) and on the GNSS tab of the FMS POS page (showing the raw GNSS calculated positions from GNSS 1 and GNSS 2). This allows pilots to compare the FMS position with raw GNSS data.",
+      "source": "FCOM1 - GNSS Display",
+      "page": "FMS Position Pages section",
+      "correctAnswer": "b, d"
+    },
+    "16NAV09": {
+      "explanation": "When the IDENT pushbutton on the CTP is pressed, it triggers the transponder identification function which produces two visual indications: a cyan IDENT message displays on the TUNE page, and a cyan ID message displays on the CTP itself. These cyan indications confirm to the pilot that the IDENT signal is being transmitted to ATC for approximately 18 seconds.",
+      "source": "FCOM1 - Transponder Controls",
+      "page": "XPDR/TCAS Controls section",
+      "correctAnswer": "b, d"
+    },
+    "16NAV10": {
+      "explanation": "To access the transponder control page on the CTP, the LSK (Line Select Key) adjacent to the transponder code must be pressed twice. The first press selects the field, and the second press opens the full XPDR/TCAS CONTROL page for detailed transponder and TCAS settings.",
+      "source": "FCOM1 - CTP Operations",
+      "page": "Transponder Page Access section",
+      "correctAnswer": "a"
+    },
+    "16NAV11": {
+      "explanation": "A TCAS system test can be initiated from three different locations: the XPDR/TCAS CONTROL page of the CTP, the XPDR/TCAS CONTROL window, and the AVIO tab of the AVIONIC synoptic page. This multiple access design ensures pilots can test the TCAS system through various cockpit interfaces depending on operational needs.",
+      "source": "FCOM1 - TCAS Testing",
+      "page": "TCAS Test Procedures section",
+      "correctAnswer": "a, b, c"
+    },
+    "16NAV12": {
+      "explanation": "When traffic becomes a collision threat to the aircraft, TCAS issues a Resolution Advisory (RA). This is the highest level of TCAS warning, providing specific vertical guidance (e.g., 'CLIMB' or 'DESCEND') to avoid the conflicting traffic. RAs require immediate pilot response, unlike Traffic Advisories (TA) which are informational only.",
+      "source": "FCOM1 - TCAS Advisories",
+      "page": "TCAS Alert Levels section",
+      "correctAnswer": "c"
+    },
+    "16NAV13": {
+      "explanation": "TAWS displays terrain on the MAP or PLAN pages of the MFW through two methods: by selecting TERRAIN from the OVLY (overlay) menu, or by pressing the TERR pushbutton on the CTP. Both methods enable the terrain display overlay on the navigation display, showing terrain elevation relative to aircraft altitude.",
+      "source": "FCOM1 - TAWS Display",
+      "page": "TAWS Controls section",
+      "correctAnswer": "a, c"
+    },
+    "16NAV14": {
+      "explanation": "The 'SINK RATE' aural alert is initiated when the rate of descent is excessive for the current altitude above terrain. TAWS monitors the descent rate and compares it to the radio altitude, triggering this alert when the sink rate could result in controlled flight into terrain if not corrected. This is part of TAWS Mode 1 protection.",
+      "source": "FCOM1 - TAWS Alerts",
+      "page": "TAWS Mode 1 section",
+      "correctAnswer": "a"
+    },
+    "16NAV15": {
+      "explanation": "The terrain clearance floor function is primarily used around the landing airport. It establishes a minimum terrain clearance envelope during approach and landing phases, providing enhanced terrain awareness in the critical airport environment where terrain proximity is expected and normal TAWS alerts would be nuisance warnings.",
+      "source": "FCOM1 - TAWS Functions",
+      "page": "Terrain Clearance Floor section",
+      "correctAnswer": "b"
+    },
+    "16NAV16": {
+      "explanation": "The TAWS test is initiated by selecting the TAWS soft key on the AVIO (Avionics) tab. The AVIO tab provides access to avionics system tests including TCAS, TAWS, and other avionic systems. This centralized location allows pilots to verify proper TAWS operation during preflight checks.",
+      "source": "FCOM1 - TAWS Test",
+      "page": "Avionics Test Procedures section",
+      "correctAnswer": "c"
+    },
+    "16NAV17": {
+      "explanation": "When operating in automatic mode, the WXR (weather radar) system automatically displays significant weather imagery at all aircraft altitudes without requiring manual gain or tilt adjustment. The system uses sophisticated algorithms to optimize the antenna tilt and receiver gain based on altitude, ensuring optimal weather detection throughout the flight profile.",
+      "source": "FCOM1 - Weather Radar Modes",
+      "page": "WXR Automatic Mode section",
+      "correctAnswer": "a"
+    },
+    "16NAV18": {
+      "explanation": "The weather radar image can be displayed on the MFW through two methods: by selecting WX from the OVLY (overlay) menu on the MAP or PLAN page, or by pressing the WX pushbutton on the CTP. Both methods enable the weather radar overlay on the navigation display. The image does not display automatically and requires pilot selection.",
+      "source": "FCOM1 - WXR Display Controls",
+      "page": "Weather Radar Display section",
+      "correctAnswer": "a, c"
+    },
+    "16NAV19": {
+      "explanation": "The path attenuation compensation (PAC) function is only available in AUTO mode, not in MAN (manual) mode. PAC automatically compensates for radar signal attenuation caused by heavy precipitation between the aircraft and more distant weather, ensuring accurate weather intensity displays. Manual mode disables this automatic compensation.",
+      "source": "FCOM1 - WXR Features",
+      "page": "Path Attenuation Compensation section",
+      "correctAnswer": "b"
+    },
+    "16NAV20": {
+      "explanation": "To optimize gain settings and weather returns in automatic operating mode, the WXR system compensates for variations in time of day and altitude (affecting atmospheric conditions), temperature (affecting water content and reflectivity), and geographic location (affecting typical weather patterns and radar propagation). Antenna tilt angle error is corrected separately and is not part of the gain optimization.",
+      "source": "FCOM1 - WXR Automatic Mode",
+      "page": "Automatic Gain Control section",
+      "correctAnswer": "a, b, c"
+    },
+    "16NAV21": {
+      "explanation": "During a TAWS alert, the WXR image is removed from the display. This design prioritizes terrain awareness during critical terrain proximity situations by eliminating weather overlay clutter and ensuring pilots focus on the terrain threat. Once the TAWS alert is resolved, the weather radar image can be displayed again.",
+      "source": "FCOM1 - TAWS Display Priority",
+      "page": "Display Management section",
+      "correctAnswer": "a"
+    },
+    "16NAV22": {
+      "explanation": "The WX radar system is able to detect turbulence up to 40 nm ahead of the aircraft. This turbulence detection range is less than the maximum weather detection range because turbulence detection relies on detecting very small variations in the radar return (wind shear and velocity changes) which requires stronger signal strength than conventional precipitation detection.",
+      "source": "FCOM1 - WXR Capabilities",
+      "page": "Turbulence Detection section",
+      "correctAnswer": "c"
+    },
+    "16NAV23": {
+      "explanation": "In case of LOC, VOR, or GS failure, two indications appear on the PFD: the course pointers and deviation bar are removed (eliminating potentially misleading information), and LOC, VOR, or GS failure flags come on (alerting the pilot to the specific system failure). This clear indication prevents pilots from inadvertently using invalid navigation guidance.",
+      "source": "FCOM1 - Navigation Failures",
+      "page": "VHF NAV Failure Indications section",
+      "correctAnswer": "a, c"
+    },
+    "16NAV24": {
+      "explanation": "IRS alignment in motion starts after an in-flight power interruption when aircraft speed is above 30 kt. This feature allows the IRS to realign while the aircraft is moving, using GPS position updates and motion sensing. The 30 kt threshold ensures sufficient aircraft motion for accurate alignment algorithms while preventing nuisance alignments during ground taxi.",
+      "source": "FCOM1 - IRS Alignment",
+      "page": "Alignment in Motion section",
+      "correctAnswer": "a"
+    },
+    "16NAV25": {
+      "explanation": "This is an image-based question where pilots must identify the tuned localizer frequency from a display. Based on the correct answer being 111.95 MHz, this frequency would be displayed in the navigation frequency field, typically showing the active LOC frequency tuned for the approach. Localizer frequencies are in the VHF range 108.00-111.95 MHz with odd decimal values.",
+      "source": "FCOM1 - Navigation Display",
+      "page": "VHF NAV Frequency Display section",
+      "correctAnswer": "c"
+    },
+    "16NAV26": {
+      "explanation": "The navigation source for the standby navigation display on the CTP is the onside FMS. This ensures that the standby display shows navigation data from the pilot's own FMS, maintaining consistency with the pilot's primary navigation source. The standby display provides backup navigation capability if the main displays fail.",
+      "source": "FCOM1 - Standby Navigation",
+      "page": "CTP Standby Display section",
+      "correctAnswer": "b"
+    },
+    "16NAV27": {
+      "explanation": "When the GNSS checkboxes are selected on the GNSS tab, it indicates that GNSSs are available for navigation. The checkboxes show that both GNSS 1 and GNSS 2 are operational and providing valid position data to the FMS. The FMS then blends this GNSS data with IRS data for the computed FMS position used for navigation.",
+      "source": "FCOM1 - GNSS Configuration",
+      "page": "GNSS Availability section",
+      "correctAnswer": "a"
+    },
+    "16NAV28": {
+      "explanation": "During a TCAS system test, the cyan IN PROG (in progress) message displays on the AVIONIC page. This indication shows that the TCAS self-test is currently running and performing internal checks of the system components. The cyan color indicates an active test in progress, distinguishing it from normal operation or failure indications.",
+      "source": "FCOM1 - TCAS Test Indications",
+      "page": "AVIONIC Page section",
+      "correctAnswer": "d"
+    }
+  }
+}

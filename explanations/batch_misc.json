@@ -1,0 +1,42 @@
+{
+  "03AFL05": {
+    "explanation": "The overspeed flight guidance function has two key characteristics: First, if the flight director (FD) was previously selected OFF, the FD cue automatically appears to provide pitch guidance when overspeed protection activates, helping the pilot reduce airspeed. Second, the overspeed flight guidance activates specifically when operating in vertical flight modes including FPA (Flight Path Angle), FLC (Flight Level Change), VS (Vertical Speed), and their corresponding VNAV modes. The overspeed protection is designed to prevent exceeding aircraft speed limitations by providing immediate visual guidance. Note that the autopilot and autothrottle are NOT automatically engaged when overspeed protection activates - only the FD cue appears to guide the pilot. The correct answers are options a and b.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "03-02-37"
+      }
+    ]
+  },
+  "22FMS02": {
+    "explanation": "The slave FMS performs three essential functions in the A220's dual FMS architecture: First, it allows pilots to input data - flight plans, performance data, and other information can be entered through either the master or slave FMS. Second, it maintains a real-time copy of the master FMS data, ensuring both systems have identical information for redundancy and cross-checking. Third, it displays data on the associated display screens, providing pilots with navigation, performance, and flight planning information. The slave FMS does NOT operate independently of the master FMS - they work in a coordinated master/slave relationship where the slave mirrors the master's data. This architecture provides redundancy while preventing conflicting information between the two systems. Either FMS can serve as master or slave, with automatic or manual switchover capability. The correct answers are options a, b, and d.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "22-01-02 to 22-01-05"
+      }
+    ]
+  },
+  "11FUE05": {
+    "explanation": "The motive flow ejector pumps normally distribute fuel to the engines once the engines are operating. These ejector pumps are powered by motive flow from the Engine-Driven Pumps (EDPs). When an engine is running, the EDP (mechanically driven by the engine gearbox) produces high-pressure fuel that flows through the main ejector pump. This high-pressure motive flow creates a venturi effect in the ejector pump, which draws fuel from the collector tank and delivers it to the engine at the required pressure and flow rate. The ejector pump system is the primary fuel distribution method during normal engine operation. The other options serve different purposes: flapper check valves prevent backflow and crossfeed, NACA scoops are part of the fuel tank venting system, and AC boost pumps serve as backup pumps that automatically activate if the ejector pumps fail or during specific operations like engine start, crossfeed, or APU operation. The correct answer is option d.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "11-02-05 to 11-02-08"
+      }
+    ]
+  },
+  "SERV05": {
+    "explanation": "The statement is FALSE. EMER DEPRESS does NOT need to be selected ON before leaving the flight deck to avoid cabin pressurization during ground operations with external air conditioning. The aircraft's pressurization system has automatic protections to prevent inadvertent cabin pressurization on the ground. The pressurization controller monitors weight-on-wheels and door position sensors - when the aircraft is on the ground or doors are open, the system automatically positions the Outflow Valve (OFV) to prevent cabin pressurization, even with external air connected. The EMER DEPRESS switch is a guarded emergency control used only in specific emergency situations (such as smoke/fumes removal or rapid depressurization) or certain maintenance procedures - it is NOT a routine ground operations control. Selecting EMER DEPRESS ON unnecessarily would open the OFV and interfere with normal air conditioning operation. The aircraft's automatic protections make this manual intervention unnecessary for normal ground operations. The correct answer is option b (False).",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "02-04-05 to 02-04-07"
+      },
+      {
+        "pdf": "Operations Manual Part B",
+        "page": "Normal Procedures - Ground Operations"
+      }
+    ]
+  }
+}

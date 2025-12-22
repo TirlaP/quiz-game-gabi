@@ -1,0 +1,221 @@
+{
+  "chapter": "Doors",
+  "questions": [
+    {
+      "code": "06DRS02",
+      "question": "The CKPT DOOR EMER ACCESS warning message on the EICAS indicates an emergency request from the cabin.",
+      "correctAnswer": "a",
+      "correctAnswerText": "True",
+      "explanation": "The CKPT DOOR EMER ACCESS warning message on the EICAS is specifically designed to alert flight crew when an emergency access request is made from the cabin. When cabin crew enter the emergency access code on the keypad, this warning message displays on the EICAS, accompanied by visual and audio alerts including a tone that sounds for 30-60 seconds and the EMER ACCESS switch/light DENY illuminating red on the COCKPIT DOOR panel. This system is part of the reinforced cockpit door security protocol implemented across modern commercial aircraft including the A220."
+    },
+    {
+      "code": "06DRS16",
+      "question": "What is the condition of a cargo door if the mechanical visual indicator colour is red?",
+      "correctAnswer": "d",
+      "correctAnswerText": "Cargo door is unlocked",
+      "explanation": "The cargo door mechanical visual indicator uses a color-coded system where RED indicates the door is UNLOCKED (unsafe condition), and GREEN indicates the door is LOCKED (safe condition). This visual indicator is located on the outside of each cargo door and provides immediate visual confirmation of door status. When the door locking handle is lifted and the door is unlocked, the indicator displays red. This system allows ground crew and flight crew to quickly verify cargo door status during preflight inspections and confirms proper door security before flight."
+    },
+    {
+      "code": "06DRS12",
+      "question": "According to the DOOR synoptic page shown below, what is the status of the engines and doors?",
+      "correctAnswer": "d",
+      "correctAnswerText": "Engines are not running, with doors opened, except overwing emergency exit doors",
+      "explanation": "The DOOR synoptic page displays comprehensive door status information in a graphical format. In this scenario, the synoptic page shows the engines are not running (no engine indication), most doors are open (shown by specific door symbols), but the overwing emergency exit doors remain closed. The overwing exits are depicted separately from main passenger and service doors on the synoptic display. This configuration is typical during ground operations when aircraft is being serviced, with passenger doors open for boarding/deplaning while overwing emergency exits remain secured."
+    },
+    {
+      "code": "06DRS04",
+      "question": "A small mechanical indicator, located on the outside of each cargo door, provides a visual indication of the status of the door.",
+      "correctAnswer": "a",
+      "correctAnswerText": "True",
+      "explanation": "Each cargo door on the A220 is equipped with a small mechanical visual indicator located on the outside/exterior of the door above the vent panel. This indicator provides immediate visual confirmation of the door's lock status through a color-coded system (green for locked, red for unlocked). This mechanical indicator is independent of electrical systems and allows ground crew and flight crew to verify cargo door security during walk-around inspections without requiring cockpit instrumentation or electrical power."
+    },
+    {
+      "code": "06DRS08",
+      "question": "The overwing escape slides are always armed and deploy automatically when respective overwing emergency exit door is opened.",
+      "correctAnswer": "a",
+      "correctAnswerText": "True",
+      "explanation": "The A220 overwing emergency exits feature escape slides that are permanently armed and will automatically deploy when the overwing emergency exit door is opened. Unlike main passenger and service doors which have manual arming/disarming controls (mode select handles), the overwing exit slides are designed to deploy automatically to ensure rapid evacuation capability. According to EASA CS-25 requirements, for overwing exits where the wing is above 1.8m (6 ft), a slide or equivalent egress system must be provided, and slides must be automatically deployed during the interval between when the exit opening means is actuated and when the exit is fully opened."
+    },
+    {
+      "code": "06DRS14",
+      "question": "To accept an emergency access request, the flight crew must press the UNLOCK switch on the:",
+      "correctAnswer": "d",
+      "correctAnswerText": "COCKPIT DOOR panel",
+      "explanation": "The UNLOCK switch for accepting emergency access requests is located on the COCKPIT DOOR panel on the flight deck pedestal. When an emergency access request is initiated from the cabin (via the keypad emergency code), flight crew can respond using controls on this dedicated panel. The panel includes the UNLOCK switch/light for granting access and the EMER ACCESS DENY switch/light for denying access. The flight crew has 30 seconds to respond; if they press UNLOCK, the door unlocks for entry. This centralized COCKPIT DOOR panel provides flight crew with direct control over cockpit access in accordance with security protocols."
+    },
+    {
+      "code": "06DRS06",
+      "question": "The status of the equipment bay doors displays on the DOOR synoptic page and on the EICAS (caution message if relevant).",
+      "correctAnswer": "a",
+      "correctAnswerText": "True",
+      "explanation": "Equipment bay door status is monitored and displayed in two locations: on the DOOR synoptic page (accessed via the Multifunction Window) and on the EICAS when caution messages are triggered. The A220 has three equipment bay doors (forward, mid, and aft) located in the lower fuselage. If an equipment bay door is not properly closed and locked, this information displays on the DOOR synoptic page graphically, and EICAS will generate a caution message to alert the flight crew. This dual indication system ensures flight crew awareness of all door statuses affecting aircraft pressurization and safety."
+    },
+    {
+      "code": "06DRS07",
+      "question": "How will the flight crew check that the flight crew emergency exit hatch is locked?",
+      "correctAnswer": "c",
+      "correctAnswerText": "By checking visually two mechanical latch indicators which should be green",
+      "explanation": "The A220 flight crew emergency exit hatch (cockpit escape hatch) lock status is verified through visual inspection of two mechanical latch indicators. When the hatch is properly locked, both mechanical latch indicators display GREEN, confirming secure latching. This is a purely mechanical/visual indication system without EICAS or DOOR synoptic page representation. The flight crew must physically look at the hatch to verify the green indicators during preflight checks. The A220 features this cockpit escape hatch (inherited from Bombardier's design) to provide an additional escape path for pilots if the cockpit door becomes blocked or jammed during an emergency."
+    },
+    {
+      "code": "06DRS10",
+      "question": "Flight crew received emergency access request from cabin. Choose correct statements:",
+      "correctAnswer": ["c", "d"],
+      "correctAnswerText": ["If no response from flight crew within 30 sec, the door unlocks automatically for 5 sec", "If access was denied within 30 sec, any subsequent emergency access request will be inhibited for 30 min"],
+      "explanation": "The A220 cockpit door emergency access system operates with specific timing parameters: (1) When cabin crew enter the emergency access code, flight crew have 30 SECONDS to respond. If no action is taken within these 30 seconds, the door automatically unlocks for 5 SECONDS to allow entry. (2) If flight crew actively DENY the access request (by pressing the DENY button on the COCKPIT DOOR panel) within those 30 seconds, the door locks and the emergency access system is INHIBITED FOR 30 MINUTES - meaning no subsequent emergency access requests can be made during this period. This 30-minute inhibit period is a security feature to prevent repeated unauthorized access attempts after flight crew has made a conscious decision to deny entry."
+    },
+    {
+      "code": "06DRS11",
+      "question": "Which aircraft doors are located in the lower fuselage?",
+      "correctAnswer": "a",
+      "correctAnswerText": "FWD/AFT Equipment bay doors",
+      "explanation": "The equipment bay doors (Forward/Mid/Aft) are located in the lower fuselage of the A220. These doors provide access to the aircraft's electronic equipment bays and avionics compartments beneath the cabin floor. In contrast, cargo doors are typically mid-fuselage level, overwing emergency exits are at passenger cabin level aligned with the wing, and service doors are also at cabin level. The three equipment bay doors serve different compartments with the forward and mid doors being plug-type pressure doors, while the aft equipment bay door is non-plug type."
+    },
+    {
+      "code": "06DRS17",
+      "question": "Which out of three equipment bay doors are plug-type pressure doors?",
+      "correctAnswer": "a",
+      "correctAnswerText": "Forward and mid",
+      "explanation": "Of the A220's three equipment bay doors (forward, mid, and aft), the FORWARD and MID equipment bay doors are PLUG-TYPE PRESSURE DOORS. Plug-type doors feature a wedge-like design that seals themselves when interior pressure differs from exterior pressure - the cabin pressure differential forces the door against its frame, creating a secure seal. These doors move inward first before rotating out, and cannot open with pressure differential present. The aft equipment bay door is not a plug-type door. This design configuration protects critical pressurized areas while allowing the aft bay door to use a simpler, lighter design for non-pressurized compartment access."
+    },
+    {
+      "code": "06DRS03",
+      "question": "Where does the slide status of the passenger and service doors display?",
+      "correctAnswer": "d",
+      "correctAnswerText": "Cabin management system (CMS), EICAS, and DOOR synoptic page",
+      "explanation": "The evacuation slide arming status for passenger and service doors is displayed in THREE locations on the A220: (1) CABIN MANAGEMENT SYSTEM (CMS) - provides cabin crew with slide status information on their panels; (2) EICAS - displays advisory messages and warnings related to slide arming status for flight crew monitoring; and (3) DOOR SYNOPTIC PAGE - shows graphical representation of each door and its associated slide armed/disarmed status accessed via the Multifunction Window. This triple redundancy ensures both flight crew and cabin crew have complete awareness of evacuation slide readiness, critical for both ground operations (preventing inadvertent deployments) and emergency situations (confirming slides are armed for evacuation)."
+    },
+    {
+      "code": "06DRS05",
+      "question": "According to the DOOR synoptic page, what is the door and slide status?",
+      "correctAnswer": "c",
+      "correctAnswerText": "Doors closed, slides armed",
+      "explanation": "This question requires interpreting the DOOR synoptic page image. The synoptic page displays door symbols with specific indications: doors shown with closed symbols indicate all doors are secured/closed, and slide status indications (typically showing armed status through specific symbology such as white 'SLIDE' labels or specific color coding) confirm the evacuation slides are armed. This configuration represents the normal status for flight - all doors must be closed and locked, and slides must be armed before departure to ensure immediate evacuation capability if needed. The DOOR synoptic page provides this comprehensive status at a glance for flight crew verification."
+    },
+    {
+      "code": "06DRS13",
+      "question": "Which indication confirms the cargo door is closed and locked?",
+      "correctAnswer": "b",
+      "correctAnswerText": "Green mechanical indicator located above the vent panel on the cargo door",
+      "explanation": "The definitive confirmation that a cargo door is properly closed and locked is the GREEN MECHANICAL INDICATOR located above the vent panel on the exterior of the cargo door. This green indicator is visible during walk-around inspections and provides positive mechanical confirmation (independent of electrical systems) that all locking mechanisms are engaged. The indicator changes from red (unlocked) to green (locked) when the door is properly secured. While EICAS may display messages if a door is NOT secured, it does not provide positive 'green' confirmation of proper locking - the mechanical green indicator is the primary verification method used during preflight checks."
+    },
+    {
+      "code": "06DRS01",
+      "question": "When emergency access to the flight deck is requested, the following audio and visual signals are triggered:",
+      "correctAnswer": ["a", "b", "c"],
+      "correctAnswerText": ["Tone alert sounds for 30 to 60 seconds", "EMER ACCESS switch/light DENY on the COCKPIT DOOR panel illuminates red", "CKPT DOOR EMER ACCESS warning message displays on EICAS page"],
+      "explanation": "When cabin crew initiate an emergency access request to the flight deck (by entering the emergency code on the cabin keypad), THREE specific alerts are triggered simultaneously: (1) TONE ALERT sounds for 30-60 seconds in the cockpit - this extended audible warning ensures flight crew awareness even if not actively monitoring displays; (2) EMER ACCESS switch/light DENY on the COCKPIT DOOR panel illuminates RED - providing immediate visual indication on the door control panel and identifying which control to use if denying access; (3) CKPT DOOR EMER ACCESS warning message displays on the EICAS page - formal alerting system notification. Note that a regular doorbell tone is only 5 seconds and occurs for normal (non-emergency) access requests - emergency requests trigger the longer 30-60 second tone alert."
+    },
+    {
+      "code": "06DRS15",
+      "question": "Opening a passenger or service door from outside with Evacuation Slide Mode Select Handle in ARM position:",
+      "correctAnswer": "d",
+      "correctAnswerText": "automatically designates the girt bar, preventing deployment of the escape slide",
+      "explanation": "The A220 passenger and service doors feature an automatic disarming mechanism when opened from the OUTSIDE, even with the Mode Select Handle in the ARM position. When the external handle is operated to open an armed door, the system automatically disengages (designates) the girt bar, which disconnects the slide pack from the door, thereby PREVENTING inadvertent slide deployment. This safety feature protects against costly and dangerous slide deployments during ground operations when doors are opened by ground crew or when passengers/crew open doors from outside after landing. The girt bar disconnection happens automatically - no manual intervention is required. However, opening the same door from INSIDE while armed WILL cause slide deployment, as this indicates an emergency evacuation scenario."
+    },
+    {
+      "code": "06DRS09",
+      "question": "Which colour of small mechanical indicator on the cargo door will you see if door is not locked?",
+      "correctAnswer": "b",
+      "correctAnswerText": "red",
+      "explanation": "The cargo door mechanical visual indicator displays RED when the door is NOT LOCKED (unlocked/unsafe condition). This color-coded system provides immediate visual status: RED = UNLOCKED/UNSAFE and GREEN = LOCKED/SAFE. When ground crew or pilots perform walk-around inspections, seeing red on any cargo door indicator immediately signals that the door requires attention and must be properly secured before flight. The red indication appears when the door locking handle is not fully engaged or when locking mechanisms have not properly seated. Only when the door is completely closed and all locks are engaged will the indicator show green."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Engine Indicating and Crew Alerting System (EICAS)",
+      "url": "https://skybrary.aero/articles/engine-indicating-and-crew-alerting-system-eicas",
+      "relevance": "EICAS system overview and functionality on A220"
+    },
+    {
+      "title": "Why Does The Airbus A220 Have A Cockpit Escape Hatch?",
+      "url": "https://simpleflying.com/airbus-a220-cockpit-escape-hatch-guide/",
+      "relevance": "A220 cockpit escape hatch design and purpose"
+    },
+    {
+      "title": "Cockpit door lock auto-unlock is no surprise",
+      "url": "https://www.pentestpartners.com/security-blog/cockpit-door-lock-auto-unlock-is-no-surprise/",
+      "relevance": "Cockpit door emergency access 30-second unlock mechanism"
+    },
+    {
+      "title": "Routine and Emergency code for Cockpit door access - PPRuNe Forums",
+      "url": "https://www.pprune.org/questions/542326-routine-emergency-code-cockpit-door-access.html",
+      "relevance": "Emergency access procedures and deny function timing"
+    },
+    {
+      "title": "A220 armin lever, door lock indicator, girt bar indicator - Quizlet",
+      "url": "https://quizlet.com/784929843/a220-armin-lever-door-lock-indicator-girt-bar-indicator-viewing-window-guyt-lock-slide-bustle-flash-cards/",
+      "relevance": "A220 specific door arming and indicator information"
+    },
+    {
+      "title": "Aircraft Exit Profiles - Transport Canada",
+      "url": "https://tc.canada.ca/en/aviation/publications/flight-attendant-training-standard-tp-12296/aircraft-exit-profiles",
+      "relevance": "A220 door locking indicators and exit specifications"
+    },
+    {
+      "title": "Emergency Slides: How Do They Work?",
+      "url": "https://simpleflying.com/emergency-slides-how-do-they-work/",
+      "relevance": "Girt bar mechanism and automatic slide deployment systems"
+    },
+    {
+      "title": "$100K Mistake: Delta Flight Attendant Accidentally Deploys Airbus A220 Emergency Slide",
+      "url": "https://simpleflying.com/100k-mistake-delta-flight-attendant-accidentally-deploys-airbus-a220-emergency-slide/",
+      "relevance": "A220 slide arming and deployment behavior (October 2025 incident)"
+    },
+    {
+      "title": "Preventing Inadvertent Slide Deployments - Airbus Safety First",
+      "url": "https://safetyfirst.airbus.com/preventing-inadvertent-slide-deployments/",
+      "relevance": "Automatic disarming when opening doors from outside"
+    },
+    {
+      "title": "A220 Door Trainer - airBaltic Training",
+      "url": "https://airbaltictraining.com/training_equipment/a220-door-trainer/",
+      "relevance": "A220 door training procedures and operations"
+    },
+    {
+      "title": "Evacuation slide - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Evacuation_slide",
+      "relevance": "General evacuation slide deployment mechanisms"
+    },
+    {
+      "title": "A220 operators told to check pins removed from evacuation slide canisters",
+      "url": "https://www.flightglobal.com/safety/a220-operators-told-to-check-pins-removed-from-evacuation-slide-canisters/148379.article",
+      "relevance": "A220 evacuation slide specifications"
+    },
+    {
+      "title": "Plug Doors: How Airplane Doors Seal Themselves",
+      "url": "https://monroeaerospace.com/blog/plug-doors-how-airplane-doors-seal-themselves/",
+      "relevance": "Plug-type door design and operation"
+    },
+    {
+      "title": "Dynamatic Technologies awarded contract to manufacture A220 doors",
+      "url": "https://www.globaldefenseaerospacepost.com/news/articleView.html?idxno=1283",
+      "relevance": "A220 door types and manufacturing details"
+    },
+    {
+      "title": "A320 COCKPIT DOOR PEDESTAL PANEL - AviationHunt",
+      "url": "https://www.aviationhunt.com/a320-cockpit-door-pedestal-panel/",
+      "relevance": "Cockpit door panel controls and lock/deny timing"
+    },
+    {
+      "title": "A220 Flight Crew Operating Manual - DOKUMEN.PUB",
+      "url": "https://dokumen.pub/a220-300-cs300-bd500-1a11-flight-crew-operating-manual-volume-1-1-13nbsped.html",
+      "relevance": "A220 FCOM synoptic pages and EICAS information"
+    }
+  ],
+  "summary": {
+    "totalQuestions": 17,
+    "researchDate": "2025-12-21",
+    "documentationSources": "A220 Flight Crew Operating Manual, EASA CS-25 regulations, manufacturer documentation, and aviation safety publications",
+    "keyTopics": [
+      "Cockpit door emergency access system (30-second unlock, 30-minute inhibit)",
+      "Cargo door mechanical indicators (red=unlocked, green=locked)",
+      "Evacuation slide arming and automatic deployment",
+      "Equipment bay doors (forward/mid are plug-type pressure doors)",
+      "Door status displays (CMS, EICAS, DOOR synoptic page)",
+      "Flight crew emergency exit hatch with mechanical green latch indicators",
+      "Automatic girt bar disengagement when opening armed doors from outside",
+      "Overwing emergency exit slides (permanently armed, automatic deployment)"
+    ]
+  }
+}

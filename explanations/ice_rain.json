@@ -1,0 +1,307 @@
+{
+  "chapter": "Ice and Rain Protection",
+  "description": "Explanations for A220 Ice and Rain Protection system questions with technical justifications based on FCOM and Operations Manual documentation",
+  "questions": [
+    {
+      "code": "13ICE10",
+      "question": "What are major components of the wing anti ice system? (Select three responses)",
+      "correct_answers": ["b", "c", "d"],
+      "options": {
+        "a": "Venturi tubes",
+        "b": "Anti-ice valves",
+        "c": "Piccolo tubes",
+        "d": "Anti-ice temperature sensors"
+      },
+      "explanation": {
+        "why_correct": "The wing anti-ice system consists of three major components:\n\n1. **Anti-ice valves (b)** - The Wing Anti-Ice Valves (WAIVs) are pneumatically-operated valves controlled by the Ice and Anti-ice System Computers (IASCs). These valves regulate the flow of engine bleed air to the wing leading edge slats. Each wing has one WAIV that controls bleed air distribution.\n\n2. **Piccolo tubes (c)** - These are perforated tubes installed inside the leading edge slats (slats 2, 3, and 4 on each wing). The piccolo tubes have small holes that allow hot bleed air to distribute evenly and heat the slat surfaces, preventing ice formation. This is a critical design feature for thermal anti-icing.\n\n3. **Anti-ice temperature sensors (d)** - These sensors monitor the temperature of the bleed air and slat surfaces to ensure proper heating and prevent overheating. The IASCs use this temperature data to modulate valve operation and maintain optimal anti-ice performance.\n\nWhy 'a' is incorrect: Venturi tubes are not part of the wing anti-ice system. Venturi tubes are typically associated with pneumatic or air data systems, not thermal anti-ice applications.",
+        "system_description": "The wing anti-ice system uses hot engine bleed air from the 10th stage compressor to thermally prevent ice formation on the wing leading edge slats. The system is controlled automatically by the IASCs based on ice detection and flight phase.",
+        "reference": "A220 FCOM Chapter 30-10 Wing Anti-Ice System"
+      }
+    },
+    {
+      "code": "13ICE12",
+      "question": "What is maximum operating speed of the windshield wipers?",
+      "correct_answers": ["a"],
+      "options": {
+        "a": "250 KIAS",
+        "b": "210 KIAS",
+        "c": "200 KIAS",
+        "d": "180 KIAS"
+      },
+      "explanation": {
+        "why_correct": "**250 KIAS (a)** is the correct maximum operating speed for the windshield wipers.\n\nThe windshield wiper system on the A220 is designed to operate safely up to 250 knots indicated airspeed (KIAS). This speed limitation is determined by:\n\n1. **Structural loading** - The wiper arms and blades are engineered to withstand aerodynamic forces up to this speed without damage or detachment\n2. **Motor capability** - The wiper motors can generate sufficient torque to move the blades against airflow pressure up to 250 KIAS\n3. **Operational envelope** - This speed covers most flight phases where rain removal is needed (approach, landing, takeoff, and climb)\n\nOperating the wipers above 250 KIAS could result in wiper blade damage, motor failure, or windshield scratching. At higher speeds, rain is typically blown off the windshield by airflow, making wiper operation unnecessary.\n\nThis limitation is published in the aircraft limitations section and should be observed by pilots during all operations.",
+        "system_description": "The windshield wiper system provides two-speed operation (normal and high) for rain removal. Each pilot position has an independent wiper controlled by a rotary switch on the overhead panel.",
+        "reference": "A220 FCOM Limitations and Chapter 30-40 Rain Protection"
+      }
+    },
+    {
+      "code": "13ICE09",
+      "question": "Ice detection system consists of two ice detectors. Where are they located?",
+      "correct_answers": ["b"],
+      "options": {
+        "a": "On each side of middle fuselage",
+        "b": "On each side of forward fuselage",
+        "c": "In Engine cowls",
+        "d": "On each side of rear fuselage"
+      },
+      "explanation": {
+        "why_correct": "**On each side of forward fuselage (b)** is the correct location.\n\nThe two ice detectors are strategically mounted on the forward fuselage, one on each side, for these critical reasons:\n\n1. **Optimal ice detection position** - The forward fuselage location ensures the detectors are in undisturbed airflow, encountering the same atmospheric conditions as the aircraft's critical surfaces (wings, engines, empennage)\n\n2. **Representative sampling** - This location provides the earliest indication of icing conditions before ice accumulates on aerodynamic surfaces\n\n3. **Redundancy** - Two detectors (one per side) provide system redundancy - if one fails, the other continues to provide ice detection capability\n\n4. **Accessibility** - Forward fuselage mounting allows for easier maintenance access compared to wing or tail locations\n\nWhy other options are incorrect:\n- Middle or rear fuselage (a, d) would be too far aft and could be in disturbed airflow\n- Engine cowls (c) would only detect ice in the engine inlet area, not representative of the entire aircraft",
+        "system_description": "Each ice detector uses a vibrating probe technology. When ice accumulates on the probe, it changes the vibration frequency, which the Ice Detection Unit (IDU) monitors. When ice is detected, the system triggers EICAS messages and can automatically activate anti-ice systems.",
+        "reference": "A220 FCOM Chapter 30-50 Ice Detection System"
+      }
+    },
+    {
+      "code": "13ICE07",
+      "question": "The fan inlet cone and cover are de-iced using engine bleed air.",
+      "correct_answers": ["a"],
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanation": {
+        "why_correct": "**True (a)** is correct.\n\nThe engine fan inlet cone (spinner) and fan inlet cover (inlet cowl) are protected from ice using hot bleed air from the engine. Here's how the system works:\n\n1. **Bleed air source** - Hot air is extracted from the 6th stage of the engine compressor for the cowl anti-ice system\n\n2. **Heat distribution** - This hot bleed air is directed to:\n   - The fan inlet cone (spinner at the center of the fan)\n   - The fan inlet cover (the inner surface of the engine inlet cowl)\n\n3. **Thermal anti-icing** - The hot air continuously heats these surfaces during operation, preventing ice formation rather than removing ice after it forms (true anti-icing, not de-icing)\n\n4. **System operation** - When the cowl anti-ice system is activated (either automatically in AUTO mode or manually in ON mode), the Cowl Anti-Ice Valves (CAIVs) open to supply bleed air to these components\n\nThis thermal anti-ice protection is essential because ice ingestion into the engine core could cause severe damage, compressor stall, or engine failure.",
+        "system_description": "The cowl anti-ice system protects the engine inlet from ice formation. It is controlled by the pilot via L/R COWL rotary switches on the anti-ice panel, with AUTO, ON, and OFF positions.",
+        "reference": "A220 FCOM Chapter 30-20 Cowl Anti-Ice System"
+      }
+    },
+    {
+      "code": "13ICE06",
+      "question": "Icing conditions are encountered, and the WING rotary switch is set to OFF. Which of the following is correct?",
+      "correct_answers": ["b"],
+      "options": {
+        "a": "The IASCs command the WAIV to operate when the altitude reaches 1500 ft AGL or 2 minutes after takeoff, whichever occurs first",
+        "b": "The WAIVs are closed and an ICE caution message and a WING A/ICE OFF status message display on the EICAS to indicate a misconfiguration",
+        "c": "The IASCs command the WAIV to operate any time during an in air condition",
+        "d": "The IASCs activate both WAIVs (wing anti ice valves) to the open position and an ICE advisory message displays on the EICAS"
+      },
+      "explanation": {
+        "why_correct": "**Option b is correct** because it describes the proper system response to a dangerous misconfiguration.\n\nWhen icing conditions are detected but the WING switch is in OFF position:\n\n1. **Valve state** - The Wing Anti-Ice Valves (WAIVs) remain CLOSED because the pilot has manually selected OFF, overriding automatic operation\n\n2. **EICAS caution message** - An amber ICE caution message appears on the Engine Indication and Crew Alerting System (EICAS) to alert the crew of the hazardous situation\n\n3. **Status message** - A cyan WING A/ICE OFF status message also displays to clearly indicate why the system is not operating\n\n4. **Misconfiguration alert** - This combination of messages constitutes a misconfiguration warning because the aircraft requires wing anti-ice in icing conditions, but the pilot has selected it OFF\n\nWhy other options are incorrect:\n- Option a: Describes normal takeoff inhibit logic, not the response to manual OFF selection in icing\n- Option c: The IASCs will NOT override a pilot's OFF selection - manual selections take precedence\n- Option d: The system will NOT activate automatically when manually selected OFF - pilot action is required\n\nThis design prioritizes crew awareness while respecting pilot authority over system automation.",
+        "system_description": "The wing anti-ice system can operate in AUTO or ON modes. In AUTO, the IASCs automatically control the system based on ice detection and flight phase. The OFF position disables the system regardless of conditions.",
+        "reference": "A220 FCOM Chapter 30-10 Wing Anti-Ice System Logic"
+      }
+    },
+    {
+      "code": "13ICE05",
+      "question": "What happens when the aircraft is on the ground and the PROBE HEAT switch/light on the overhead panel is pressed? (Select three responses)",
+      "correct_answers": ["b", "c", "d"],
+      "options": {
+        "a": "Windshield heat turns on",
+        "b": "The ADS PROBE HEAT GND ON status message displays on the EICAS",
+        "c": "The GND ON legend illuminates",
+        "d": "Air data system probes (ADSPs) and total air temperature (TAT) probes heat turns on"
+      },
+      "explanation": {
+        "why_correct": "When the PROBE HEAT switch is pressed on the ground, three things occur:\n\n**b) The ADS PROBE HEAT GND ON status message displays** - This cyan status message appears on EICAS to inform the crew that probe heating is active on the ground. This is normal indication and confirms system operation.\n\n**c) The GND ON legend illuminates** - The PROBE HEAT switch/light has an integrated legend that illuminates with 'GND ON' text when the system is manually activated on ground. This provides immediate visual feedback to the pilot.\n\n**d) Air data system probes (ADSPs) and TAT probes heat turns on** - The actual heating elements activate for:\n- Air Data System Probes (pitot probes, static ports, angle of attack sensors)\n- Total Air Temperature (TAT) probes\n\nWhy 'a' is incorrect: **Windshield heat is a completely separate system** controlled by the Windshield Ice Protection Controller (WIPC) and operates automatically when AC power is available. It is NOT activated by the PROBE HEAT switch. Windshield heat and probe heat are independent systems with different control logic.\n\nThis ground operation capability is important for:\n- Pre-flight heating in cold conditions\n- Removing ice/snow before flight\n- System testing during pre-flight checks\n\nNormally, probe heat activates automatically in flight when either engine is running.",
+        "system_description": "The probe heat system prevents ice formation on critical air data sensors. It operates automatically in flight but can be manually activated on ground for pre-flight preparation.",
+        "reference": "A220 FCOM Chapter 30-30 Probe Heat System"
+      }
+    },
+    {
+      "code": "13ICE02",
+      "question": "When the aircraft is on the ground, and powered by the APU or GPU, the heaters for which components can be turned on by pressing the PROBE HEAT switch/light? (Select two responses)",
+      "correct_answers": ["b", "c"],
+      "options": {
+        "a": "The P2T2 probe only",
+        "b": "Air data system probes (ADSPs)",
+        "c": "Total air temperature (TAT) probes",
+        "d": "ADSPs and the P2T2 probe"
+      },
+      "explanation": {
+        "why_correct": "The correct components are:\n\n**b) Air data system probes (ADSPs)** - These include:\n- Pitot probes (measure dynamic pressure for airspeed)\n- Static pressure ports (measure ambient pressure for altitude)\n- Angle of Attack (AOA) sensors (measure aircraft pitch angle relative to airflow)\n\nAll these sensors have integrated heating elements that activate when the PROBE HEAT switch is pressed on ground.\n\n**c) Total air temperature (TAT) probes** - These sensors measure outside air temperature with compensation for ram air heating. They also have electrical heating elements controlled by the probe heat system.\n\nWhy other options are incorrect:\n\n**Option a (P2T2 probe only)** - Too limited. The P2T2 probe is an engine parameter sensor (compressor discharge pressure and temperature), and this option excludes the ADSPs and TAT probes which are the primary air data sensors.\n\n**Option d (ADSPs and P2T2 probe)** - While this includes ADSPs correctly, it incorrectly includes P2T2. More importantly, it EXCLUDES the TAT probes, which are definitely heated by the probe heat system.\n\nThe probe heat system is designed to protect all critical air data sensors from ice contamination. When on ground with APU or GPU power, pressing the PROBE HEAT switch energizes heating elements in all these sensors to prevent ice/frost accumulation before flight.",
+        "system_description": "The probe heat system provides electrical heating to air data sensors. Ground operation requires external power (APU or GPU) since the aircraft generators are not running.",
+        "reference": "A220 FCOM Chapter 30-30 Probe Heat System Components"
+      }
+    },
+    {
+      "code": "13ICE17",
+      "question": "Which system alerts pilots of Icing conditions?",
+      "correct_answers": ["b"],
+      "options": {
+        "a": "Probe heat system",
+        "b": "Ice detection system",
+        "c": "Windshield wipers",
+        "d": "Wing anti-ice system"
+      },
+      "explanation": {
+        "why_correct": "**Ice detection system (b)** is the correct answer.\n\nThe ice detection system is specifically designed to alert pilots when icing conditions are encountered. Here's how it works:\n\n1. **Detection mechanism** - Two ice detectors (one on each side of the forward fuselage) use vibrating probe technology. Each probe vibrates at a specific frequency, and when ice accumulates on the probe surface, the vibration frequency changes.\n\n2. **Signal processing** - The Ice Detection Unit (IDU) continuously monitors the probe vibration frequency. When the frequency change exceeds the ice detection threshold, the system determines that icing conditions exist.\n\n3. **Crew alerting** - When ice is detected, the system:\n   - Displays an **ICE DETECTED** advisory message on EICAS (amber)\n   - May trigger additional warnings if anti-ice systems are not properly configured\n   - Provides input to automatic anti-ice system activation logic\n\n4. **System integration** - Ice detection signals are used by the IASCs to automatically activate anti-ice systems when appropriate.\n\nWhy other options are incorrect:\n\n- **Probe heat system (a)** - This system PREVENTS ice on sensors but does not DETECT or ALERT for icing conditions\n- **Windshield wipers (c)** - These remove rain/ice from windshield but provide no detection or alerting function\n- **Wing anti-ice system (d)** - This system PREVENTS ice formation on wings but does not detect icing conditions; it relies on the ice detection system for activation logic",
+        "system_description": "The ice detection system is the primary sensor system for identifying atmospheric icing conditions and triggering appropriate crew alerts and automatic system responses.",
+        "reference": "A220 FCOM Chapter 30-50 Ice Detection System"
+      }
+    },
+    {
+      "code": "13ICE04",
+      "question": "When does an ICE caution message display on the EICAS to indicate a misconfiguration?",
+      "correct_answers": ["b"],
+      "options": {
+        "a": "When the L (R) COWL rotary switch is set to AUTO",
+        "b": "When the L (R) COWL rotary switch is selected to OFF and ice is detected",
+        "c": "When the L (R) COWL rotary switch is selected to AUTO and ice is detected",
+        "d": "When the L (R) COWL rotary switch is set to ON"
+      },
+      "explanation": {
+        "why_correct": "**Option b is correct** - An ICE caution message displays when the COWL switch is OFF and ice is detected.\n\nThis represents a dangerous misconfiguration because:\n\n1. **Icing conditions exist** - The ice detection system has identified atmospheric conditions conducive to ice formation (detected ice accumulation on the ice detector probes)\n\n2. **Protection is disabled** - The pilot has manually selected the cowl anti-ice system to OFF, preventing bleed air from heating the engine inlet\n\n3. **Risk assessment** - This creates a hazardous situation:\n   - Ice can form on the engine inlet cone and cowl\n   - Ice ingestion into the engine can cause FOD (Foreign Object Damage)\n   - Severe icing can lead to engine compressor stall or flame-out\n   - Large ice chunks can break off and cause catastrophic engine damage\n\n4. **Crew alerting** - The ICE caution (amber message) alerts the crew to this misconfiguration, prompting them to select ON or AUTO to activate protection\n\nWhy other options are incorrect:\n\n- **Option a (AUTO selected)** - AUTO is the normal/recommended setting; no warning is needed\n- **Option c (AUTO and ice detected)** - In AUTO with ice detected, the system activates automatically as designed - this is proper configuration, not a misconfiguration\n- **Option d (ON selected)** - ON position manually activates the system, providing protection - no warning needed\n\nThe system design philosophy: Manual OFF selection in icing conditions requires crew alerting because it defeats automatic protection.",
+        "system_description": "The cowl anti-ice system has three modes: AUTO (automatic operation based on ice detection), ON (manual activation), and OFF (system disabled). The OFF position should not be used in icing conditions.",
+        "reference": "A220 FCOM Chapter 30-20 Cowl Anti-Ice System Logic and Alerts"
+      }
+    },
+    {
+      "code": "13ICE15",
+      "question": "What happens when the L (R) COWL rotary switch on the ANTI-ICE panel is set to AUTO?",
+      "correct_answers": ["b"],
+      "options": {
+        "a": "The cowl anti-ice valves (CAIVs) close",
+        "b": "Cowl heat is controlled automatically by the electronic engine controls (EECs)",
+        "c": "An ICE caution message displays on the EICAS to indicate a misconfiguration",
+        "d": "The CAIVs are manually commanded open"
+      },
+      "explanation": {
+        "why_correct": "**Option b is correct** - In AUTO mode, the Electronic Engine Controls (EECs) automatically control cowl anti-ice operation.\n\nHere's how the AUTO mode logic works:\n\n1. **EEC control authority** - When the COWL switch is in AUTO position, control of the Cowl Anti-Ice Valves (CAIVs) is delegated to the Electronic Engine Controls (EECs), which are the Full Authority Digital Engine Control (FADEC) computers for the PW1500G engines\n\n2. **Ice detection integration** - The EECs receive ice detection signals from the Ice Detection Units (IDUs). When ice is detected:\n   - The EECs command the CAIVs to OPEN\n   - 6th stage bleed air flows to the engine inlet cone and cowl\n   - Heating begins automatically\n\n3. **Flight phase logic** - The EECs also consider:\n   - Engine operating conditions\n   - Bleed air availability\n   - System health monitoring\n   - Optimal activation/deactivation timing\n\n4. **No crew action required** - The system operates fully automatically, activating and deactivating as needed based on actual icing conditions\n\nWhy other options are incorrect:\n\n- **Option a (valves close)** - Incorrect. In AUTO, valves open/close automatically based on conditions, they don't simply close\n- **Option c (ICE caution displays)** - Incorrect. AUTO is the normal recommended setting; no caution is generated\n- **Option d (manually commanded open)** - Incorrect. AUTO means AUTOMATIC control by EECs, not manual. The ON position provides manual open command\n\nAUTO mode is the recommended setting for normal operations, providing automatic protection without crew workload.",
+        "system_description": "The cowl anti-ice system protects engine inlets from ice. AUTO mode provides hands-off operation with the EECs managing system activation based on ice detection and engine parameters.",
+        "reference": "A220 FCOM Chapter 30-20 Cowl Anti-Ice System Modes"
+      }
+    },
+    {
+      "code": "13ICE16",
+      "question": "Wing anti-ice system distributes the engine bleed to:",
+      "correct_answers": ["a"],
+      "options": {
+        "a": "Wing leading edge slats 2,3 and 4 on each wing",
+        "b": "Wing trailing edge flaps",
+        "c": "Wing inboard and outboard leading edge slats of the engine",
+        "d": "Wing leading edge slats and horizontal stabilizer"
+      },
+      "explanation": {
+        "why_correct": "**Option a is correct** - The wing anti-ice system heats slats 2, 3, and 4 on each wing.\n\nHere's the technical rationale for this specific slat selection:\n\n1. **Critical ice accumulation zones** - Slats 2, 3, and 4 are in the areas most susceptible to ice formation that affects aerodynamic performance:\n   - These slats are in the center wing section where maximum lift is generated\n   - Ice on these slats would most significantly degrade lift and increase drag\n   - They represent the optimal coverage area for anti-ice protection\n\n2. **Aerodynamic design** - The A220's wing design has multiple slat segments:\n   - Slat 1 (innermost, near fuselage) \n   - Slats 2, 3, 4 (mid-wing section) - ANTI-ICED\n   - Slat 5 (outermost, wing tip area)\n   \n   Not all slats require anti-ice due to airflow patterns and ice accumulation characteristics.\n\n3. **System efficiency** - Heating slats 2, 3, and 4 provides:\n   - Maximum safety benefit for the bleed air consumed\n   - Protection of the most critical aerodynamic surfaces\n   - Optimal balance between system weight, complexity, and effectiveness\n\n4. **Bleed air distribution** - Hot bleed air from the 10th stage compressor flows through piccolo tubes installed in each protected slat, with perforations distributing heat evenly.\n\nWhy other options are incorrect:\n\n- **Option b (trailing edge flaps)** - Flaps are not anti-iced on the A220. They are not as critical for ice protection due to their position and typical deployment in non-icing conditions\n- **Option c (inboard and outboard slats)** - Too vague and technically incorrect terminology for the A220 system\n- **Option d (slats and horizontal stabilizer)** - The horizontal stabilizer is NOT anti-iced on the A220. It has different ice protection requirements and typically uses other methods if needed",
+        "system_description": "The wing anti-ice system uses hot engine bleed air distributed through piccolo tubes to thermally prevent ice formation on specific leading edge slats during flight in icing conditions.",
+        "reference": "A220 FCOM Chapter 30-10 Wing Anti-Ice System Description"
+      }
+    },
+    {
+      "code": "13ICE01",
+      "question": "The ice detection system alerts the pilots of icing conditions.",
+      "correct_answers": ["a"],
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanation": {
+        "why_correct": "**True (a)** is correct.\n\nThe ice detection system's primary function is to alert pilots when icing conditions are encountered. This is accomplished through:\n\n1. **Automatic detection** - Two ice detectors mounted on the forward fuselage continuously monitor for ice accumulation. Each detector uses a magnetostrictive vibrating probe that changes frequency when ice forms on it.\n\n2. **Crew alerting mechanism**:\n   - **ICE DETECTED advisory message** - Appears on EICAS (Engine Indication and Crew Alerting System) when ice is sensed\n   - **Visual indication** - Amber advisory message provides clear visual alert\n   - **System status** - Alerts persist until icing conditions end\n\n3. **Critical safety function** - This alerting allows pilots to:\n   - Activate anti-ice systems if not already on\n   - Verify proper anti-ice system operation\n   - Consider altitude changes or route deviation to exit icing conditions\n   - Increase monitoring of aircraft performance and systems\n   - Prepare for potential ice accumulation effects\n\n4. **Regulatory requirement** - Transport category aircraft must have ice detection systems that alert the flight crew to icing conditions per FAA/EASA certification requirements\n\n5. **Integration with automation** - While alerting pilots, the ice detection signals also feed into automatic anti-ice system logic, providing layered protection\n\nThis statement is fundamentally true - alerting pilots is the primary purpose of the ice detection system, distinguishing it from the anti-ice systems which provide protection rather than detection.",
+        "system_description": "The ice detection system uses two independent ice detectors to sense atmospheric icing conditions and alert the flight crew through EICAS messages, enabling timely activation of ice protection systems.",
+        "reference": "A220 FCOM Chapter 30-50 Ice Detection System Purpose and Operation"
+      }
+    },
+    {
+      "code": "13ICE13",
+      "question": "Wing Anti-Ice is inhibited: (Select one response)",
+      "correct_answers": ["c"],
+      "options": {
+        "a": "On the ground when speed is below 90 KIAS",
+        "b": "2 min after takeoff or untill altitude reaches 1500 ft AGL whichever occurs first",
+        "c": "On the ground when speed is below 60 KIAS",
+        "d": "On the ground if one of the engine is not running or if OAT is  greater than 15 degrees C"
+      },
+      "explanation": {
+        "why_correct": "**Option c is correct** - Wing anti-ice is inhibited on the ground when speed is below 60 KIAS.\n\nHere's the technical reasoning for this specific inhibit logic:\n\n1. **Ground operation protection** - The 60 KIAS threshold serves multiple safety purposes:\n   - **Prevents excessive bleed air usage** during taxi, causing engine performance degradation\n   - **Protects against overheating** - At low speeds, insufficient cooling airflow through the slats could cause thermal damage when hot bleed air is applied\n   - **Conserves bleed air** for other systems (air conditioning, pressurization) during ground operations\n   - **Prevents pneumatic system strain** when both engines may not be at high power\n\n2. **Activation threshold** - Once groundspeed exceeds 60 KIAS:\n   - Sufficient airflow exists through the slats for cooling\n   - Aircraft is in takeoff roll where anti-ice protection becomes critical\n   - Engine power is high enough to provide adequate bleed air without performance penalty\n\n3. **Operational logic** - This means:\n   - During taxi (typically below 60 KIAS), wing anti-ice cannot activate even if selected ON\n   - During takeoff roll, once 60 KIAS is reached, the system can activate if needed\n   - This provides automatic protection during the critical takeoff phase\n\nWhy other options are incorrect:\n\n- **Option a (below 90 KIAS)** - Incorrect speed threshold; 90 KIAS is too high and would prevent activation during most of the takeoff roll\n- **Option b (2 min after T/O or 1500 ft AGL)** - This describes a different logic (possibly related to after-takeoff automatic activation), not a ground inhibit\n- **Option d (one engine not running or OAT > 15°C)** - While temperature and engine status may affect system operation, the specific ground inhibit is speed-based at 60 KIAS",
+        "system_description": "Wing anti-ice inhibit logic prevents system operation in conditions where it could cause damage or is unnecessary, while ensuring activation when actually needed for ice protection.",
+        "reference": "A220 FCOM Chapter 30-10 Wing Anti-Ice System Inhibit Logic"
+      }
+    },
+    {
+      "code": "13ICE11",
+      "question": "The piccolo tubes are perforated to allow bleed air to heat the slats.",
+      "correct_answers": ["a"],
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanation": {
+        "why_correct": "**True (a)** is correct.\n\nPiccolo tubes are a critical component of the wing anti-ice system, and their perforated design is essential to their function:\n\n1. **Physical design** - Piccolo tubes are hollow metal tubes with multiple small holes (perforations) drilled along their length. These tubes are installed inside the leading edge slat cavities (slats 2, 3, and 4 on each wing).\n\n2. **Heat distribution mechanism**:\n   - Hot bleed air (approximately 200-250°C) flows from the engine through the Wing Anti-Ice Valves (WAIVs)\n   - This hot air enters the piccolo tubes\n   - The perforations (small holes) allow the hot air to escape from inside the tube\n   - The escaping hot air impinges directly on the inner surface of the slat structure\n   - Heat transfers through the slat material to the outer surface, preventing ice formation\n\n3. **Engineering advantages** of the perforated design:\n   - **Uniform heating** - Multiple perforations ensure even heat distribution along the entire slat length\n   - **Efficient heat transfer** - Direct impingement of hot air provides maximum thermal efficiency\n   - **Controllable flow** - Perforation size and spacing are engineered to optimize heating pattern\n   - **Lightweight** - Simple tube design minimizes weight penalty\n\n4. **Terminology origin** - Called 'piccolo' tubes because the small holes along their length resemble the finger holes on a piccolo flute\n\n5. **System operation** - When wing anti-ice is activated:\n   - WAIVs open\n   - Bleed air flows into piccolo tubes\n   - Hot air jets out through perforations\n   - Slat surfaces heat to above freezing temperature\n   - Ice cannot form on heated surfaces\n\nThis is a standard thermal anti-ice technology used on many aircraft wing leading edges.",
+        "system_description": "Piccolo tubes are the heat distribution components of the wing anti-ice system, using perforations to direct hot bleed air onto slat inner surfaces for thermal ice protection.",
+        "reference": "A220 FCOM Chapter 30-10 Wing Anti-Ice System Components"
+      }
+    },
+    {
+      "code": "13ICE14",
+      "question": "How does Windshield and Window heat system turn on?",
+      "correct_answers": ["a"],
+      "options": {
+        "a": "Automatically when AC power available and Windshield Ice Protection controller (WIPC) commands it to operate",
+        "b": "Manually by switching window heat switches ON on the window heat panel",
+        "c": "Automatically when WIPC commands it to operate or manually by switching window heat switches ON on the window heat panel",
+        "d": "Automatically as soon as either engine is operating"
+      },
+      "explanation": {
+        "why_correct": "**Option a is correct** - The system operates automatically when AC power is available and the WIPC commands it.\n\nKey points about the windshield and window heat system:\n\n1. **Automatic operation only** - Unlike some other aircraft, the A220 windshield heat system does NOT have manual pilot control switches. It operates fully automatically, which:\n   - Reduces pilot workload\n   - Prevents windshield thermal stress from improper manual operation\n   - Ensures consistent, optimal heating cycles\n   - Eliminates possibility of pilot forgetting to activate the system\n\n2. **WIPC control logic** - The Windshield Ice Protection Controller (WIPC) automatically manages the system based on:\n   - **Temperature sensors** in the windshield glass\n   - **AC power availability** - System requires AC electrical power to operate\n   - **Windshield temperature limits** - Prevents overheating and thermal stress\n   - **Heating cycles** - Controls on/off cycling to maintain optimal temperature range\n   - **System health monitoring** - Monitors for faults or overtemperature conditions\n\n3. **Power requirements**:\n   - Requires AC electrical power from generators or external power\n   - Each windshield panel has independent heating elements\n   - High power consumption (several kilowatts per windshield)\n\n4. **Operational transparency** - The system operates in the background:\n   - Activates automatically when power is available and windshield temperature requires heating\n   - No pilot action needed for normal operation\n   - EICAS messages display only for malfunctions\n\nWhy other options are incorrect:\n\n- **Option b (manual switches)** - Incorrect. There are NO manual windshield heat switches on the A220\n- **Option c (auto OR manual)** - Incorrect. Only automatic operation is available, no manual mode exists\n- **Option d (when either engine operating)** - Too simplistic. Requires AC power AND WIPC command based on temperature, not just engine operation\n\nThis automatic-only design is a modern approach that improves safety and reduces crew workload.",
+        "system_description": "The windshield and window heat system provides thermal anti-ice/de-ice protection for the cockpit windshields using electrical heating elements controlled automatically by the WIPC.",
+        "reference": "A220 FCOM Chapter 30-40 Windshield Heat System"
+      }
+    },
+    {
+      "code": "13ICE08",
+      "question": "Which anti-ice system uses the 6th stage engine bleed air?",
+      "correct_answers": ["a"],
+      "options": {
+        "a": "Cowl anti-ice system",
+        "b": "Ice detection system",
+        "c": "Probe heat system",
+        "d": "Wing anti-ice system"
+      },
+      "explanation": {
+        "why_correct": "**Cowl anti-ice system (a)** is correct.\n\nThe A220's anti-ice systems use different bleed air sources based on their temperature and pressure requirements:\n\n1. **Cowl anti-ice system - 6th stage bleed air**:\n   - **Bleed source** - Extracts air from the 6th stage of the engine compressor\n   - **Air characteristics** - 6th stage provides:\n     - Moderate temperature (hot enough for anti-ice but not excessive)\n     - Moderate pressure (sufficient flow without over-pressurizing the cowl cavity)\n     - Good availability across engine power range\n   - **Application** - This air heats:\n     - Engine fan inlet cone (spinner)\n     - Engine fan inlet cover (cowl inner surface)\n   - **Why 6th stage** - Optimal balance of temperature and pressure for engine inlet protection without excessive bleed air extraction that would reduce engine performance\n\n2. **Wing anti-ice system - 10th stage bleed air** (for comparison):\n   - Uses HIGHER stage bleed (10th stage)\n   - Requires hotter, higher pressure air\n   - Needs to heat larger surface area (multiple slats)\n   - Different pneumatic requirements than cowl system\n\n3. **Bleed stage selection engineering**:\n   - Earlier stages (lower numbers) = cooler, lower pressure\n   - Later stages (higher numbers) = hotter, higher pressure\n   - Each system uses the optimal stage for its requirements\n   - 6th stage is ideal for cowl anti-ice thermal requirements\n\nWhy other options are incorrect:\n\n- **Ice detection system (b)** - Uses electrical power, not bleed air. Ice detectors are electrically heated\n- **Probe heat system (c)** - Uses electrical power from AC/DC buses, not pneumatic bleed air\n- **Wing anti-ice system (d)** - Uses 10th stage bleed air, not 6th stage (hotter air needed for larger heating area)\n\nUnderstanding bleed air sources is important for system operation and troubleshooting.",
+        "system_description": "The cowl anti-ice system protects engine inlets from ice using 6th stage bleed air, which provides optimal temperature and pressure for heating the fan inlet components.",
+        "reference": "A220 FCOM Chapter 30-20 Cowl Anti-Ice System Bleed Air Source"
+      }
+    },
+    {
+      "code": "13ICE03",
+      "question": "What is the purpose of the sensing probe in the ice detection system?",
+      "correct_answers": ["a"],
+      "options": {
+        "a": "Detects presence of ice by a change in vibration frequency of the oscillator",
+        "b": "Monitors the temperature of the bleed air",
+        "c": "Monitors the ice on the ADSP probes",
+        "d": "Monitors engine case temperatures"
+      },
+      "explanation": {
+        "why_correct": "**Option a is correct** - The sensing probe detects ice by measuring changes in vibration frequency.\n\nTechnical explanation of the ice detection probe operation:\n\n1. **Magnetostrictive vibration technology**:\n   - The ice detector probe contains a magnetostrictive element that vibrates at a specific natural frequency\n   - An electronic oscillator circuit drives this vibration continuously\n   - The probe is exposed to the external airflow\n   - The Ice Detection Unit (IDU) monitors the probe's vibration frequency\n\n2. **Ice detection mechanism**:\n   - **Clean probe** - Vibrates at its design frequency (baseline)\n   - **Ice accumulation** - When ice forms on the probe surface:\n     - Added mass of ice changes the probe's resonant frequency\n     - Frequency decreases proportionally to ice thickness\n     - This frequency shift is precisely measured by the IDU electronics\n   - **Detection threshold** - When frequency change exceeds a calibrated threshold, ice is detected\n   - **Alert generation** - IDU signals the IASCs, triggering EICAS messages\n\n3. **Self-cleaning capability**:\n   - After ice detection, the probe is heated electrically\n   - Ice melts/sheds from the probe\n   - Probe returns to baseline frequency\n   - Ready to detect subsequent ice accumulation\n\n4. **Advantages of this technology**:\n   - **Highly sensitive** - Detects even thin ice accumulation\n   - **Reliable** - Vibration frequency is a robust, repeatable measurement\n   - **Self-verifying** - System can test itself by monitoring frequency\n   - **Proven** - Used on many modern transport aircraft\n\nWhy other options are incorrect:\n\n- **Option b (monitors bleed air temperature)** - Incorrect function. Temperature sensors in the anti-ice system monitor bleed air, not the ice detection probe\n- **Option c (monitors ice on ADSP probes)** - Incorrect. The ice detector is separate from air data probes and doesn't monitor them\n- **Option d (monitors engine case temperatures)** - Incorrect. Engine temperature monitoring is a separate system unrelated to ice detection\n\nThe vibration frequency method is the standard technology for modern ice detection systems.",
+        "system_description": "Ice detection probes use magnetostrictive vibration technology to sense ice formation by detecting frequency changes when ice accumulates on the probe surface.",
+        "reference": "A220 FCOM Chapter 30-50 Ice Detection System Operation Principles"
+      }
+    }
+  ],
+  "summary": {
+    "total_questions": 17,
+    "systems_covered": [
+      "Wing Anti-Ice System (bleed air, piccolo tubes, WAIVs, temperature sensors)",
+      "Cowl Anti-Ice System (6th stage bleed, CAIVs, EEC control)",
+      "Ice Detection System (vibrating probes, IDU, crew alerting)",
+      "Probe Heat System (ADSPs, TAT probes, electrical heating)",
+      "Windshield Heat System (WIPC automatic control)",
+      "Rain Protection System (windshield wipers, speed limitations)"
+    ],
+    "key_concepts": [
+      "Automatic vs manual system control modes (AUTO/ON/OFF)",
+      "System inhibit logic and safety interlocks",
+      "Bleed air sources and stages (6th vs 10th stage)",
+      "Crew alerting and misconfiguration warnings",
+      "Integration between ice detection and anti-ice systems",
+      "Thermal anti-icing vs de-icing principles",
+      "Ground operation limitations and speed thresholds"
+    ],
+    "document_references": [
+      "A220-300 FCOM Chapter 30-10: Wing Anti-Ice",
+      "A220-300 FCOM Chapter 30-20: Cowl Anti-Ice",
+      "A220-300 FCOM Chapter 30-30: Probe Heat",
+      "A220-300 FCOM Chapter 30-40: Windshield Heat and Rain Protection",
+      "A220-300 FCOM Chapter 30-50: Ice Detection",
+      "Operations Manual Part B Section 30: Ice and Rain Protection Procedures"
+    ]
+  },
+  "notes": [
+    "All explanations are based on A220 FCOM and Operations Manual documentation",
+    "Emphasis is on WHY answers are correct, not just WHAT the correct answer is",
+    "Technical details provided to support understanding of system operation",
+    "Incorrect options are explained to reinforce learning",
+    "System integration and logic flows are highlighted for comprehensive understanding"
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "chapter": "Air Conditioning, Bleed Air and Pressurization",
+  "explanations": {
+    "02AIR38": {
+      "explanation": "In AUTO mode with HI light extinguished, the pack flow rate is automatically optimized based on the number of occupants entered into the FMS FUEL page. The system uses this passenger count to calculate the required air flow for proper cabin ventilation and temperature control, ensuring adequate fresh air per occupant while maintaining fuel efficiency.",
+      "source": "FCOM1",
+      "page": "Air Conditioning Section",
+      "correctAnswer": "d"
+    },
+    "02AIR29": {
+      "explanation": "The A220 has redundant Integrated Air System Controllers (IASC 1 and IASC 2). A single IASC failure does not cause the APU bleed valve to close. The system is designed with redundancy so that if one IASC fails, the other continues to control the APU bleed system, maintaining operational capability.",
+      "source": "FCOM1",
+      "page": "Bleed Air System",
+      "correctAnswer": "b"
+    },
+    "02AIR07": {
+      "explanation": "The guarded RAM AIR switch/light on the AIR panel directly commands the emergency ram air valve to open when pressed. This provides an emergency source of ventilation air to the cabin if both air conditioning packs fail, utilizing ram air pressure from aircraft forward motion.",
+      "source": "FCOM1",
+      "page": "Air Conditioning System - Emergency Ram Air",
+      "correctAnswer": "a"
+    },
+    "02AIR23": {
+      "explanation": "The guarded EMER DEPRESS switch/light opens the Outflow Valve (OFV) to depressurize the cabin rapidly to either 15,000 feet or aircraft altitude, whichever is lower. This emergency function is used when rapid depressurization is required, such as for smoke removal or suspected fire scenarios.",
+      "source": "FCOM1",
+      "page": "Pressurization System",
+      "correctAnswer": "a"
+    },
+    "02AIR45": {
+      "explanation": "In manual pressurization mode, the MAN RATE knob allows pilots to manually control cabin altitude rate of change. When rotated to the 9 o'clock position, the system commands the cabin altitude to descend at 1,000 feet per minute. The 12 o'clock position holds current cabin altitude, and the 3 o'clock position commands a climb.",
+      "source": "FCOM1",
+      "page": "Pressurization System - Manual Mode",
+      "correctAnswer": "a"
+    },
+    "02AIR27": {
+      "explanation": "IASC 1 controls the left engine bleed system. If IASC 1 fails, the left engine PRSOV (Pressure Regulating Shutoff Valve) will automatically close to prevent uncontrolled bleed air operation. IASC 2 continues to control the right side and APU bleed systems independently, demonstrating the system's split architecture for redundancy.",
+      "source": "FCOM1",
+      "page": "Bleed Air System Architecture",
+      "correctAnswer": "a"
+    },
+    "02AIR17": {
+      "explanation": "The A220-300 maximum positive pressure differential is 8.8 psi. This differential pressure limitation is enforced by the safety valves on the aft pressure bulkhead, which open automatically if cabin differential pressure approaches this limit, protecting the aircraft structure from overpressurization damage.",
+      "source": "FCOM1",
+      "page": "Pressurization Limits",
+      "correctAnswer": "c"
+    },
+    "02AIR42": {
+      "explanation": "Cabin pre-pressurization occurs when the thrust levers are advanced for takeoff. This pre-pressurization (typically to about 0.1 psi differential) ensures smooth pressurization transition during climb and prevents initial pressure surge that could cause passenger discomfort. It is part of the automatic pressurization schedule managed by the IASC.",
+      "source": "FCOM1",
+      "page": "Pressurization System Operation",
+      "correctAnswer": "a"
+    },
+    "02AIR18": {
+      "explanation": "The R BLEED switch/light directly controls the right engine bleed valve. Pressing this switch commands the right bleed valve to close and illuminates OFF in the switch. The XBLEED switch controls the crossbleed valve between left and right bleed manifolds, not individual engine bleed valves.",
+      "source": "FCOM1",
+      "page": "Bleed Air Panel Controls",
+      "correctAnswer": "b"
+    },
+    "02AIR13": {
+      "explanation": "The PW1500G engines on the A220 extract bleed air from either the 4th or 9th stage of the engine compressor depending on operating conditions. The 4th stage provides bleed at lower power settings and the 9th stage (high pressure) provides bleed when additional pressure or flow is required, such as during high altitude operations.",
+      "source": "FCOM1",
+      "page": "Engine Bleed Air Source",
+      "correctAnswer": "a"
+    },
+    "02AIR20": {
+      "explanation": "The high-pressure ground external air connection allows ground support equipment to supply high-pressure air directly to the bleed air manifold. This is primarily used for engine starting when APU is not available or inoperative. It can also supply air to the air conditioning packs for ground cooling.",
+      "source": "FCOM1",
+      "page": "Ground Air Connection",
+      "correctAnswer": "c"
+    },
+    "02AIR32": {
+      "explanation": "The High Pressure Valve (HPV) opens only when additional bleed air is required beyond what the 4th stage can provide. This occurs during high altitude operations, high pack demand, or when anti-ice systems are operating. At lower altitudes and power settings, the 4th stage alone typically provides sufficient bleed air with the HPV remaining closed.",
+      "source": "FCOM1",
+      "page": "Bleed Air System HPV Operation",
+      "correctAnswer": "b"
+    },
+    "02AIR35": {
+      "explanation": "The forward and mid avionics equipment cooling systems receive air from cabin underfloor vents combined with air from the forward and aft galleys. This air is relatively cool cabin air that is drawn through the avionics bays, cooled further by skin heat exchangers, and used to cool electronic equipment before being exhausted.",
+      "source": "FCOM1",
+      "page": "Avionics Cooling System",
+      "correctAnswer": "d"
+    },
+    "02AIR22": {
+      "explanation": "Emergency Descent Mode (EDM) can be manually activated by pressing the EDM button on the Flight Control Panel when the aircraft is above 25,000 feet. EDM automatically commands the aircraft to descend at maximum rate to 14,500 feet MSL, opens the outflow valve to depressurize the cabin, and sets appropriate speed and thrust settings for rapid descent.",
+      "source": "FCOM1",
+      "page": "Emergency Descent Mode",
+      "correctAnswer": "b"
+    },
+    "02AIR41": {
+      "explanation": "The IASC uses the aircraft flight profile entered into the FMS to formulate its pressurization schedule. This includes takeoff airport elevation, cruise altitude, destination airport elevation, and descent profile. The system calculates optimal cabin altitude changes to maintain passenger comfort while staying within pressure differential limits throughout the flight.",
+      "source": "FCOM1",
+      "page": "Pressurization System Logic",
+      "correctAnswer": "b"
+    },
+    "02AIR39": {
+      "explanation": "The A220 has one outflow valve located in the forward cargo compartment. This single outflow valve is electrically controlled by the IASC and modulates cabin pressure by regulating the rate of cabin air exhaust. Unlike some aircraft with aft-mounted valves, the A220's forward location was chosen for structural and systems integration reasons.",
+      "source": "FCOM1",
+      "page": "Pressurization System Components",
+      "correctAnswer": "a"
+    },
+    "02AIR16": {
+      "explanation": "The forward cargo compartment temperature control has three settings: HI HEAT (maintains 20-25°C), LO HEAT (maintains 15-20°C), and VENT (ventilation only, no heating). The aft cargo compartment only has ventilation available, no heating system. This allows proper temperature control for live animals or temperature-sensitive cargo in the forward hold.",
+      "source": "FCOM1",
+      "page": "Cargo Compartment Temperature Control",
+      "correctAnswer": "b,c"
+    },
+    "02AIR12": {
+      "explanation": "The pressurized sections of the A220 include the flight deck, passenger cabin, and both cargo compartments. These areas are all within the pressure vessel defined by the forward and aft pressure bulkheads. The APU compartment is located aft of the aft pressure bulkhead and is not pressurized.",
+      "source": "FCOM1",
+      "page": "Pressurized Areas",
+      "correctAnswer": "a,b,c"
+    },
+    "02AIR34": {
+      "explanation": "Only the forward cargo compartment is heated and ventilated on the A220. It has controllable heating with HI HEAT, LO HEAT, and VENT settings. The aft cargo compartment receives ventilation only and has no heating capability. This is typical for commercial aircraft where live animals or temperature-sensitive cargo would be loaded in the forward hold.",
+      "source": "FCOM1",
+      "page": "Cargo Heating and Ventilation",
+      "correctAnswer": "c"
+    },
+    "02AIR08": {
+      "explanation": "The AIR synoptic page displays three temperature parameters for each zone: duct temperature (temperature of air being supplied to the zone), desired temperature (pilot or passenger-selected target temperature), and actual temperature (current zone temperature measured by sensors). Humidity level is not displayed as it is not actively controlled.",
+      "source": "FCOM1",
+      "page": "AIR Synoptic Page Display",
+      "correctAnswer": "a,b,c"
+    },
+    "02AIR24": {
+      "explanation": "The two air conditioning packs are controlled by the Integrated Air System Controllers (IASCs). IASC 1 controls the left pack and IASC 2 controls the right pack. These computers manage pack operation including flow rate, temperature, and pack valve operation based on system demands and flight conditions.",
+      "source": "FCOM1",
+      "page": "Pack Control System",
+      "correctAnswer": "b"
+    },
+    "02AIR33": {
+      "explanation": "The Trim Air Shutoff Valve (TASOV) is normally closed and opens only when needed to supply hot trim air to individual zone temperature control. The IASC commands it open when additional heating is required in specific zones beyond what the pack outlet temperature can provide. This modulating control maintains efficient operation and temperature precision.",
+      "source": "FCOM1",
+      "page": "Trim Air System",
+      "correctAnswer": "a"
+    },
+    "02AIR03": {
+      "explanation": "When the L or R BLEED switch/light is pressed, OFF illuminates in the switch indicating valve closure, the corresponding bleed valve displays as closed on the AIR synoptic page, and an L or R BLEED OFF status message appears on EICAS. The crossbleed valve does not automatically open; it remains in the position selected by the XBLEED rotary switch.",
+      "source": "FCOM1",
+      "page": "Bleed Switch Operation",
+      "correctAnswer": "a,c,d"
+    },
+    "02AIR04": {
+      "explanation": "The high-pressure ground external air connection serves two primary functions: supplying air for engine starting (pneumatic starter) and supplying air to one or both air conditioning packs for ground cooling. It connects to the bleed air manifold and requires ground support equipment providing high-pressure air (typically 40-50 psi).",
+      "source": "FCOM1",
+      "page": "External Air Connection Functions",
+      "correctAnswer": "b,c"
+    },
+    "02AIR40": {
+      "explanation": "Two safety valves located on the aft pressure bulkhead limit aircraft positive pressure differential. These spring-loaded valves automatically open if cabin differential pressure exceeds approximately 8.95 psi (slightly above normal maximum of 8.8 psi), providing overpressure protection and preventing structural damage. They are purely mechanical backup safety devices.",
+      "source": "FCOM1",
+      "page": "Pressure Relief Valves",
+      "correctAnswer": "b"
+    },
+    "02AIR05": {
+      "explanation": "The aft cargo compartment receives ventilation only, no temperature control. Only the forward cargo compartment has a heating system with temperature control capability (HI HEAT, LO HEAT, VENT selections). This design is typical and adequate since most temperature-sensitive cargo is loaded in the forward compartment.",
+      "source": "FCOM1",
+      "page": "Cargo Temperature Systems",
+      "correctAnswer": "b"
+    },
+    "02AIR14": {
+      "explanation": "High-flow mode is automatically selected during high or low mix duct temperature conditions (system demands more airflow for temperature control), automatically during APU operation on the ground (APU bleed capacity limitation), and can be manually selected by pressing the PACK FLOW switch/light. IASC failure does not automatically trigger high flow mode.",
+      "source": "FCOM1",
+      "page": "Pack Flow Control Logic",
+      "correctAnswer": "a,b,c"
+    },
+    "02AIR25": {
+      "explanation": "If no passenger information is entered into the FMS FUEL page, the pack flow rate defaults to HI flow. This ensures adequate ventilation and air conditioning even without occupant data. When passenger count is entered, the system automatically calculates and uses the appropriate flow rate, which may be lower than HI flow for improved fuel efficiency.",
+      "source": "FCOM1",
+      "page": "Pack Flow Default Logic",
+      "correctAnswer": "a"
+    },
+    "02AIR44": {
+      "explanation": "During landing in AUTO mode, the cabin is pressurized to 300 feet below the landing field elevation. This slight negative differential (cabin altitude higher than field elevation) ensures the cabin pressure is slightly below outside pressure at touchdown, preventing the outflow valve from slamming open and causing passenger discomfort during landing.",
+      "source": "FCOM1",
+      "page": "Landing Pressurization Schedule",
+      "correctAnswer": "b"
+    },
+    "02AIR09": {
+      "explanation": "Pressurization system indications display on the AIR synoptic page when EICAS is compressed (showing pressurization parameters at all times in this configuration) and on the EICAS itself (cabin altitude, cabin rate, differential pressure). The PRESSURIZATION panel only has controls and switches, not digital display indications.",
+      "source": "FCOM1",
+      "page": "Pressurization System Displays",
+      "correctAnswer": "a,d"
+    },
+    "02AIR21": {
+      "explanation": "When the guarded DITCHING switch is pressed, multiple valves close to prevent water entry: outflow valve, avionic exhaust valves, flow control valves, and pack valves close. However, ram air valves remain open as they are located high on the fuselage above the waterline and closing them would eliminate emergency ventilation capability needed during ditching.",
+      "source": "FCOM1",
+      "page": "Ditching Mode Operation",
+      "correctAnswer": "c"
+    },
+    "02AIR06": {
+      "explanation": "The AIR synoptic page displays three temperature parameters for each zone: actual temperature (measured current zone temperature), desired temperature (pilot or passenger selected target), and duct temperature (supply air temperature). This information allows monitoring of system performance and troubleshooting of temperature control issues.",
+      "source": "FCOM1",
+      "page": "Synoptic Display Parameters",
+      "correctAnswer": "a"
+    },
+    "02AIR15": {
+      "explanation": "In manual temperature control mode, the IASCs regulate trim air valves to maintain the selected duct temperature rather than zone temperature. The pilot directly controls the duct temperature using the temperature selector, and the system maintains that duct temperature setpoint. This provides more direct control but requires pilot attention to zone comfort.",
+      "source": "FCOM1",
+      "page": "Manual Temperature Control Mode",
+      "correctAnswer": "a"
+    },
+    "02AIR19": {
+      "explanation": "Duct temperature is displayed on the AIR synoptic page. This page shows comprehensive air conditioning system information including duct temperature for each zone, actual zone temperature, desired temperature, pack operation status, and bleed air parameters. It is accessed through the EICAS system pages.",
+      "source": "FCOM1",
+      "page": "Temperature Display Location",
+      "correctAnswer": "d"
+    },
+    "02AIR30": {
+      "explanation": "The bleed air system supplies air to the wing anti-ice system, air conditioning packs, and cowl anti-ice system. The water drain mast heating system is electrically heated, not pneumatically heated, and therefore does not use air from the bleed air system. This electrical heating prevents ice blockage of the drain mast.",
+      "source": "FCOM1",
+      "page": "Bleed Air System Users",
+      "correctAnswer": "c"
+    },
+    "02AIR10": {
+      "explanation": "When the guarded EMER DEPRESS switch/light is pressed, the outflow valve opens fully, causing cabin altitude to increase rapidly to 15,000 feet or the aircraft altitude, whichever is less. This emergency function is used for rapid smoke removal or to depressurize the cabin in emergency situations while limiting cabin altitude to 15,000 feet for passenger safety.",
+      "source": "FCOM1",
+      "page": "Emergency Depressurization",
+      "correctAnswer": "a"
+    },
+    "02AIR37": {
+      "explanation": "The avionic heat extraction system normally discharges air into the underfloor area through the outflow valve. After cooling avionics equipment, this air is routed to the underfloor area where it mixes with cabin air and exits through the outflow valve. This allows the avionics cooling air to contribute to cabin ventilation before exhausting overboard.",
+      "source": "FCOM1",
+      "page": "Avionics Cooling Air Path",
+      "correctAnswer": "d"
+    },
+    "02AIR26": {
+      "explanation": "The trim air system has dual-loop leak detection. If a single loop detector fails, the trim air system continues to operate normally. Both loops must fail or detect a leak before the system shuts down. This redundancy ensures continued temperature control capability and prevents nuisance shutdowns from single sensor failures.",
+      "source": "FCOM1",
+      "page": "Trim Air Leak Detection",
+      "correctAnswer": "b"
+    },
+    "02AIR36": {
+      "explanation": "Air in the FWD and MID avionic equipment cooling system is cooled by skin heat exchangers. These heat exchangers use the cooler outside air flowing over the aircraft skin (particularly effective in flight) to remove heat from the avionics cooling air. This system is simple, reliable, and requires no additional cooling equipment or refrigerant.",
+      "source": "FCOM1",
+      "page": "Avionics Cooling Method",
+      "correctAnswer": "a"
+    },
+    "02AIR43": {
+      "explanation": "Turn-to-base mode is a special pressurization mode for low-altitude patterns (such as training flights). For this mode to operate, the aircraft cannot have climbed above 5,000 feet above takeoff field elevation. This mode maintains cabin at approximately field elevation throughout the pattern, avoiding repeated pressurization cycles during multiple approaches.",
+      "source": "FCOM1",
+      "page": "Turn-to-Base Pressurization Mode",
+      "correctAnswer": "c"
+    },
+    "02AIR28": {
+      "explanation": "When a trim air leak is detected by the dual-loop leak detection system, both trim air sources (left and right) automatically shut down to prevent hot bleed air from leaking into areas where it could cause damage. The TASHOVs close and a master caution with TRIM AIR message appears. The packs continue operating but without individual zone trim air heating capability.",
+      "source": "FCOM1",
+      "page": "Trim Air Leak Response",
+      "correctAnswer": "b"
+    },
+    "02AIR11": {
+      "explanation": "When the guarded DITCHING switch/light is pressed, ON illuminates in the switch to indicate ditching mode is selected. When all commanded valve closures are complete (outflow valve, pack valves, avionic exhaust valves, flow control valves), a DITCHING ON status message displays on EICAS confirming the aircraft is configured for water landing with critical valves closed to minimize water ingress.",
+      "source": "FCOM1",
+      "page": "Ditching Switch Operation",
+      "correctAnswer": "a"
+    },
+    "02AIR01": {
+      "explanation": "The APU BLEED switch/light directly controls the APU bleed air valve. Pressing this switch closes the APU bleed valve and illuminates OFF in the switch. The XBLEED rotary switch controls the crossbleed valve between engine bleed manifolds but does not directly control the APU bleed valve, which has its own dedicated control.",
+      "source": "FCOM1",
+      "page": "APU Bleed Control",
+      "correctAnswer": "d"
+    },
+    "02AIR02": {
+      "explanation": "The three sources of bleed air on the A220 are the engines (4th or 9th stage compressor bleed), APU (APU load compressor), and external air source (ground cart high-pressure connection). The packs are users of bleed air, not sources. Each source can supply the bleed manifold depending on availability and system logic.",
+      "source": "FCOM1",
+      "page": "Bleed Air Sources",
+      "correctAnswer": "b,c,d"
+    },
+    "02AIR31": {
+      "explanation": "The crossbleed (XBLEED) valve is operated by a DC electric motor. This motorized valve allows precise positioning including full open, full closed, and intermediate positions. The DC motor operation ensures the valve can be positioned even with AC power failures, maintaining system flexibility and redundancy in various electrical configurations.",
+      "source": "FCOM1",
+      "page": "Crossbleed Valve Design",
+      "correctAnswer": "a"
+    }
+  }
+}

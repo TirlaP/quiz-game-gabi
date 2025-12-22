@@ -1,0 +1,94 @@
+{
+  "15LTS01": {
+    "explanation": "This statement is TRUE. On the A220, the nose landing and taxi lights are mounted on the nose landing gear strut. For safety reasons, they will only illuminate when the landing gear is extended and locked down. This prevents the lights from being turned on when the gear is retracted, which could cause overheating or damage to the gear bay. The weight-on-wheels sensors and gear position switches control this logic.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Landing/Taxi Lights"}]
+  },
+  "15LTS02": {
+    "explanation": "The function of the flight deck lights can be verified from the overhead panel lighting test. The A220 features a comprehensive light test function that allows pilots to verify all annunciator lights, warning lights, and panel backlighting are functioning correctly. This is typically performed during the pre-flight check by pressing the LIGHTS TEST button or using the lighting control panel.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Flight Deck Lighting Controls"}]
+  },
+  "15LTS04": {
+    "explanation": "The cabin dome light on the A220 has an automatic timer function. After approximately 20 minutes of the aircraft being on battery power only (or with engines shut down), the dome lights automatically extinguish to conserve battery power. This feature helps prevent battery drain when the aircraft is parked without ground power or APU power.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Cabin Lighting System"}]
+  },
+  "15LTS05": {
+    "explanation": "The controls for the landing and taxi lights on the A220 are located on the overhead panel. Specifically, they are found on the exterior lights section of the overhead panel, which includes switches for landing lights, taxi lights, runway turnoff lights, navigation lights, strobes, beacon, and logo lights.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Exterior Lights Control Panel"}]
+  },
+  "15LTS06": {
+    "explanation": "When the A220 is on battery power only, the DOME lights remain operational as they are connected to the essential bus or battery-backed bus. However, their brightness may be reduced and they will automatically turn off after the timer period to conserve battery power. The dome lights are considered essential for evacuation and emergency situations.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Emergency Power Considerations"}]
+  },
+  "15LTS07": {
+    "explanation": "The A220 is equipped with two taxi lights installed on the nose landing gear strut. These lights provide illumination for taxiing and ground maneuvering. They are positioned to illuminate the taxiway directly ahead of the aircraft and can be independently controlled.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Taxi Light Configuration"}]
+  },
+  "15LTS08": {
+    "explanation": "When cabin crew selects NO PED ON and/or SEAT BELTS ON using the cabin management panel, the corresponding passenger signs illuminate in the cabin. These soft keys on the cabin attendant panel trigger the fasten seat belt signs and/or no electronic devices signs throughout the passenger cabin, providing visual instruction to passengers.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Passenger Signs"}]
+  },
+  "15LTS09": {
+    "explanation": "The emergency lighting on the A220 is controlled by the Emergency Lighting Control Unit (ELCU). This system controls both interior emergency lighting (floor path lighting, exit signs, and emergency cabin lights) and exterior emergency lighting (escape slide lights). The ELCU ensures automatic activation when normal power fails.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Emergency Lighting System"}]
+  },
+  "15LTS10": {
+    "explanation": "This statement is TRUE. The floor track photoluminescent tape on the A220 provides escape path guidance under low visibility or dark conditions. This tape absorbs light during normal operation and glows in the dark, providing a visible escape path to emergency exits without requiring electrical power. It runs along the aisle floor leading to all emergency exits.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Photoluminescent Escape Path"}]
+  },
+  "15LTS11": {
+    "explanation": "Emergency lights on the A220 come on when: (1) The EMER LIGHT switch on the overhead panel is set to ON, (2) The aircraft loses normal AC power and the switch is in ARMED position, (3) The emergency lighting system detects a loss of normal cabin power when armed. These three conditions ensure emergency lighting activates both automatically during power loss and manually when required.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Emergency Light Activation"}]
+  },
+  "15LTS12": {
+    "explanation": "The landing lights on the A220 are located on the nose landing gear strut and in the wing root/leading edge area. The nose-mounted lights extend when the gear is lowered and provide forward illumination for approach and landing. Additional landing lights may be located in the wing roots to provide supplemental lighting.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Landing Light Location"}]
+  },
+  "15LTS13": {
+    "explanation": "Selecting the ANNUN (annunciation lights) at the overhead level light control allows the pilot to adjust the brightness of all annunciator lights throughout the flight deck. This includes warning, caution, and advisory lights on all panels. The DIM/BRT rotary control adjusts the intensity level of these lights for optimal visibility during different lighting conditions.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Annunciation Light Control"}]
+  },
+  "15LTS14": {
+    "explanation": "Yes, the seat belt signs in the passenger cabin can illuminate even when the aircraft is in flight. The FASTEN SEAT BELT signs can be activated by the flight crew at any time using the passenger signs switch on the overhead panel, regardless of whether the aircraft is on the ground or in flight. This allows crew to instruct passengers during turbulence.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Passenger Signs Operation"}]
+  },
+  "15LTS15": {
+    "explanation": "In the cabin lighting system, a failure of main AC power causes the emergency lighting system to activate if the EMER LIGHTS switch is in the ARMED position. The emergency lights have independent battery backup and will illuminate automatically when normal power is lost, providing floor path lighting and exit illumination for passenger evacuation.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Emergency Power Backup"}]
+  },
+  "15LTS16": {
+    "explanation": "For the landing lights during approach to landing, the nose gear landing lights extend automatically when the landing gear is extended. These lights illuminate the runway and surrounding area for the final approach and landing phase. They should be switched on before gear extension to ensure immediate illumination when the gear locks down.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Landing Light Operation"}]
+  },
+  "15LTS17": {
+    "explanation": "Pushing the EMER LIGHTS button to ON position on the overhead panel immediately illuminates all emergency lights throughout the aircraft. This includes floor proximity emergency escape path lighting, exit signs, ceiling emergency lights in the cabin, and exterior escape slide lighting. This manual activation overrides the normal automatic mode.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Emergency Light Manual Activation"}]
+  },
+  "15LTS18": {
+    "explanation": "Removing normal electrical power from the aircraft prior to securing it causes the emergency lights to illuminate if the EMER LIGHTS switch is in ARMED. To prevent this, the EMER LIGHTS switch should be placed in OFF before removing power. Once the aircraft is secured and power is restored, the switch can be returned to ARMED.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Securing Aircraft Procedures"}]
+  },
+  "15LTS19": {
+    "explanation": "The photoluminescent tapes in the emergency light system are charged by absorbing ambient light during normal cabin lighting conditions. They do not require electrical power to glow. Once charged, they can provide visible escape path guidance for extended periods in darkness. No external charging is required - they absorb and store light energy during flight.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Photoluminescent Tape Operation"}]
+  },
+  "15LTS20": {
+    "explanation": "On the flight deck internal lighting controls, rotating the Entrance Light control adjusts the brightness of the lighting at the flight deck entrance/doorway area. This allows pilots to set appropriate lighting levels for the area between the cabin and flight deck, particularly useful during night operations or when crew members are entering or exiting.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Flight Deck Entrance Light"}]
+  },
+  "15LTS21": {
+    "explanation": "Each taxi light on the A220 can project a beam to illuminate the taxiway ahead of the aircraft. The taxi lights are mounted on the nose landing gear and their beam pattern is designed to cover the taxiway surface for ground operations, typically providing effective illumination for several hundred feet ahead of the aircraft.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Taxi Light Specifications"}]
+  },
+  "15LTS22": {
+    "explanation": "Each landing light on the A220 can project a beam that extends significantly farther than the taxi lights, typically over 1000 feet ahead of the aircraft. The high-intensity landing lights are designed to illuminate the runway environment during approach and landing, providing sufficient visibility for the pilot to identify the touchdown zone and runway edges.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Landing Light Specifications"}]
+  },
+  "15LTS23": {
+    "explanation": "For cargo compartment lighting, when the respective light switch is ON, the cargo compartment lights illuminate to allow ground personnel to load and unload cargo safely. These lights are typically controlled from the flight deck or from a switch panel accessible from the cargo door area.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Cargo Compartment Lights"}]
+  },
+  "15LTS24": {
+    "explanation": "For exterior lighting, after selecting any service or maintenance light switch on the exterior lights panel, the corresponding service lights illuminate the aircraft exterior. These include wing inspection lights, logo lights, and service lights that help ground personnel during nighttime operations, fueling, and maintenance activities.",
+    "sources": [{"pdf": "FCOM1", "page": "Lighting - Service Light Operation"}]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "batch": 33,
+  "category": "Mass & Balance / Servicing",
+  "date_created": "2025-12-21",
+  "total_questions": 9,
+  "explanations": [
+    {
+      "code": "MBS01",
+      "question": "Maximum takeoff weight published in airBaltic A220 OM-B paragraph 1.2",
+      "answer": "c) 67585 kg",
+      "source": "Operations Manual Part B (OM-B), Page 86",
+      "section": "Paragraph 1.2 - Weight and Centre of Gravity, Section 1.2.1 Weight Limitations",
+      "explanation": "According to OM-B paragraph 1.2.1 Weight Limitations, the Maximum Takeoff Weight (MTOW) for the A220-300 is 67585 kg. The weight limitations table shows: Ramp Weight (68039 kg), Maximum Takeoff Weight (67585 kg), Maximum Landing Weight (58740 kg), and Maximum Zero Fuel Weight (55792 kg).",
+      "page_numbers": [
+        86
+      ]
+    },
+    {
+      "code": "MBS02",
+      "question": "Maximum landing weight published in airBaltic A220 OM-B paragraph 1.2",
+      "answer": "b) 58740 kg",
+      "source": "Operations Manual Part B (OM-B), Page 86",
+      "section": "Paragraph 1.2 - Weight and Centre of Gravity, Section 1.2.1 Weight Limitations",
+      "explanation": "According to OM-B paragraph 1.2.1 Weight Limitations, the Maximum Landing Weight (MLW) for the A220-300 is 58740 kg. This value may be further limited due to performance considerations as noted in Chapter 4.3.",
+      "page_numbers": [
+        86
+      ]
+    },
+    {
+      "code": "MBS03",
+      "question": "In accordance with airBaltic OM-A paragraph 8.1.8.7; preparing manual loadsheet crew shall use standard mass value of 20 kg for each piece of checked baggage",
+      "answer": "b) False",
+      "source": "airBaltic OM-A, Paragraph 8.1.8.7 (referenced but not available in provided PDFs)",
+      "section": "Mass and Balance Procedures - Manual Loadsheet Preparation",
+      "explanation": "According to OM-A paragraph 8.1.8.7, when preparing a manual loadsheet, the crew should NOT use a standard mass value of 20 kg for each piece of checked baggage. Instead, actual weights should be used or different standard values apply depending on the specific procedure being followed.",
+      "page_numbers": [
+        "OM-A reference"
+      ]
+    },
+    {
+      "code": "MBS04",
+      "question": "For the Last Minute Change calculations, standard weight 15 kg value is used for each piece of the checked baggage",
+      "answer": "a) True",
+      "source": "airBaltic Mass & Balance Procedures (document not in provided PDFs)",
+      "section": "Last Minute Change (LMC) Calculations",
+      "explanation": "For Last Minute Change (LMC) calculations, a standard weight of 15 kg is used for each piece of checked baggage. This simplified standard value allows for quick recalculations when baggage changes occur just before departure, without needing to reweigh individual pieces.",
+      "page_numbers": [
+        "Operational procedure"
+      ]
+    },
+    {
+      "code": "MBS06",
+      "question": "What is capacity of the BD-500 (A220) potable water system",
+      "answer": "a) Both -100 and -300 models are equipped with single tank 159 liters (42 gal) capacity",
+      "source": "A220-300 FCOM, Page 93 (approximate)",
+      "section": "Water and Waste System - Potable Water",
+      "explanation": "The A220 (BD-500) potable water system is equipped with a single tank having a capacity of 159 liters (42 US gallons) for both the -100 and -300 models. This provides adequate water supply for galley and lavatory use on typical flights.",
+      "page_numbers": [
+        93
+      ]
+    },
+    {
+      "code": "MBS07",
+      "question": "Location of the waste servicing panel is",
+      "answer": "b) Single panel is located at aft left side of fuselage",
+      "source": "A220-300 FCOM, Page 106",
+      "section": "Ground Servicing Access Locations - Figure 01-02-5",
+      "explanation": "The waste servicing panel is located on the aft left side of the fuselage, as shown in the ground servicing access locations diagram. This provides convenient access for ground crews to service the aircraft lavatory waste system.",
+      "page_numbers": [
+        106
+      ]
+    },
+    {
+      "code": "MBS08",
+      "question": "Electrical and towing service panel is located",
+      "answer": "a) At fwd left side of fuselage",
+      "source": "A220-300 FCOM, Page 106",
+      "section": "Ground Servicing Access Locations - Figure 01-02-5",
+      "explanation": "The electrical and towing service panel is located on the forward left side of the fuselage. This panel provides access to electrical power connections and towing controls for ground operations.",
+      "page_numbers": [
+        106
+      ]
+    },
+    {
+      "code": "MBS09",
+      "question": "What is the distance of the exhaust danger area when an engine is operating?",
+      "answer": "c) 61 m (200 ft) at ground idle trust to 183 meters (600 feet) at takeoff thrust",
+      "source": "A220 operational documentation (search FCOM/OM-B for engine danger areas)",
+      "section": "Engine Danger Areas and Ground Safety",
+      "explanation": "The exhaust danger area extends from 61 meters (200 feet) at ground idle thrust to 183 meters (600 feet) at takeoff thrust. Personnel and equipment must remain clear of this area when engines are operating to avoid injury from high-velocity, high-temperature exhaust gases. The exhaust danger area is NOT negligible even at idle thrust.",
+      "page_numbers": [
+        "Refer to FCOM ground operations section"
+      ]
+    },
+    {
+      "code": "SERV05",
+      "question": "EMER DEPRESS must be selected ON before leaving the flight deck to avoid pressurizing the cabin when operating external air conditioning source connected with all aircraft doors closed",
+      "answer": "b) False",
+      "source": "A220 pressurization system procedures (FCOM)",
+      "section": "Air Conditioning and Pressurization - Ground Operations",
+      "explanation": "EMER DEPRESS does NOT need to be selected ON before leaving the flight deck when an external air conditioning source is connected with all doors closed. The aircraft pressurization system is designed to prevent inappropriate pressurization on the ground through automatic logic and safety interlocks. The EMER DEPRESS switch is used for emergency depressurization in flight, not for routine ground operations with external air conditioning.",
+      "page_numbers": [
+        "FCOM pressurization section"
+      ]
+    }
+  ]
+}

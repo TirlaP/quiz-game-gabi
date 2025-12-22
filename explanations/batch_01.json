@@ -1,0 +1,68 @@
+{
+  "02AIR01": {
+    "explanation": "The APU BLEED switch/light directly controls the APU bleed air valve. Pressing this switch closes the APU bleed valve and illuminates OFF in the switch. The XBLEED rotary switch controls the crossbleed valve between engine bleed manifolds but does not directly control the APU bleed valve, which has its own dedicated control.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - APU Bleed Control"}
+    ]
+  },
+  "02AIR02": {
+    "explanation": "The three sources of bleed air on the A220 are the engines (4th or 9th stage compressor bleed), APU (APU load compressor), and external air source (ground cart high-pressure connection). The packs are users of bleed air, not sources - they consume bleed air to condition it for cabin use. Each source can supply the bleed manifold depending on availability and system logic.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - Bleed Air Sources"}
+    ]
+  },
+  "02AIR03": {
+    "explanation": "When the L or R BLEED switch/light is pressed, three things occur: OFF illuminates in the switch indicating the valve is commanded closed, the corresponding bleed valve displays as closed (shown graphically) on the AIR synoptic page, and an L BLEED OFF or R BLEED OFF status message appears on EICAS to inform the crew. The crossbleed valve does not automatically open; it remains in the position selected by the XBLEED rotary switch (AUTO, MAN OPEN, or MAN CLSD).",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - Bleed Switch Operation"}
+    ]
+  },
+  "02AIR04": {
+    "explanation": "The high-pressure ground external air connection serves two primary functions: supplying air for engine starting (pneumatic starter motor) and supplying air to one or both air conditioning packs for ground cooling and ventilation. It connects to the bleed air manifold and requires ground support equipment providing high-pressure air (typically 40-50 psi). It does not supply air for ground servicing and water system, nor for avionic cooling directly.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - External Air Connection Functions"}
+    ]
+  },
+  "02AIR05": {
+    "explanation": "The statement is FALSE. The aft cargo compartment receives ventilation only, with no temperature control capability. Only the forward cargo compartment has a heating system with temperature control capability, offering three settings: HI HEAT (maintains 20-25°C), LO HEAT (maintains 15-20°C), and VENT (ventilation only, no heating). This design is typical for commercial aircraft, as temperature-sensitive cargo and live animals are loaded in the forward compartment.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - Cargo Temperature Systems"}
+    ]
+  },
+  "02AIR06": {
+    "explanation": "The statement is TRUE. The AIR synoptic page displays three temperature parameters for each zone: actual temperature (measured current zone temperature from sensors), desired temperature (pilot or passenger selected target temperature), and duct temperature (supply air temperature being delivered to that zone). This comprehensive information allows monitoring of system performance and troubleshooting of temperature control issues.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - Synoptic Display Parameters"}
+    ]
+  },
+  "02AIR07": {
+    "explanation": "The statement is TRUE. The guarded RAM AIR switch/light on the AIR panel directly commands the emergency ram air valve to open when pressed. This provides an emergency source of ventilation air to the cabin if both air conditioning packs fail, utilizing ram air pressure from aircraft forward motion. This is a critical emergency backup for cabin ventilation.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - Emergency Ram Air"}
+    ]
+  },
+  "02AIR08": {
+    "explanation": "The AIR synoptic page displays three temperature parameters for each zone: duct temperature (temperature of air being supplied to the zone from the air conditioning system), desired temperature (pilot or passenger-selected target temperature for that zone), and actual temperature (current zone temperature measured by sensors). Humidity level is not displayed as it is not actively controlled or monitored on the A220 air conditioning system.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - AIR Synoptic Page Display"}
+    ]
+  },
+  "02AIR09": {
+    "explanation": "Pressurization system indications display in two locations: on the AIR synoptic page when EICAS is compressed (showing pressurization parameters continuously in this configuration), and on the EICAS itself (displaying cabin altitude, cabin rate of change, and differential pressure). The PRESSURIZATION panel contains only controls and switches (like EMER DEPRESS, DITCHING, LDG ELEV, and mode selectors) but no digital display indications. The pressurization information is not shown on the AIR synoptic page at all times - only when EICAS is compressed.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - Pressurization System Displays"}
+    ]
+  },
+  "02AIR10": {
+    "explanation": "When the guarded EMER DEPRESS switch/light is pressed on the PRESSURIZATION panel, the outflow valve opens fully, causing cabin altitude to increase rapidly to 15,000 feet or the aircraft altitude, whichever is less. This emergency function is used for rapid smoke removal or to depressurize the cabin in emergency situations (such as suspected fire or fumes), while limiting maximum cabin altitude to 15,000 feet for passenger safety and oxygen availability considerations.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - Emergency Depressurization"}
+    ]
+  },
+  "02AIR11": {
+    "explanation": "The statement is TRUE. When the guarded DITCHING switch/light is pressed, ON illuminates in the switch to indicate ditching mode is selected. When all commanded valve closures are complete (outflow valve, pack valves, avionic exhaust valves, and flow control valves close to prevent water entry), a DITCHING ON status message displays on EICAS. This confirms the aircraft is properly configured for water landing with critical valves closed to minimize water ingress into the fuselage.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Air Conditioning, Bleed Air and Pressurization - Ditching Switch Operation"}
+    ]
+  }
+}

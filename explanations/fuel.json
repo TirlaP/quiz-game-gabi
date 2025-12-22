@@ -1,0 +1,179 @@
+{
+  "chapter": "Fuel",
+  "explanations": {
+    "11FUE21": {
+      "explanation": "The left main ejector pump is powered by motive flow from the left engine-driven pump (EDP). When the left engine is running, the EDP provides high-pressure fuel that creates motive flow through the ejector pump, which then supplies fuel from the left collector tank to both the left engine and the APU.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel System",
+      "correctAnswer": "c"
+    },
+    "11FUE14": {
+      "explanation": "On the A220 FUEL synoptic page, a green AC boost pump symbol indicates that the pump is operating normally. This follows standard EICAS color coding conventions where green indicates normal operation or an active system component.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel System Indications",
+      "correctAnswer": "a"
+    },
+    "11FUE24": {
+      "explanation": "The minimum fuel quantity per wing for go-around on the A220 is 363 kg (800 lb). This minimum ensures adequate fuel is available in each wing tank to support the high thrust requirements and potential aircraft attitudes during a go-around maneuver, ensuring reliable fuel supply to the engines through the collector tanks.",
+      "source": "A220 Operations Manual",
+      "page": "Fuel Limitations",
+      "correctAnswer": "c"
+    },
+    "11FUE10": {
+      "explanation": "For manual fuel transfer between main tanks: the MAN XFR rotary switch must be set to L or R position, the fuel transfer displays on the FUEL synoptic page while transferring, and when complete, the EICAS advisory message FUEL MAN XFR COMPLETE displays. The boost pump operation is automatic during transfer.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Transfer Procedures",
+      "correctAnswer": "b,c,d"
+    },
+    "11FUE08": {
+      "explanation": "The scavenge ejector pumps are located in each main fuel tank. Their purpose is to continuously scavenge fuel from the main tanks and transfer it to the collector tanks, ensuring a positive fuel supply regardless of aircraft attitude by moving fuel from all areas of the main tank to the collector tank.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel System Components",
+      "correctAnswer": "c"
+    },
+    "11FUE16": {
+      "explanation": "The FUEL USED quantity on the A220 can be reset in two ways: automatically when AC/DC power is completely removed from the aircraft (power cycle), or manually by pressing the appropriate soft key on the FUEL synoptic page. Engine start does not automatically reset FUEL USED.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Quantity Indications",
+      "correctAnswer": "a,b"
+    },
+    "11FUE23": {
+      "explanation": "The maximum permissible fuel imbalance between left and right main tanks on the A220 is 454 kg (1000 lb). This is a structural limitation to prevent excessive wing bending moments and lateral weight imbalance. Note: 454 kg is also the threshold at which a FUEL IMBALANCE caution message appears on EICAS.",
+      "source": "A220 Operations Manual",
+      "page": "Fuel System Limitations",
+      "correctAnswer": "b"
+    },
+    "11FUE06": {
+      "explanation": "The Inerting Control Unit (ICU) regulates the flow of nitrogen-enriched air (NEA) entering the fuel tanks in the Fuel Tank Inerting System (FTIS). The ICU monitors various parameters and controls valves to regulate how much NEA flows into each fuel tank to maintain proper oxygen concentration, reducing the risk of fuel vapor ignition.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Tank Inerting System",
+      "correctAnswer": "a"
+    },
+    "11FUE20": {
+      "explanation": "The scavenge ejector pumps are specifically designed to continuously move fuel from the main tanks to the collector tanks. They use motive flow from the main ejector pumps to create suction that draws fuel from various locations in the main tank and transfers it to the collector tank, ensuring a continuous supply for engine and APU operation.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Distribution System",
+      "correctAnswer": "a"
+    },
+    "11FUE25": {
+      "explanation": "The surge tanks are located outboard of both main fuel tanks, at the wing tips. They provide venting and expansion space for the fuel system, allowing fuel to expand into these tanks during temperature changes or when tanks are overfilled, helping prevent fuel from venting overboard through the vent system.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Tank Configuration",
+      "correctAnswer": "a"
+    },
+    "11FUE07": {
+      "explanation": "When the boost pump switches are in AUTO position, the fuel system automatically monitors fuel pressure. If one or both main ejector pumps fail (detected by low fuel pressure), the AC boost pumps automatically activate to maintain fuel pressure and supply to the engines, providing automatic backup without pilot intervention.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Pump Logic",
+      "correctAnswer": "a"
+    },
+    "11FUE04": {
+      "explanation": "The Fuel Tank Inerting System (FTIS) reduces ignition risk by: (1) varying/regulating the flow of nitrogen-enriched air entering the fuel tanks based on flight phase and tank conditions to displace oxygen, and (2) generating nitrogen-enriched air using an Air Separation Module that separates nitrogen from engine bleed air, creating NEA with reduced oxygen content (typically below 12%), making fuel vapor non-flammable.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Tank Inerting System",
+      "correctAnswer": "b,c"
+    },
+    "11FUE29": {
+      "explanation": "The collector tanks (located in each main tank) ensure a positive fuel supply to the engines and APU in all aircraft attitudes. These tanks are positioned at the low point of each main tank and are designed to always contain fuel through the action of scavenge ejector pumps and one-way check valves, regardless of aircraft pitch, roll, or yaw.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel System Design",
+      "correctAnswer": "c"
+    },
+    "11FUE03": {
+      "explanation": "Fuel is moved from the center tank to the main tanks through transfer ejector pumps that use motive flow to actively pump fuel, and through suction as the engine fuel pumps create negative pressure that helps draw fuel from the center tank when transfer ejector pumps are operating.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Center Tank Transfer",
+      "correctAnswer": "a,d"
+    },
+    "11FUE09": {
+      "explanation": "One-way check valves prevent the main ejector pumps from crossfeeding during normal engine fuel feed operations. These check valves allow fuel to flow from the collector tank to the respective engine but prevent fuel from flowing backward or to the opposite engine, ensuring each engine receives fuel from its own collector tank unless crossfeed is intentionally commanded.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Distribution System",
+      "correctAnswer": "b"
+    },
+    "11FUE30": {
+      "explanation": "The Fuel Tank Inerting System (FTIS) is specifically designed to reduce the risk of fuel fumes (vapor) igniting in the fuel tanks. It does this by replacing oxygen in the ullage (empty space above fuel) with nitrogen-enriched air, reducing oxygen concentration below the level needed for combustion, preventing ignition even if an ignition source is present.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Tank Inerting System",
+      "correctAnswer": "d"
+    },
+    "11FUE26": {
+      "explanation": "The primary purpose of the one-way check valves in the fuel system is to prevent the main ejector pumps from crossfeeding during normal operations. These valves allow fuel to flow in one direction only (from collector tank toward the engine) but prevent reverse flow or cross feeding between the left and right fuel systems unless crossfeed is specifically commanded through the boost pumps.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel System Components",
+      "correctAnswer": "c"
+    },
+    "11FUE12": {
+      "explanation": "With boost pump switches in AUTO, the AC boost pumps start under these conditions: low fuel pressure (main ejector pump failure) automatically triggers boost pump operation; fuel imbalance (≥180 kg/400 lb) triggers automatic crossfeed with the boost pump from the fuller tank activating; and when the APU is operating (and engines not running), the associated boost pump starts to provide fuel pressure.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "AC Boost Pump Logic",
+      "correctAnswer": "a,c,d"
+    },
+    "11FUE19": {
+      "explanation": "The fuel tanks are vented through NACA scoops that are mounted on the surge tanks. These NACA scoops provide a low-pressure area that allows the fuel tank system to maintain proper pressure equalization with the atmosphere while preventing fuel from being drawn out. The venting system runs from the main tanks through the surge tanks to the NACA scoops.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Tank Venting",
+      "correctAnswer": "d"
+    },
+    "11FUE27": {
+      "explanation": "During automatic fuel balancing (crossfeed), both engines receive fuel from the heavier (fuller) tank through the crossfeed system. The automatic balancing continues until the fuel quantities in the left and right main tanks are within 45 kg of each other. At this point, the system considers the tanks balanced and returns to normal fuel feed configuration.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Automatic Fuel Balancing",
+      "correctAnswer": "b"
+    },
+    "11FUE28": {
+      "explanation": "When a manual fuel transfer between main tanks is complete, the EICAS displays FUEL MAN XFR COMPLETE as an ADVISORY message (white text). Advisory messages inform the crew of system status and completed operations but do not require immediate action, notifying the pilot that the manual transfer operation has finished.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "EICAS Messages",
+      "correctAnswer": "d"
+    },
+    "11FUE22": {
+      "explanation": "The Fuel Quantity Computer (FQC) performs two main functions: it controls fuel movement between tanks by managing transfer operations and automatic crossfeed, and it provides fuel quantity indications by processing signals from fuel quantity sensors in each tank and displaying this information on the EICAS and fuel synoptic page. The FQC is the brain of the fuel management system.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Quantity System",
+      "correctAnswer": "b"
+    },
+    "11FUE17": {
+      "explanation": "The FUEL USED quantity is displayed on the FUEL synoptic page only. Pilots must select the FUEL synoptic page to view fuel consumption information. This is because FUEL USED is not typically required for continuous monitoring during normal flight operations on the primary EICAS display.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Indications",
+      "correctAnswer": "c"
+    },
+    "11FUE11": {
+      "explanation": "For automatic crossfeed to occur, the FQC must sense a fuel imbalance of 180 kg (400 lb) between left and right main tanks - this is the threshold that triggers automatic crossfeed. Additionally, the AC boost pump rotary switch must be in the AUTO position for automatic crossfeed to function, allowing the system to automatically activate the boost pump without pilot intervention.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Automatic Crossfeed Logic",
+      "correctAnswer": "a,c"
+    },
+    "11FUE13": {
+      "explanation": "Fuel temperatures for the left and right main fuel tanks are displayed only on the FUEL synoptic page. They are not shown on the primary EICAS display during normal operations. Pilots must select the FUEL synoptic page to view fuel temperature information, as fuel temperature is not typically required for continuous monitoring during normal flight.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Temperature Indications",
+      "correctAnswer": "b"
+    },
+    "11FUE18": {
+      "explanation": "When the engines are running, the Engine-Driven Pumps (EDPs) provide high-pressure motive flow to the main ejector pumps. Each engine has an EDP that is mechanically driven by the engine gearbox. The EDP produces high-pressure fuel that flows through the main ejector pump, creating the motive flow that operates the ejector pump through venturi effect, continuously supplying fuel to the engine.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Engine Fuel Feed System",
+      "correctAnswer": "c"
+    },
+    "11FUE01": {
+      "explanation": "There are two collector tanks on the A220: one collector tank is located in the left main tank, and one collector tank is located in the right main tank. Each collector tank is positioned at the lowest point of its respective main tank to ensure continuous fuel availability to the engines and APU regardless of aircraft attitude.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Tank Configuration",
+      "correctAnswer": "c,d"
+    },
+    "11FUE15": {
+      "explanation": "When fuel imbalance exceeds 454 kg (1000 lb) between the left and right main tanks, the fuel quantity displays change to AMBER color on the EICAS and a FUEL IMBALANCE CAUTION message (amber) displays. This alerts the crew to a significant fuel imbalance that exceeds normal operating parameters and should be corrected before reaching the maximum permissible imbalance limit.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Imbalance Indications",
+      "correctAnswer": "a"
+    },
+    "11FUE02": {
+      "explanation": "The surge tanks serve as venting space for the fuel system. They provide expansion volume when fuel expands due to temperature increase, collect fuel that might overflow from the main tanks, and are part of the fuel tank venting system connected to NACA scoops. This prevents over-pressurization of the fuel tanks and allows for fuel expansion while preventing fuel from venting overboard.",
+      "source": "A220-300 FCOM Vol 1",
+      "page": "Fuel Tank Venting System",
+      "correctAnswer": "c"
+    }
+  }
+}

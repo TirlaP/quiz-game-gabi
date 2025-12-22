@@ -1,0 +1,184 @@
+{
+  "08ELD01": {
+    "explanation": "The A220 cockpit features three main control panels for interacting with the Pro Line Fusion avionics: (1) The Cursor Control Panel (CCP) contains trackball/cursor controls for navigating display menus and selecting items on screen, (2) The Multifunction Keyboard Panel (MKP) provides alphanumeric data entry capabilities for inputting flight plans, waypoints, and other text-based information, and (3) The Control Tuning Panel (CTP) contains rotary knobs for tuning radio frequencies and making numerical adjustments. These panels are strategically positioned on the center pedestal to be accessible to both pilots and provide intuitive control of the flight management and communication systems.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Deck - Control Panel Layout"},
+      {"pdf": "FCOM1", "page": "Pro Line Fusion - Control Interfaces"}
+    ]
+  },
+  "08ELD02": {
+    "explanation": "The primary method for moving cursors on the A220 displays is using the trackball or cursor control device on the Cursor Control Panel (CCP). However, if the trackball fails or is unavailable, the alternate control method is to use the arrow keys on the Multifunction Keyboard Panels (MKPs). The MKPs, located on the center pedestal, have dedicated arrow keys (up, down, left, right) that can move the cursor in the same way as the trackball. This redundancy ensures that even if the CCP trackball malfunctions, pilots can still navigate through FMS pages, select items on displays, and interact with the avionics systems.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Cursor Control System"},
+      {"pdf": "FCOM1", "page": "Multifunction Keyboard Panel Functions"}
+    ]
+  },
+  "08ELD03": {
+    "explanation": "This statement is TRUE. The reversion switch panel includes L (Left) and R (Right) CURSOR INHIB pushbuttons that allow pilots to disable a malfunctioning cursor control. When pressed, the associated cursor is inhibited (disabled), and a green light illuminates to indicate the inhibit is active. This feature is important in situations where a cursor becomes erratic or stuck, which could interfere with flight operations. By inhibiting the faulty cursor, the crew can continue using the other cursor control panel without interference. The green light provides clear visual confirmation that the cursor inhibit function is engaged.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Reversion Switch Panel"},
+      {"pdf": "FCOM1", "page": "Electronic Display - Cursor Control System"}
+    ]
+  },
+  "08ELD04": {
+    "explanation": "The normal configuration of the A220's five display units is: DU 1 (Captain's PFD on the left), DU 2 (MFD/center display showing navigation and systems), DU 3 (EICAS in the center-lower position showing engine parameters and crew alerts), DU 4 (MFD/center display on the First Officer's side), and DU 5 (First Officer's PFD on the right). This five-display layout is part of the Rockwell Collins Pro Line Fusion avionics suite. The displays are all 15.1-inch high-resolution LCDs that are interchangeable, meaning any display can show any format if needed during reversion situations.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Display Unit Configuration"},
+      {"pdf": "FCOM1", "page": "Pro Line Fusion - Normal Display Layout"}
+    ]
+  },
+  "08ELD05": {
+    "explanation": "This statement is TRUE. A non-conformal FPV is displayed when the system cannot accurately position the FPV in its normal conformal mode, typically due to invalid or unreliable data from the inertial reference system or air data system. In normal conformal mode, the FPV is precisely positioned on the display to show the exact direction of aircraft movement relative to the horizon and attitude indicator. In non-conformal mode, the FPV may be displayed with reduced accuracy or in a fixed position with an indication that its accuracy is degraded. Visual cues that indicate non-conformal mode typically include color changes (such as amber instead of green), different symbology, or accompanying text messages.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Flight Path Vector Modes"},
+      {"pdf": "FCOM1", "page": "PFD Symbology - Conformal Display Logic"}
+    ]
+  },
+  "08ELD06": {
+    "explanation": "The slip/skid indicator (also known as the ball or inclinometer) provides yaw indication on the Primary Flight Display. This indicator shows whether the aircraft is in coordinated flight or if there is a sideslip condition. When the aircraft yaws left or right without proper coordinated rudder input, the slip/skid indicator will move off-center, indicating uncoordinated flight. The roll pointer indicates bank angle, the pitch target marker shows autopilot pitch commands, and the aircraft reference symbol represents the aircraft's position relative to the horizon. Only the slip/skid indicator specifically measures and displays yaw - the rotation of the aircraft around its vertical axis.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Primary Flight Display Symbology"},
+      {"pdf": "FCOM1", "page": "Flight Instruments - Attitude and Slip/Skid Indicators"}
+    ]
+  },
+  "08ELD07": {
+    "explanation": "The speed error tape is a vertical tape indicator on the PFD that shows the difference between the current airspeed and the autopilot or autothrottle target speed. It appears as a magenta tape extending from the current airspeed indicator, with tick marks showing incremental speed differences. When the tape extends upward, it indicates the target speed is higher than current speed (aircraft needs to accelerate). When it extends downward, the target speed is lower (aircraft needs to decelerate). This is different from the airspeed tape (which shows actual indicated airspeed), the flight path vector (which shows actual flight path direction), and the flight path acceleration cue.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - PFD Speed Indications"},
+      {"pdf": "FCOM1", "page": "Speed Error Tape - Function and Display"}
+    ]
+  },
+  "08ELD08": {
+    "explanation": "The airspeed trend vector (also called the speed trend arrow) displays the predicted airspeed 10 seconds in the future based on the current rate of acceleration or deceleration. This predictive indicator appears as a vertical line extending from the current airspeed indication on the speed tape. If the aircraft is accelerating, the trend vector points upward, showing where the speed will be in 10 seconds if the current acceleration continues. If decelerating, it points downward. The 10-second prediction window is optimal for pilot situational awareness - it's long enough to provide useful advance warning of speed trends but short enough to remain accurate despite changing flight conditions.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Airspeed Trend Vector"},
+      {"pdf": "FCOM1", "page": "PFD Speed Prediction Algorithms"}
+    ]
+  },
+  "08ELD09": {
+    "explanation": "The EICAS (Engine Indicating and Crew Alerting System) displays two primary categories of information: (a) Configuration and trim indications - including flap position, slat position, landing gear status, spoiler position, and horizontal stabilizer trim position, and (d) Engine and fuel quantity indications - including N1, N2, EGT (Exhaust Gas Temperature), fuel flow, oil pressure/temperature, and total fuel quantity. The EICAS does NOT display VHF COM frequencies (these appear on the Radio Tuning Unit displays) or a list of synoptic pages (synoptic pages are accessed through multifunction displays but the list is not on EICAS).",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - EICAS Display Format"},
+      {"pdf": "FCOM1", "page": "Engine Indicating and Crew Alerting System"}
+    ]
+  },
+  "08ELD10": {
+    "explanation": "When a WARNING message (red text) appears on the EICAS, two key indications occur: (b) A triple chime sounds - this is the distinctive aural alert for warning-level messages, immediately capturing crew attention even if they are not actively scanning the EICAS display, and (d) WARNING flashes on both master WARNING/CAUTION switch/lights - the master warning lights on the glareshield in front of both pilots flash to provide a clear visual alert that requires acknowledgment. The combination of visual (flashing lights, red text) and aural (triple chime) alerts ensures warnings cannot be missed.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Warning Alert Indications"},
+      {"pdf": "FCOM1", "page": "EICAS - Master Warning/Caution Logic"}
+    ]
+  },
+  "08ELD12": {
+    "explanation": "During takeoff and landing phases, certain EICAS messages are inhibited to reduce pilot workload during these critical, high-task-load phases of flight. The message types that are inhibited are: (a) Caution messages (amber) and (d) Advisory messages (cyan). Warning messages (red) are NEVER inhibited as they indicate conditions requiring immediate action. Status messages (white) are also inhibited. The inhibit begins during takeoff from start of takeoff roll until reaching 400 feet AGL, and during landing from approximately 800 feet AGL until touchdown or go-around. Once the inhibit phase ends, all suppressed messages are displayed.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - EICAS Message Inhibit Logic"},
+      {"pdf": "FCOM1", "page": "Crew Alerting System - Phase of Flight Filtering"}
+    ]
+  },
+  "08ELD13": {
+    "explanation": "This statement is TRUE. The Air Data Smart Probes (ADSPs) on the A220 are multifunctional sensors that measure multiple air data parameters including angle of attack (AOA). Each ADSP measures static pressure, pitot pressure (dynamic pressure), and angle of attack using differential pressure sensors. The angle of attack is derived from differential pressure measured through two holes symmetrically placed on the upper and lower surfaces of the probe's truncated cone. In addition to the four ADSPs, the A220 also has two separate dedicated AOA vanes for additional redundancy. Angle of attack information is critical for stall protection, flight envelope protection, and optimal aircraft performance.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Air Data System Components"},
+      {"pdf": "FCOM1", "page": "Air Data Smart Probes - AOA Measurement"}
+    ]
+  },
+  "08ELD15": {
+    "explanation": "This statement is TRUE. Pressing the ADS pushbutton on the reversion switch panel cycles through the air data sources of the associated PFD. This allows the pilot to manually select which Air Data Smart Probe (ADSP) is providing data to their Primary Flight Display. The normal configuration has each PFD receiving data from its primary ADSP, but in case of an air data source failure or discrepancy, the pilot can manually cycle through alternate air data sources. This is part of the redundancy and reversion capability built into the A220's air data system, which has four ADSPs providing multiple backup sources.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Reversion Switch Panel"},
+      {"pdf": "FCOM1", "page": "Air Data System - Source Selection"}
+    ]
+  },
+  "08ELD16": {
+    "explanation": "The A220 air data system comprises: (a) Two angle-of-attack (AOA) vanes - dedicated sensors mounted on the forward fuselage that provide redundant AOA measurement independent of the ADSPs, (b) Two total air temperature (TAT) probes - measure outside air temperature accounting for compressibility heating, essential for performance calculations and engine control, and (d) Four air data system probes (ADSPs) - multifunctional smart probes that measure static pressure, pitot pressure, and angle of attack. The system does NOT include three pitot tubes - the pitot pressure measurement is integrated into the four ADSPs rather than using separate pitot tubes.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Air Data System Configuration"},
+      {"pdf": "FCOM1", "page": "External Probe Locations and Functions"}
+    ]
+  },
+  "08ELD17": {
+    "explanation": "When there is a disagreement of more than 4 degrees between the pitch or bank angle indications on the Captain's and First Officer's PFDs, an ATT DIFF (Attitude Difference) indication appears. This alert warns the crew that the two Inertial Reference Units (IRUs) or Air Data and Inertial Reference Systems (ADIRS) are providing conflicting attitude information. Such a discrepancy could indicate a failure in one of the attitude sources or a problem with one IRU. The 4-degree threshold is set to detect significant errors while avoiding nuisance alerts from minor computational differences. When this indication appears, pilots must cross-reference their attitude indicators and potentially use the Integrated Standby Instrument (ISI).",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Attitude Reference Monitoring"},
+      {"pdf": "FCOM1", "page": "PFD Attitude Difference Alerting"}
+    ]
+  },
+  "08ELD18": {
+    "explanation": "The EICAS message inhibit function suppresses certain non-critical alerts during takeoff to reduce pilot workload during this high-task-load phase of flight. The message inhibit ends at 400 feet AGL (Above Ground Level) during takeoff. Below 400 feet AGL after liftoff, only critical warnings are displayed - cautions and advisories that are not immediately flight-safety critical are inhibited (suppressed). Once the aircraft climbs through 400 feet AGL, the inhibit is removed and all previously suppressed messages are displayed. This altitude threshold represents a point where the aircraft is safely airborne with sufficient altitude for the crew to deal with non-critical issues.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - EICAS Message Inhibit Logic"},
+      {"pdf": "FCOM1", "page": "Crew Alerting System - Phase of Flight Filtering"}
+    ]
+  },
+  "08ELD19": {
+    "explanation": "This statement is FALSE. The top of the low speed marker (also called the barber pole or stall warning speed reference) does NOT correspond to the sidestick hard stop speed (VAOA HARD). Instead, the low speed marker indicates a speed range approaching stall speed, with the top typically representing stick shaker speed or another stall warning threshold. The VAOA HARD is the speed at which the sidestick hard stop protection activates in the fly-by-wire system - when the aircraft approaches this critical angle of attack, the flight control system prevents further aft sidestick movement to protect against stall. These are related but distinct speeds in the flight envelope protection system.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Low Speed Protection"},
+      {"pdf": "FCOM1", "page": "PFD Speed Reference Markers"}
+    ]
+  },
+  "08ELD20": {
+    "explanation": "This statement is TRUE. On the A220 PFD, when Mach number is displayed (above 0.45M), the True Airspeed (TAS) and Ground Speed (GS) are shown below the Mach number readout. This grouping of related speed parameters provides comprehensive speed information in one area of the display. True Airspeed (TAS) is the actual speed of the aircraft through the air mass, corrected for altitude and temperature. Ground Speed (GS) is the speed over the ground, incorporating wind effects. By displaying TAS and GS together with Mach number at higher speeds/altitudes, pilots have all relevant speed references visible simultaneously.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - PFD Speed Display Format"},
+      {"pdf": "FCOM1", "page": "High Altitude Speed Reference Display"}
+    ]
+  },
+  "08ELD21": {
+    "explanation": "Each tick mark on the speed error tape represents a difference of 5 knots between the current airspeed and the target/selected speed. The speed error tape provides a quick visual reference for how far the aircraft's current speed deviates from the autopilot or autothrottle target. The 5-knot increment is a standardized value that provides good resolution for speed monitoring without cluttering the display with too many marks. Pilots can instantly see the magnitude of speed error by counting tick marks: one tick = 5 knots error, two ticks = 10 knots error, etc. This is particularly useful during approaches when precise speed control is critical.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Speed Error Tape Scaling"},
+      {"pdf": "FCOM1", "page": "PFD Speed Reference Displays"}
+    ]
+  },
+  "08ELD22": {
+    "explanation": "Mach number displays on the Primary Flight Display (PFD) under the airspeed tape when the aircraft's speed exceeds 0.45 Mach. Below this threshold, Mach number is not displayed because it is not operationally relevant at lower speeds where indicated airspeed is the primary speed reference. At higher altitudes and speeds, Mach number becomes more important than indicated airspeed due to compressibility effects on the airframe and the proximity to maximum operating Mach (MMO). The automatic display of Mach above 0.45M ensures pilots have the critical speed reference information appropriate for their flight regime. The 0.45M threshold represents the transition point where Mach number monitoring becomes operationally significant.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Mach Number Display Logic"},
+      {"pdf": "FCOM1", "page": "PFD Speed Reference Display Parameters"}
+    ]
+  },
+  "08ELD23": {
+    "explanation": "In the A220 display reversion logic, when DU 1 (which normally displays the Captain's PFD) fails, the Primary Flight Display automatically reverts to DU 2 (the center display unit). This is part of the Pro Line Fusion avionics system's redundancy architecture, which ensures that critical flight information remains available to the flight crew even during display failures. The A220 has five interchangeable display units (DU 1-5), and the system is designed to automatically reconfigure displays to maintain the most critical flight information on available screens. DU 2, being centrally located, provides the best backup position for the Captain's PFD as it remains easily visible to both pilots.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Display Reversion Logic"},
+      {"pdf": "FCOM1", "page": "Pro Line Fusion - Display Unit Failure Procedures"}
+    ]
+  },
+  "08ELD24": {
+    "explanation": "The EICAS rotary switch controls how information is distributed across the display units. When set to SWAP position, the EICAS display (normally on DU 3) swaps positions with one of the MFD displays. This might be done to provide better visibility of EICAS information or to accommodate personal preferences or specific operational needs. The other positions are: NORM (normal configuration with EICAS on DU 3), ALTN (alternate configuration moving EICAS to a different display), and REV (reversion mode used during display failures). Understanding display configuration and the ability to recognize which switch position creates which display arrangement is important for both normal operations and abnormal situations.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - EICAS Switch Positions"},
+      {"pdf": "FCOM1", "page": "Display Configuration Control"}
+    ]
+  },
+  "08ELD25": {
+    "explanation": "The Flight Path Vector (FPV) can display in different modes on the A220 PFD. In CAGED MODE, the FPV's lateral drift component is removed, showing only the vertical flight path angle. This mode is useful for determining angle of attack more precisely by eliminating the drift indication. In normal (conformal) mode, the FPV shows both vertical and lateral flight path, moving anywhere on the display to indicate the actual direction of aircraft movement. In NON-CONFORMAL mode, the FPV may be displayed with reduced accuracy when certain data is invalid. The caged mode helps pilots focus on pitch performance without the distraction of lateral drift, particularly useful during approaches or when assessing angle of attack margins.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - PFD Symbology Flight Path Vector Modes"},
+      {"pdf": "FCOM1", "page": "Flight Path Vector Display Logic"}
+    ]
+  },
+  "08ELD26": {
+    "explanation": "When Display Unit 1 (DU 1), which normally displays the Captain's Primary Flight Display, fails, the PFD automatically reverts to DU 2 (the center display unit). This automatic reversion is part of the A220's Pro Line Fusion display management system. The reversion logic is designed to maintain critical flight instrumentation on available displays without crew intervention. DU 2 is selected as the reversion target because of its central location, making it visible to both pilots. The system prioritizes displaying PFDs (most critical information) over other display formats during multiple display failures. The automatic nature of this reversion reduces pilot workload during abnormal situations.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Pro Line Fusion Display Reversion Logic"},
+      {"pdf": "FCOM1", "page": "Display Unit Failure Procedures"}
+    ]
+  },
+  "08ELD27": {
+    "explanation": "Each tick mark on the speed error tape represents 5 knots of difference between the current airspeed and the target/selected speed. The speed error tape provides a quick visual reference for how far the aircraft's current speed deviates from the autopilot or autothrottle target. The 5-knot increment is a standardized value that provides good resolution for speed monitoring without cluttering the display with too many marks. Pilots can instantly see the magnitude of speed error by counting tick marks. This is particularly useful during approaches when precise speed control is critical, or when monitoring autopilot/autothrottle performance to ensure the automation is properly managing the aircraft's energy state.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Speed Error Tape Scaling"},
+      {"pdf": "FCOM1", "page": "PFD Speed Reference Displays"}
+    ]
+  },
+  "08ELD28": {
+    "explanation": "The Integrated Standby Instrument (ISI) on the A220 normally receives its air data from ADSP 3. When ADSP 3 fails, the system automatically switches to ADSP 4 as the backup air data source. The A220 is equipped with four Air Data Smart Probes (ADSPs) that provide redundancy for critical air data measurements including airspeed, altitude, angle of attack, and static/dynamic pressure. The ISI is a critical backup instrument designed to continue providing essential flight information (airspeed, altitude, attitude) even when primary display systems fail. The automatic switching from ADSP 3 to ADSP 4 ensures continuous, reliable air data to this backup instrument without crew intervention.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Display - Air Data System Architecture"},
+      {"pdf": "FCOM1", "page": "Integrated Standby Instrument"}
+    ]
+  }
+}

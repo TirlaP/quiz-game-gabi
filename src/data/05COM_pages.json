@@ -1,0 +1,37 @@
+{
+  "05COM01": {
+    "pdf": "FCOM1",
+    "page": 528,
+    "topic": "VHF Radio Communications"
+  },
+  "05COM02": {
+    "pdf": "FCOM1",
+    "page": 502,
+    "topic": "HF Radio Communications"
+  },
+  "05COM03": {
+    "pdf": "FCOM1",
+    "page": 519,
+    "topic": "ACARS/Datalink (CPDLC)"
+  },
+  "05COM04": {
+    "pdf": "FCOM1",
+    "page": 519,
+    "topic": "SELCAL (Selective Calling)"
+  },
+  "05COM05": {
+    "pdf": "FCOM1",
+    "page": 624,
+    "topic": "CVR (Cockpit Voice Recorder)"
+  },
+  "05COM06": {
+    "pdf": "FCOM1",
+    "page": 607,
+    "topic": "Interphone/PA System"
+  },
+  "05COM07": {
+    "pdf": "FCOM1",
+    "page": 500,
+    "topic": "Audio Control Panel (ACP)"
+  }
+}

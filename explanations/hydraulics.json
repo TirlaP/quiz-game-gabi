@@ -1,0 +1,137 @@
+{
+  "chapter": "Hydraulics",
+  "explanations": {
+    "12HYD11": {
+      "explanation": "The Power Transfer Unit (PTU) is a backup pump specifically for hydraulic system No. 1. The PTU is powered by hydraulic system No. 2 and provides hydraulic pressure to system No. 1 when the left engine is not running or when EDP 1A fails. It uses hydraulic pressure from system 2 to drive a pump that pressurizes system 1, ensuring continued operation of system 1 components.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "d"
+    },
+    "12HYD18": {
+      "explanation": "The guarded HYD 1 SOV (Shutoff Valve) switch/light on the HYDRAULIC panel, when pressed, manually closes the hydraulic system No. 1 shutoff valve. This switch is guarded to prevent inadvertent operation. When pressed, it shuts off hydraulic fluid flow to EDP 1A, isolating the engine-driven pump from the hydraulic system. A white CLSD light illuminates on the switch to indicate the valve is closed.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "a"
+    },
+    "12HYD14": {
+      "explanation": "Hydraulic system No. 3 differs from systems 1 and 2 in three key ways: (b) System 3 is cooled solely by convection (air cooling), while systems 1 and 2 use fuel/hydraulic heat exchangers in the wing tanks. (c) System 3 has two AC Motor Pumps (ACMP 3A and 3B), whereas systems 1 and 2 each have one EDP and one ACMP. (d) System 3 doesn't have thermal fuses or HYD SOVs, while systems 1 and 2 have both these safety features.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "b, c, d"
+    },
+    "12HYD03": {
+      "explanation": "The nominal operating pressure for A220 hydraulic systems is 3000 psi for all three main hydraulic systems. Hydraulic system No. 1, No. 2, and No. 3 all operate at 3000 psi nominal pressure during normal operations. The RAM Air Turbine (RAT) hydraulic pump operates at a lower nominal pressure of 2850 psi when powering system 3.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "a, b, c"
+    },
+    "12HYD07": {
+      "explanation": "When the 2B rotary switch is set to OFF, two things occur: (b) A STATUS message displays on the EICAS indicating the ACMP 2B is off (white text), and (c) The ACMP 2B does not operate in any mode when the switch is in the OFF position. Setting the pump to OFF intentionally is not a caution condition, so a status message appears instead of a caution message.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "b, c"
+    },
+    "12HYD05": {
+      "explanation": "The PTU supplies pressure to hydraulic system No. 1 when: (a) On the ground with the left engine inoperative (right engine running), the PTU can provide pressure to system 1 if the right engine is running to power system 2, and (b) When EDP 1A fails, the PTU automatically activates (with PTU switch in AUTO) to provide backup pressure to system 1. When HYD 1 SOV is closed, fluid is shut off from the EDP, preventing the PTU from effectively supplying system 1.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "a, b"
+    },
+    "12HYD08": {
+      "explanation": "With the 3B switch in AUTO mode, ACMP 3B starts during high-demand situations: (a) In flight when SLAT/FLAP lever moves out of zero position (high demand for flight controls), (b) On ground during slat/flap deployment (high hydraulic demand), and (d) When takeoff thrust is applied (high demand situation). These are all high-demand situations where ACMP 3B provides additional hydraulic flow to support system operations.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "a, b, d"
+    },
+    "12HYD06": {
+      "explanation": "This statement is TRUE. When either HYD SOV switch is pressed, three things happen: (1) The shutoff valve closes, shutting off hydraulic fluid to the respective EDP, (2) The white CLSD light illuminates on the switch to indicate valve closed, and (3) A HYD 1 SOV CLSD or HYD 2 SOV CLSD STATUS message displays on the EICAS. This is the normal indication sequence when a hydraulic SOV is manually closed.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "a"
+    },
+    "12HYD10": {
+      "explanation": "An amber square (or amber outline) around the EDP 1A pump symbol on the hydraulic synoptic page indicates pump failure. Amber is the standard EICAS color for caution conditions and system failures. When the EDP fails, the pump symbol is highlighted in amber to alert the crew to the failure, prompting them to take appropriate action such as relying on backup pumps like the PTU or ACMP.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "d"
+    },
+    "12HYD22": {
+      "explanation": "The Power Transfer Unit (PTU) provides backup hydraulic pressure to hydraulic system No. 1 ONLY. The PTU is powered by hydraulic pressure from system 2 and uses this to pump fluid in system 1. It does not provide backup to system 2 (which powers it) or system 3 (which has its own redundant ACMPs - ACMP 3A and ACMP 3B for redundancy).",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "b"
+    },
+    "12HYD02": {
+      "explanation": "This statement is TRUE. The Ram Air Turbine (RAT) can be manually deployed in flight by the flight crew by pressing the guarded RAT GEN switch/light located on the ELECTRICAL panel. The switch is guarded to prevent inadvertent deployment. The RAT can also deploy automatically under certain emergency conditions such as loss of all AC power. When deployed, the RAT provides emergency hydraulic power to system 3 and electrical power through its generator.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "a"
+    },
+    "12HYD17": {
+      "explanation": "ACMP 2B is the backup pump for hydraulic system No. 2. The primary pump for system 2 is EDP 2A (engine-driven pump). When EDP 2A fails or is unavailable, ACMP 2B (AC Motor Pump 2B) provides backup hydraulic pressure for system 2. This is the same configuration as system 1, which has an EDP as primary and an ACMP as backup.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "d"
+    },
+    "12HYD13": {
+      "explanation": "The priority valves limit hydraulic flow to non-essential systems to maintain pressure for critical systems when hydraulic system pressure reduces to 1700 psi or less. At this pressure threshold, the priority valves close off hydraulic flow to lower-priority systems (like cargo doors, nose wheel steering) and preserve the remaining pressure for flight-critical systems such as flight controls, landing gear, and brakes.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "b"
+    },
+    "12HYD20": {
+      "explanation": "The hydraulic shutoff valves (HYD SOVs) can be manually closed by two methods: (1) Pressing the L (R) ENG FIRE switch/light on the ENGINE and APU fire panel, which automatically closes the associated HYD SOV, and (2) Pressing the guarded HYD 1 (2) SOV switch/lights on the HYDRAULIC panel for direct manual control. These provide crew with multiple methods to shut off hydraulic fluid in emergency situations.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "b"
+    },
+    "12HYD19": {
+      "explanation": "The nominal operating pressure of the A220 hydraulic systems (systems 1, 2, and 3) is 3000 psi. All three hydraulic systems are designed to operate at this standard pressure during normal operations. This provides sufficient force for all hydraulic actuators including flight controls, landing gear, brakes, and other hydraulic-powered systems while maintaining system efficiency and reliability.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "d"
+    },
+    "12HYD09": {
+      "explanation": "With PTU in AUTO and basic conditions met (system 1 quantity >5%, fluid temperature normal, system 2 pressurized, EDP 1A failed or left engine inoperative), the PTU also starts when: (b) When takeoff thrust is applied (high demand for system 1), (c) When parking brake is released during single-engine taxi with only right engine running (system 1 needs pressure for nose wheel steering), and (d) When flaps/slats reach position 4 or 5 in flight, or ALT FLAP is selected (high hydraulic demand on system 1).",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "b, c, d"
+    },
+    "12HYD12": {
+      "explanation": "This statement is TRUE. Hydraulic systems No. 1 and No. 2 each use fuel/hydraulic heat exchangers that are located in their respective wing fuel tanks (system 1 in the left wing tank, system 2 in the right wing tank). These heat exchangers transfer heat from the hot hydraulic fluid to the cooler fuel, maintaining proper hydraulic fluid temperature. This is more efficient than air cooling and takes advantage of the large heat sink capacity of the fuel. Note that System 3 does NOT use a fuel/hydraulic heat exchanger and relies on convection cooling instead.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "a"
+    },
+    "12HYD01": {
+      "explanation": "The hydraulic shutoff valves close automatically when hydraulic fluid temperature exceeds normal conditions due to thermal fuses. They can also be closed manually by two methods: (a) Pressing the L (R) ENG FIRE switch/light on the engine and APU fire panel closes the respective HYD SOV, and (b) Pressing the HYD 1 (2) SOV switch/light on the HYDRAULIC panel directly commands the valve closed. The APU FIRE switch doesn't close engine hydraulic SOVs since systems 1 and 2 are engine-driven.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "a, b"
+    },
+    "12HYD04": {
+      "explanation": "When the RAT is powering hydraulic system No. 3, the hydraulic synoptic page should show: RAT deployed indication (typically shown with green RAT symbol), hydraulic system 3 being pressurized by the RAT pump, RAT pump symbol in green (operating), hydraulic pressure indication for system 3, and typically ACMP 3A and 3B would not be operating or shown as off/failed. The correct synoptic page would show these indications clearly, with the RAT connected to and pressurizing system 3.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "varies (image-based question)"
+    },
+    "12HYD21": {
+      "explanation": "When the 3B rotary switch is selected to the ON position, ACMP 3B will operate continuously regardless of system demand or ACMP 3A status. The ON position overrides all automatic logic and forces the pump to run constantly. This is different from the AUTO position, where the pump operates based on demand and system conditions such as high-flow demands or ACMP 3A failure.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "a"
+    },
+    "12HYD16": {
+      "explanation": "The Ram Air Turbine (RAT) hydraulic pump operates at a nominal pressure of 2850 psi. This is slightly lower than the normal system operating pressure of 3000 psi but sufficient to power the essential hydraulic functions of system 3 during an emergency. The RAT is deployed in emergency situations such as loss of all engines or electrical power and provides both hydraulic and electrical power to critical aircraft systems.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "a"
+    },
+    "12HYD15": {
+      "explanation": "The RAT (Ram Air Turbine) pump is located in the left wing-to-body fairing section. When deployed, the RAT extends into the airstream from this location. The position is chosen to ensure good airflow when deployed while keeping the unit protected when stowed. The RAT turbine is driven by ram air, which turns both a hydraulic pump and an electrical generator to provide emergency power to the aircraft.",
+      "source": "FCOM1 / Operations Manual",
+      "page": "Hydraulics Chapter",
+      "correctAnswer": "b"
+    }
+  }
+}

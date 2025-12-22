@@ -1,0 +1,86 @@
+{
+  "08ELD01": {
+    "explanation": "The A220 cockpit features three main control panels for interacting with the Pro Line Fusion avionics: (1) The Cursor Control Panel (CCP) contains trackball/cursor controls for navigating display menus and selecting items on screen, (2) The Multifunction Keyboard Panel (MKP) provides alphanumeric data entry capabilities for inputting flight plans, waypoints, and other text-based information, and (3) The Control Tuning Panel (CTP) contains rotary knobs for tuning radio frequencies and making numerical adjustments. These panels are strategically positioned on the center pedestal to be accessible to both pilots and provide intuitive control of the flight management and communication systems.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Flight Deck Layout - Control Panels (Section 1.2)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "Flight Deck Description - Pedestal Controls"}
+    ]
+  },
+  "08ELD02": {
+    "explanation": "The primary method for moving cursors on the A220 displays is using the trackball or cursor control device on the Cursor Control Panel (CCP). However, if the trackball fails or is unavailable, the alternate control method is to use the arrow keys on the Multifunction Keyboard Panels (MKPs). The MKPs, located on the center pedestal, have dedicated arrow keys (up, down, left, right) that can move the cursor in the same way as the trackball. This redundancy ensures that even if the CCP trackball malfunctions, pilots can still navigate through FMS pages, select items on displays, and interact with the avionics systems.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Electronic Display - Cursor Control System (Section 8.1)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "Multifunction Keyboard Panel Functions"}
+    ]
+  },
+  "08ELD03": {
+    "explanation": "This statement is TRUE. The reversion switch panel includes L (Left) and R (Right) CURSOR INHIB pushbuttons that allow pilots to disable a malfunctioning cursor control. When pressed, the associated cursor is inhibited (disabled), and a green light illuminates to indicate the inhibit is active. This feature is important in situations where a cursor becomes erratic or stuck, which could interfere with flight operations. By inhibiting the faulty cursor, the crew can continue using the other cursor control panel without interference. The green light provides clear visual confirmation that the cursor inhibit function is engaged.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Electronic Display - Reversion Switch Panel (Section 8.3)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "Display System Reversion Controls"}
+    ]
+  },
+  "08ELD04": {
+    "explanation": "The normal configuration of the A220's five display units is: DU 1 (Captain's PFD on the left), DU 2 (MFD/center display showing navigation and systems), DU 3 (EICAS in the center-lower position showing engine parameters and crew alerts), DU 4 (MFD/center display on the First Officer's side), and DU 5 (First Officer's PFD on the right). This five-display layout is part of the Rockwell Collins Pro Line Fusion avionics suite. The displays are all 15.1-inch high-resolution LCDs that are interchangeable, meaning any display can show any format if needed during reversion situations. The normal configuration optimizes the flight deck layout by placing primary flight instruments (PFDs) in the pilots' primary scan positions, engine/systems information centrally accessible to both pilots, and multifunction displays in positions convenient for navigation and systems monitoring.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Electronic Display - Display Unit Configuration (Section 8.2)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "Pro Line Fusion Display Layout"}
+    ]
+  },
+  "08ELD05": {
+    "explanation": "This statement is TRUE. The image shows a non-conformal Flight Path Vector (FPV). A non-conformal FPV is displayed when the system cannot accurately position the FPV in its normal conformal mode, typically due to invalid or unreliable data from the inertial reference system or air data system. In normal conformal mode, the FPV is precisely positioned on the display to show the exact direction of aircraft movement relative to the horizon and attitude indicator. In non-conformal mode, the FPV may be displayed with reduced accuracy or in a fixed position with an indication that its accuracy is degraded. Visual cues that indicate non-conformal mode typically include color changes (such as amber instead of green), different symbology, or accompanying text messages. Pilots must recognize non-conformal FPV displays because they cannot rely on the FPV for precise flight path guidance in this mode.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Electronic Display - Flight Path Vector Modes (Section 8.4)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "PFD Symbology - Conformal Display Logic"}
+    ]
+  },
+  "08ELD06": {
+    "explanation": "The slip/skid indicator (also known as the ball or inclinometer) provides yaw indication on the Primary Flight Display. This indicator shows whether the aircraft is in coordinated flight or if there is a sideslip condition. When the aircraft yaws left or right without proper coordinated rudder input, the slip/skid indicator will move off-center, indicating uncoordinated flight. The roll pointer indicates bank angle, the pitch target marker shows autopilot pitch commands, and the aircraft reference symbol represents the aircraft's position relative to the horizon. Only the slip/skid indicator specifically measures and displays yaw - the rotation of the aircraft around its vertical axis.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Electronic Display - Primary Flight Display Symbology (Section 8.5)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "Flight Instruments - Attitude and Yaw Indications"}
+    ]
+  },
+  "08ELD07": {
+    "explanation": "The speed error tape is a vertical tape indicator on the PFD that shows the difference between the current airspeed and the autopilot or autothrottle target speed. It appears as a magenta tape extending from the current airspeed indicator, with tick marks showing incremental speed differences. When the tape extends upward, it indicates the target speed is higher than current speed (aircraft needs to accelerate). When it extends downward, the target speed is lower (aircraft needs to decelerate). This is different from the airspeed tape which shows actual indicated airspeed, the flight path vector which shows the actual flight path direction, and the flight path acceleration cue which predicts future speed based on current acceleration. The speed error tape provides instant visual feedback about energy management and helps pilots monitor autopilot/autothrottle performance.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Electronic Display - PFD Speed Indications (Section 8.6)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "Speed Error Tape Function and Display"}
+    ]
+  },
+  "08ELD08": {
+    "explanation": "The airspeed trend vector (also called the speed trend arrow) displays the predicted airspeed 10 seconds in the future based on the current rate of acceleration or deceleration. This predictive indicator appears as a vertical line extending from the current airspeed indication on the speed tape. If the aircraft is accelerating, the trend vector points upward, showing where the speed will be in 10 seconds if the current acceleration continues. If decelerating, it points downward. The 10-second prediction window is optimal for pilot situational awareness - it's long enough to provide useful advance warning of speed trends but short enough to remain accurate despite changing flight conditions. This helps pilots anticipate speed exceedances or approach speed bugs, enabling proactive energy management rather than reactive corrections.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Electronic Display - Airspeed Trend Vector (Section 8.6)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "PFD Speed Prediction Algorithms"}
+    ]
+  },
+  "08ELD09": {
+    "explanation": "The EICAS (Engine Indicating and Crew Alerting System) displays two primary categories of information: (a) Configuration and trim indications - including flap position, slat position, landing gear status, spoiler position, and horizontal stabilizer trim position, and (d) Engine and fuel quantity indications - including N1, N2, EGT (Exhaust Gas Temperature), fuel flow, oil pressure/temperature, and total fuel quantity. The EICAS does NOT display VHF COM frequencies (these appear on the Radio Tuning Unit displays or communication panels) or a list of synoptic pages (synoptic pages are accessed through multifunction displays but the list is not on EICAS). The EICAS consolidates critical engine parameters and aircraft configuration information in one location, allowing pilots to monitor system status and receive alerts about abnormal conditions.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Electronic Display - EICAS Display Format (Section 8.7)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "Engine Indicating and Crew Alerting System"}
+    ]
+  },
+  "08ELD10": {
+    "explanation": "When a WARNING message (red text) appears on the EICAS, two key indications occur: (b) A triple chime sounds - this is the distinctive aural alert for warning-level messages, immediately capturing crew attention even if they are not actively scanning the EICAS display, and (d) WARNING flashes on both master WARNING/CAUTION switch/lights - the master warning lights on the glareshield in front of both pilots flash to provide a clear visual alert that requires acknowledgment. The 'WARNING' aural message does not sound as a voice - instead it's a triple chime. Also, CAUTION does not flash for warnings - only the WARNING indication flashes. The combination of visual (flashing lights, red text) and aural (triple chime) alerts ensures warnings cannot be missed and require positive crew acknowledgment by pressing the master warning lights.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Electronic Display - Warning Alert Indications (Section 8.8)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "EICAS Master Warning/Caution Logic"}
+    ]
+  },
+  "08ELD12": {
+    "explanation": "The EICAS message inhibit function suppresses certain non-critical alerts during takeoff and landing to reduce pilot workload during these high-task-load phases of flight. The two types of messages that are inhibited are: (a) Caution messages and (d) Advisory messages. Warning messages are NEVER inhibited as they indicate conditions requiring immediate action that could affect flight safety. Status messages are also generally not inhibited during these phases. During takeoff (from start of takeoff roll until 400 feet AGL) and landing (below certain altitudes on approach), caution and advisory messages that are not immediately flight-safety critical are suppressed. Once the aircraft climbs through 400 feet AGL after takeoff, the inhibit is removed and all previously suppressed messages are displayed. This inhibit logic improves safety by preventing pilot distraction during critical phases while ensuring important issues are brought to crew attention once established in flight.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Electronic Display - EICAS Message Inhibit Logic (Section 8.9)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "Crew Alerting System Phase of Flight Filtering"}
+    ]
+  },
+  "08ELD13": {
+    "explanation": "This statement is TRUE. The Air Data Smart Probes (ADSPs) on the A220 are multifunctional sensors that measure multiple air data parameters including angle of attack (AOA). Each ADSP measures static pressure, pitot pressure (dynamic pressure), and angle of attack using differential pressure sensors. The angle of attack is derived from differential pressure measured through two holes symmetrically placed on the upper and lower surfaces of the probe's truncated cone. This is a key feature of modern integrated air data probes - they consolidate multiple measurements into a single smart sensor. In addition to the four ADSPs, the A220 also has two separate dedicated AOA vanes for additional redundancy. Angle of attack information is critical for stall protection, flight envelope protection, and optimal aircraft performance.",
+    "sources": [
+      {"pdf": "A220-300_FCOM1", "page": "Air Data System - ADSP Components and Functions (Section 8.10)"},
+      {"pdf": "Operations_Manual_Part_B_A220_TR027.6", "page": "Air Data Smart Probes - AOA Measurement"}
+    ]
+  }
+}

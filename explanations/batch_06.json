@@ -1,0 +1,222 @@
+{
+  "03AFL13": {
+    "explanation": "The A220 has two FD/AT (Flight Director/Autothrottle) computers for redundancy, but only one is active at a time. The active computer can be manually selected in two ways: (1) By pressing the ALTN pushbutton on the Reversion Switch Panel (RSP) located on the overhead panel, which transfers control to the alternate computer, or (2) Automatically by the system if the active computer fails. The XFR pushbutton on the FCP is used for transferring autopilot engagement between left and right autopilots, not for selecting FD/AT computers. The left/right FD pushbuttons control flight director display, not computer selection.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "131"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "941"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "981"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "21"
+      }
+    ]
+  },
+  "03AFL14": {
+    "explanation": "When the HDG (Heading) knob on the Flight Control Panel (FCP) is pressed (PUSH SYNC function), three things occur: (1) A cyan SYNC message replaces the selected heading value on the HSI (Horizontal Situation Indicator), indicating synchronization mode is active, (2) The heading bug automatically synchronizes with and tracks the aircraft's actual heading, continuously updating as the aircraft turns, and (3) The selected heading value in the FCP window is replaced by AUTO or SYNC indication. This feature is useful when you want the heading bug to follow the current track without manually rotating the heading knob.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "Automatic Flight Section"
+      }
+    ]
+  },
+  "03AFL15": {
+    "explanation": "The half bank mode is an autopilot/flight director feature that limits the maximum bank angle used for turns. Three correct statements about half bank mode: (1) It automatically activates when the aircraft climbs through FL315 (31,500 feet), (2) It limits the maximum bank angle used by the autopilot and flight director to 15 degrees (compared to the normal 25-30 degrees), and (3) This mode can be manually deactivated if needed via the FCP. The mode activates at 31,500 feet, not 33,500 feet. The reduced bank angle at high altitude provides smoother turns and reduces passenger discomfort in the thinner air.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "51"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "91"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "711"
+      }
+    ]
+  },
+  "03AFL16": {
+    "explanation": "When VNAV (Vertical Navigation) mode is active, the vertical deviation scale on the PFD displays the aircraft's position relative to the FMS computed vertical profile. Each dot on the vertical deviation scale represents 75 feet of vertical deviation from the planned vertical path. This relatively small scale (compared to ILS glideslope) provides precise feedback to help the crew maintain the optimum vertical profile for the FMS-calculated descent or climb path.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "91"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "271"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "321"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "211"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "221"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "691"
+      }
+    ]
+  },
+  "03AFL17": {
+    "explanation": "The FMS was prepared for an ILS approach with dual ILS capability (CAT II/III). During the approach, when passing 700 feet AGL, the APPR2 status changed to flashing amber 'NO APPR2' message, followed by steady green APPR1. This sequence indicates that ILS approach is now continuing on ILS1 only, due to ILS2 being degraded or failed. The loss of the second ILS receiver means CAT II/III approach capability is no longer available - the approach must continue as CAT I only using the remaining ILS1 system. If the approach was briefed as CAT II/III, a go-around should be considered.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "Automatic Flight Section"
+      }
+    ]
+  },
+  "03AFL18": {
+    "explanation": "The thrust HOLD mode is an autothrottle mode that activates automatically during takeoff. The HOLD mode becomes active when the airspeed increases above 60 knots and remains active until the aircraft reaches 400 feet AGL (Above Ground Level). During HOLD mode, the autothrottle maintains the thrust lever angle set at takeoff power, preventing inadvertent thrust reductions during the critical phases of takeoff and initial climb. After passing 400 feet AGL, the autothrottle transitions to THR mode (speed control mode).",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "Automatic Flight Section"
+      }
+    ]
+  },
+  "03AFL19": {
+    "explanation": "Three correct statements about autothrottle behavior with a failed engine: (1) If a failed engine is successfully restarted, the autothrottle does NOT automatically control the restarted engine - it must be manually re-integrated into autothrottle control by the crew, (2) Manual movement of the failed engine's thrust lever does NOT disengage the autothrottle, unlike manual movement of the operating engine's thrust lever which would disconnect AT, and (3) The autothrottle continues to control the operating (good) engine normally during single-engine operations. This design allows the crew to manage the failed engine independently while maintaining autothrottle control of the operating engine.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "281"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "291"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "321"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "21"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "161"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "301"
+      }
+    ]
+  },
+  "03AFL20": {
+    "explanation": "When using altitude preselect mode (ALT SEL), as the aircraft approaches and levels off at the preselected altitude, the Flight Mode Annunciator (FMA) in the right section displays green 'ALTS' (Altitude Select armed/capturing). Once level at the preselected altitude, the annunciation changes to green 'ALT' (Altitude Hold). The 'ALTS' annunciation specifically indicates the altitude capture and leveling-off phase, while 'ALT' indicates the aircraft is established in level flight at the selected altitude.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "271"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "21"
+      }
+    ]
+  },
+  "03AFL21": {
+    "explanation": "When the heading (HDG) mode is active below 200 feet AGL (Above Ground Level), the heading is maintained normally and 'ROLL' displays on the Flight Mode Annunciator (FMA) in place of 'HDG'. This is because below 200 feet AGL, the autopilot/flight director switches to ROLL mode for lateral guidance while maintaining the selected heading. This provides more direct roll control during low-altitude operations such as takeoff and landing. The HDG mode does not flash or disable automatically; it simply displays as ROLL on the FMA while maintaining heading.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "91"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "171"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "191"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "1"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "11"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "21"
+      }
+    ]
+  },
+  "03AFL22": {
+    "explanation": "The autothrottle is normally engaged manually by pressing the AT switch on the Flight Control Panel (FCP). However, the autothrottle automatically engages in two specific modes: (1) Takeoff (TO) mode - when the TO/GA switch is pressed during takeoff, the autothrottle automatically engages and manages thrust during the takeoff phase, and (2) Go-Around (GA) mode - when the TO/GA switch is pressed during approach or landing, the autothrottle automatically engages and commands go-around thrust. The autothrottle does NOT automatically engage in other modes like VS (Vertical Speed) climb or FLC (Flight Level Change) - these require manual AT engagement.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "1"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "11"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "51"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "21"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "31"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "41"
+      }
+    ]
+  },
+  "03AFL23": {
+    "explanation": "The Emergency Descent Mode (EDM) is designed for rapid descent in emergency situations such as cabin depressurization. EDM can be manually activated by the crew at altitudes above 30,000 feet. When activated, EDM commands the autopilot and autothrottle to execute a rapid descent (typically to 10,000-15,000 feet) at maximum rate while maintaining aircraft within operational limits. The 30,000-foot threshold ensures EDM is only available when at altitudes where emergency descent would be necessary (high altitude depressurization events).",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "401"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "1281"
+      }
+    ]
+  },
+  "03AFL24": {
+    "explanation": "If both the autopilot and autothrottle are disconnected and overspeed protection activates (aircraft approaching VMO/MMO), only the autothrottle automatically engages to reduce thrust and control airspeed. The autopilot does NOT automatically engage during overspeed protection. This design ensures immediate speed protection through thrust reduction while allowing the pilot to maintain manual control of the flight path. If the autopilot were to engage automatically, it could conflict with pilot inputs during manual flight, creating a potentially hazardous situation.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "271"
+      },
+      {
+        "pdf": "FCOM1",
+        "page": "331"
+      }
+    ]
+  }
+}

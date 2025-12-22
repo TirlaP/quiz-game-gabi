@@ -1,0 +1,100 @@
+{
+  "10FCT01": {
+    "explanation": "A single PFCC (Primary Flight Control Computer) controls the A220's fly-by-wire system at any given time, with the other two PFCCs serving as hot standby backups ready to take over instantly if needed. The PFCC may be selected off in case of a malfunction using the dedicated PFCC switches on the overhead panel, allowing the crew to deactivate a faulty computer and transfer control to one of the healthy standby units. The three PFCCs do not all actively control the system simultaneously - only one is in command at a time.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Primary Flight Control Computers"},
+      {"pdf": "Operations Manual Part B", "page": "27 - Flight Controls System Architecture"}
+    ]
+  },
+  "10FCT02": {
+    "explanation": "The statement is TRUE. In the A220's fly-by-wire (FBW) system, pilot control inputs from the sidesticks and rudder pedals are converted to electrical signals by the Primary Flight Control Computers (PFCCs). These signals are then sent to Remote Electronic Units (REUs), which are distributed throughout the aircraft near each control surface. The REUs command hydraulic actuators (Power Control Units or PCUs) to physically position the flight control surfaces. This electronic signal transmission replaces the traditional mechanical cable and pulley systems found in older aircraft.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Fly-By-Wire System Overview"},
+      {"pdf": "Operations Manual Part B", "page": "27 - FBW Signal Path"}
+    ]
+  },
+  "10FCT03": {
+    "explanation": "The Alternate Flight Control Unit (AFCU) provides a backup control path when all three PFCCs have failed. In this emergency scenario, the AFCU routes flight deck control signals directly to one Power Control Unit (PCU) of each control surface that has lost communication with its Remote Electronic Units (REUs), and to a single channel of the horizontal stabilizer Motor Control Electronics (MCE) unit for pitch trim. This direct mode provides degraded but sufficient control for continued safe flight and landing. The AFCU does not route signals to the PFCCs or to the REUs themselves in this backup mode.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Alternate Flight Control Unit"},
+      {"pdf": "Operations Manual Part B", "page": "27 - AFCU Direct Mode"}
+    ]
+  },
+  "10FCT04": {
+    "explanation": "The A220's fly-by-wire (FBW) system commands all primary flight controls (ailerons, elevators, and rudder) as well as specific secondary flight controls. The FBW-commanded secondary controls include the horizontal stabilizer for pitch trim, multifunction spoilers for roll assist and speed braking, and ground spoilers for landing deceleration - but NOT the flaps and slats. The flaps and slats are controlled by a separate conventional system through the Slat Flap Control Computer (SFCC) and are not part of the FBW architecture, as they require different control logic for configuration management.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - FBW Controlled Surfaces"},
+      {"pdf": "Operations Manual Part B", "page": "27 - Primary and Secondary Flight Controls"}
+    ]
+  },
+  "10FCT05": {
+    "explanation": "In the extremely unlikely event of a total failure of all three Primary Flight Control Computers (PFCCs), the system automatically reverts to a backup control mode. In this mode, pilot inputs from the flight deck controls (sidesticks, rudder pedals, and trim switches) bypass the PFCCs entirely and are routed directly to the Remote Electronic Units (REUs) through the Alternate Flight Control Unit (AFCU). The REUs then command the hydraulic actuators to position the flight control surfaces. This provides a direct mechanical-like control path without computer processing, though with reduced flight envelope protection.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - PFCC Failure Modes"},
+      {"pdf": "Operations Manual Part B", "page": "27 - Direct Mode Control Path"}
+    ]
+  },
+  "10FCT06": {
+    "explanation": "Following an engine failure, the A220's fly-by-wire system automatically provides partial yaw compensation through coordinated rudder deflection. This reduces but does not eliminate the rudder input required by the pilot to maintain coordinated flight with asymmetric thrust. The system calculates the required rudder deflection based on airspeed, thrust asymmetry, and aircraft configuration, then automatically applies a portion of this correction. The pilot must still apply additional rudder input to complete the coordination, but the workload is significantly reduced. The system does not provide pitch compensation as pitch changes from engine failure are minimal and easily managed.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Engine-Out Compensation"},
+      {"pdf": "Operations Manual Part B", "page": "27 - FBW Yaw Damping and Coordination"}
+    ]
+  },
+  "10FCT07": {
+    "explanation": "The fly-by-wire direct mode has three submodes based on which component is providing the control path: PFCC direct (at least one PFCC available but operating with degraded control laws), REU direct (all PFCCs failed, REUs receiving commands from AFCU but processing them independently), and AFCU direct (complete backup mode with AFCU routing signals directly to individual PCU channels). PCU direct is not a recognized submode - the PCUs are always the final actuators regardless of control mode. Each direct submode represents a progressively more degraded control state with reduced flight envelope protection but maintained controllability.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Direct Mode Submodes"},
+      {"pdf": "Operations Manual Part B", "page": "27 - FBW Mode Hierarchy"}
+    ]
+  },
+  "10FCT09": {
+    "explanation": "When the fly-by-wire (FBW) system operates in normal mode, it provides comprehensive flight envelope protection through various pitch, roll, and yaw protections and limits. These include bank angle protection (limiting maximum bank), load factor protection (limiting g-forces), stall protection (alpha floor and nose-down command), overspeed protection, and turn coordination. Normal mode is active when at least one PFCC is functioning normally and all required sensors are available. The system does not just provide structural protection or basic control - it actively manages the flight envelope to prevent pilots from exceeding safe operating limits while maintaining intuitive handling characteristics.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Normal Mode Protections"},
+      {"pdf": "Operations Manual Part B", "page": "27 - FBW Control Laws and Limits"}
+    ]
+  },
+  "10FCT10": {
+    "explanation": "When the sidestick AP/PTY pushbutton is pressed and held for momentary priority, three key indications occur: the autopilot (if engaged) automatically disconnects to allow manual control, the onside glareshield SIDESTICK switch/light PTY green legend flashes while the opposite side red arrow illuminates (showing priority status), and a \"PRIORITY LEFT\" or \"PRIORITY RIGHT\" aural message sounds to alert both pilots. The autopilot does not remain engaged during sidestick priority takeover - it must disconnect to allow the pilot taking priority to have full manual control authority without autopilot interference.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Sidestick Priority Logic"},
+      {"pdf": "Operations Manual Part B", "page": "27 - Priority Takeover Procedures"}
+    ]
+  },
+  "10FCT11": {
+    "explanation": "When the fly-by-wire system detects simultaneous operation of both sidesticks (dual input), two specific indications alert the crew: a red \"DUAL\" message displays on both Primary Flight Displays (PFDs) in the attitude indicator area where it cannot be missed, and a \"DUAL INPUT\" aural message is activated to provide immediate audible warning. The system does not generate a SIDESTICK DUAL caution message on EICAS, nor does it use a \"SIDESTICK DUAL\" aural message. During dual input, control commands are algebraically summed, which can result in unexpected aircraft response and requires immediate crew coordination to resolve.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Dual Input Detection"},
+      {"pdf": "Operations Manual Part B", "page": "27 - Sidestick Control Logic"}
+    ]
+  },
+  "10FCT12": {
+    "explanation": "Latched sidestick priority differs from momentary priority in two key ways: the PTY green legend on the onside glareshield SIDESTICK switch/light illuminates steadily (rather than flashing) to indicate the priority is locked in, and the disabled sidestick cannot obtain priority when its AP/PTY switch is pressed - the latching pilot must release priority first by pressing their AP/PTY button again. To latch priority, the pilot holds the AP/PTY button for 40 seconds; to unlatch, they press it momentarily. Latched priority is used in scenarios where one pilot is incapacitated or when clear command authority must be established for an extended period.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Latched vs Momentary Priority"},
+      {"pdf": "Operations Manual Part B", "page": "27 - Sidestick Priority Procedures"}
+    ]
+  },
+  "10FCT13": {
+    "explanation": "The statement is TRUE. In fly-by-wire normal mode, the aileron trim switch is inhibited and has no function because the FBW system automatically maintains coordinated flight and manages any asymmetric conditions (such as fuel imbalance or engine failure) through its control laws. The system continuously adjusts control surface positions to maintain wings-level flight without requiring manual trim inputs from the crew. Aileron trim only becomes functional in direct mode, where the advanced FBW protections and automatic coordination are lost and manual trim may be needed to reduce control forces.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Trim System Functions"},
+      {"pdf": "Operations Manual Part B", "page": "27 - Normal Mode Control Laws"}
+    ]
+  },
+  "10FCT14": {
+    "explanation": "The four multifunction spoilers (MFSs) on each wing serve three primary functions: ground lift dumping (full deployment on landing to reduce lift and increase brake effectiveness), roll assist (differential deployment to supplement aileron authority during turns), and speed braking with proportional lift dumping (symmetric deployment when speedbrakes are extended to increase drag and reduce lift). The MFSs do not provide aileron assist specifically during engine inoperative conditions - while they do assist with roll control generally, this is not a dedicated engine-out function. The system's yaw compensation for engine failure is handled through rudder automation, not spoiler deployment.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Multifunction Spoiler Operations"},
+      {"pdf": "Operations Manual Part B", "page": "27 - Spoiler System Functions"}
+    ]
+  },
+  "10FCT15": {
+    "explanation": "The horizontal stabilizer (HSTAB) on the A220 is electrically controlled and electrically actuated through two electric motors (no hydraulics involved), making it independent of the hydraulic systems for greater reliability. In fly-by-wire normal mode, the HSTAB is automatically positioned by the PFCCs to maintain the desired pitch attitude and speed, with crew inputs to the pitch trim switches adjusting the target rather than directly moving the stabilizer. However, in fly-by-wire direct mode, the HSTAB reverts to conventional trimming where the pitch trim switches directly command stabilizer movement, requiring the crew to manually trim the aircraft for hands-off flight like in traditional aircraft.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Flight Controls - Horizontal Stabilizer System"},
+      {"pdf": "Operations Manual Part B", "page": "27 - Pitch Trim Modes"}
+    ]
+  }
+}

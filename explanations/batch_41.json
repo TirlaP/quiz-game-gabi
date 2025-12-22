@@ -1,0 +1,55 @@
+{
+  "20WTR01": {
+    "explanation": "According to FCOM page 2155, the waste system provides three main monitoring functions: waste servicing, waste storage, and waste collection. The waste system is monitored by the Water and Waste System Controller (WWSC) and provides lavatory waste storage, water level indication, and system control for lavatory waste. The system monitors these functions to ensure proper operation when AC power is available, the waste tank is not full, and the service panel door is closed.",
+    "source": "FCOM pages 2147, 2155",
+    "references": [
+      "FCOM Vol. 1, Page 20-01-1",
+      "FCOM Vol. 1, Page 20-03-1"
+    ]
+  },
+  "20WTR02": {
+    "explanation": "According to FCOM page 2149, the potable water system is automatically activated when three conditions are met: (1) Electrical power is available, (2) Water is in the potable tank, and (3) The servicing panel door is closed. The system does not activate only when the aircraft is on the ground - it remains active during flight as long as these three conditions are met. The system is controlled and monitored by the Water and Waste System Controller (WWSC).",
+    "source": "FCOM page 2149",
+    "references": [
+      "FCOM Vol. 1, Page 20-02-1"
+    ]
+  },
+  "20WTR03": {
+    "explanation": "This statement is TRUE. According to FCOM page 2155, the vacuum waste system is automatically active when: (1) AC power is available, (2) The waste tank is not full, and (3) The door of the waste servicing control panel is closed. All three conditions must be met for the system to be active. The waste system uses differential pressure between the cabin and outside atmosphere along with a vacuum generator to drain waste from the lavatories to the waste tank.",
+    "source": "FCOM page 2155",
+    "references": [
+      "FCOM Vol. 1, Page 20-03-1"
+    ]
+  },
+  "20WTR04": {
+    "explanation": "This statement is FALSE. According to FCOM pages 2147 and 57 (Ops Manual), water level and waste status are displayed on the Cabin Management System (CMS), NOT on the EICAS. The EICAS displays system fault messages like 'WATER SYSTEM INOPERATIVE' or lavatory-related warnings (LAV SMOKE), but the actual water level and waste status indications are shown on the CMS panels at the flight attendant stations. The Water and Waste System Controller (WWSC) provides this information to the CMS.",
+    "source": "FCOM pages 1232-1233, 2147; Ops Manual page 57",
+    "references": [
+      "FCOM Vol. 1, Page 20-01-1",
+      "Operations Manual Part B, Page 0.6-9"
+    ]
+  },
+  "20WTR05": {
+    "explanation": "According to FCOM page 2147 and 2149, the Water and Waste System Controller (WWSC) monitors three primary parameters: (1) Pressure in the potable water system, (2) Water levels in the potable water tank using level sensors, and (3) Temperature of the water line heaters and drain mast heaters using temperature sensors. The controller does NOT monitor contamination - that is not a monitored parameter. The WWSC controls the water line heaters and monitors the overall system to ensure proper operation.",
+    "source": "FCOM pages 2147, 2149, 2151",
+    "references": [
+      "FCOM Vol. 1, Page 20-01-1",
+      "FCOM Vol. 1, Page 20-02-1",
+      "FCOM Vol. 1, Page 20-02-3"
+    ]
+  },
+  "20WTR06": {
+    "explanation": "According to FCOM page 2156, the waste system's vacuum pump (vacuum generator) automatically shuts down when aircraft altitude exceeds 16,000 feet OR when the differential pressure exceeds 2.5 pounds per square inch (psi). Above 16,000 feet, the vacuum generator is not needed because the system uses the natural differential pressure between the cabin and outside air to drain waste from the lavatories to the waste tank. During ground and low-altitude operations (below 16,000 feet or below 2.5 psi differential), the vacuum generator supplies the necessary differential pressure.",
+    "source": "FCOM page 2156",
+    "references": [
+      "FCOM Vol. 1, Page 20-03-2"
+    ]
+  },
+  "20WTR07": {
+    "explanation": "According to FCOM pages 2153-2154, the water purge function on the CMS LAVATORY page becomes active when ALL of the following conditions are met: (1) Landing gear is UP (not down), (2) Drain mast heaters are operative, (3) WATER PURGE soft switch is pressed on the CMS LAVATORY page, and (4) Aircraft altitude is below 10,000 feet (not 15,000 feet). The correct answer requires the landing gear to be UP, not down. This safety feature allows the cabin crew to purge the potable water from the water tank and lines during flight when necessary.",
+    "source": "FCOM pages 2153-2154",
+    "references": [
+      "FCOM Vol. 1, Page 20-02-5"
+    ]
+  }
+}

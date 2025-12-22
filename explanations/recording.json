@@ -1,0 +1,85 @@
+{
+  "chapter": "Recording",
+  "explanations": {
+    "19REC01": {
+      "explanation": "The Aircraft Health Management System (AHMS) continuously monitors and records engine conditions and system faults throughout the aircraft. This data collection system tracks component performance, detects anomalies, and logs fault information to support predictive maintenance and troubleshooting. The AHMS provides maintenance personnel with comprehensive health data that helps identify potential issues before they become critical, improving aircraft reliability and reducing unscheduled maintenance.",
+      "sources": [
+        {
+          "pdf": "FCOM1",
+          "page": "Recording - AHMS Description"
+        }
+      ],
+      "correctAnswer": "a,c"
+    },
+    "19REC02": {
+      "explanation": "The Cockpit Voice Recorder (CVR) records voice communications transmitted from or received in the aircraft, including all radio transmissions and interphone communications between crew members. It also records aural warnings and alerts such as master warnings, master cautions, GPWS/TAWS alerts, TCAS alerts, and other audible alerts in the cockpit. The CVR does not record EICAS messages (which are visual) or flight parameters (which are recorded by the FDR). The CVR provides critical information for accident investigation and operational review.",
+      "sources": [
+        {
+          "pdf": "FCOM1",
+          "page": "Recording - CVR System"
+        }
+      ],
+      "correctAnswer": "a,c"
+    },
+    "19REC03": {
+      "explanation": "The High Load Event Indication Function (HLEIF) monitors and records high load events that may cause structural stress to the aircraft. It specifically monitors gusts (sudden wind shear events), turbulence (continuous rough air conditions), and hard landings (excessive vertical acceleration during touchdown). When any of these events exceed predetermined thresholds, the HLEIF logs the event data to assist maintenance in conducting necessary structural inspections. This system does not monitor engine overspeed conditions, which are tracked by separate engine monitoring systems.",
+      "sources": [
+        {
+          "pdf": "FCOM1",
+          "page": "Recording - HLEIF Function"
+        }
+      ],
+      "correctAnswer": "a,b,d"
+    },
+    "19REC04": {
+      "explanation": "The Flight Data Recorder (FDR) is the system specifically designed to record aircraft flight parameters. It continuously records hundreds of parameters including airspeed, altitude, heading, vertical acceleration, pitch, roll, control surface positions, engine parameters, and many other flight-related data points. This crash-protected recorder maintains the data for accident investigation and flight operations analysis. The Cockpit Voice Recorder (CVR) records audio, not flight parameters. The AHMS and HMU serve different functions related to health monitoring and maintenance.",
+      "sources": [
+        {
+          "pdf": "FCOM1",
+          "page": "Recording - FDR System"
+        }
+      ],
+      "correctAnswer": "a"
+    },
+    "19REC05": {
+      "explanation": "When the PILOT EVENT pushbutton on the ENGINE panel is pressed, two important recording functions are activated. First, a marker is placed on the current Flight Data Recorder (FDR) data at that specific moment in time. This marker helps maintenance personnel quickly locate and analyze the relevant time period when troubleshooting a reported issue. Second, a message is logged in the Aircraft Health Management System (AHMS) documenting the pilot-initiated event. The pushbutton does not start recording (which is automatic) nor does it trigger an FDR self-test.",
+      "sources": [
+        {
+          "pdf": "FCOM1",
+          "page": "Recording - Pilot Event Function"
+        }
+      ],
+      "correctAnswer": "a,c"
+    },
+    "19REC06": {
+      "explanation": "The ERASE button on the CVR panel can only be used under specific safety conditions to prevent accidental or inappropriate erasure of critical voice recordings. The button is functional only when the aircraft is on the ground AND the parking brake is set. Both conditions must be met simultaneously. This design prevents in-flight erasure and ensures that the CVR cannot be erased during taxi operations when the parking brake is released. The CVR memory capacity is not a factor in determining when the erase function is available.",
+      "sources": [
+        {
+          "pdf": "FCOM1",
+          "page": "Recording - CVR Erase Function"
+        }
+      ],
+      "correctAnswer": "b,d"
+    },
+    "19REC07": {
+      "explanation": "The CVR automatically starts recording when either the beacon or strobe lights are switched on, OR when the aircraft is weight-off-wheels (WOFFW - airborne), regardless of the light switch positions. This automatic logic ensures the CVR captures all critical phases of flight without requiring crew action. The CVR will record during ground operations if the beacon/strobe lights are on, and will always record when airborne even if the lights are inadvertently not turned on. This redundant logic prevents gaps in voice recording during any phase of flight operations. The CVR does not require engine start or specific switch selections to begin recording.",
+      "sources": [
+        {
+          "pdf": "FCOM1",
+          "page": "Recording - CVR Recording Logic"
+        }
+      ],
+      "correctAnswer": "d"
+    },
+    "19REC08": {
+      "explanation": "The PILOT EVENT pushbutton is located on the ENGINE panel on the overhead panel. This placement provides easy access for pilots when they want to mark a specific event for maintenance review, such as unusual engine behavior, vibrations, or other operational anomalies. Pressing this button creates a time marker in the FDR data and logs an event in the AHMS. The pushbutton is not located on the FDR panel, CVR panel, or maintenance panel.",
+      "sources": [
+        {
+          "pdf": "FCOM1",
+          "page": "Recording - Pilot Event Pushbutton Location"
+        }
+      ],
+      "correctAnswer": "b"
+    }
+  }
+}

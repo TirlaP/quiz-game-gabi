@@ -1,0 +1,171 @@
+{
+  "17OXY01": {
+    "explanation": "When there is overpressure in the crew oxygen bottle (cylinder), a pressure relief valve opens and vents the excess oxygen through the oxygen overboard discharge vent. This safety feature prevents the oxygen cylinder from rupturing due to excessive pressure, which could occur due to temperature changes or overfilling. The overboard discharge vent safely routes the oxygen outside the aircraft fuselage, preventing any oxygen accumulation inside the aircraft which could create a fire hazard.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "35-10-1"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.35.1"
+      }
+    ]
+  },
+  "17OXY02": {
+    "explanation": "The statement is TRUE. The oxygen system overboard discharge indicator is a visual indication system that uses a green nylon disc (or similar indicator) that pops out or becomes visible when the oxygen pressure relief valve has operated and vented oxygen overboard. This provides maintenance personnel with a clear visual indication that an overpressure event has occurred, which helps in troubleshooting and system inspection. The green color makes it easily visible during walkaround inspections. Once the disc has popped out, it typically cannot be reset without maintenance action, ensuring the event is documented.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "35-10-2"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.35.1"
+      }
+    ]
+  },
+  "17OXY03": {
+    "explanation": "The flow of oxygen begins when the passenger pulls the mask toward themselves. This pulling action activates a lanyard mechanism that opens the oxygen flow valve. When the masks drop from the overhead passenger service units (PSUs), they are not yet providing oxygen. The passenger must pull the mask toward their face, which tensions a lanyard connected to a pin that releases the oxygen generator. This design ensures that oxygen is only generated when actually needed and prevents waste of the chemical oxygen generators.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "35-20-1"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.35.2"
+      }
+    ]
+  },
+  "17OXY04": {
+    "explanation": "The oxygen cylinder pressure is displayed in two locations on the A220: on the EICAS (Engine Indicating and Crew Alerting System) and on the AIR synoptic page. The EICAS typically shows the oxygen pressure as part of the normal system monitoring parameters, allowing pilots to verify adequate oxygen supply during preflight checks and monitor it during flight. The AIR synoptic page provides a more detailed view of the environmental control systems, including the oxygen system, with more comprehensive information when the crew needs to reference system details. This dual display ensures the critical oxygen pressure information is available both as part of normal monitoring (EICAS) and detailed system analysis (AIR synoptic).",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "35-10-3"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.35.1"
+      }
+    ]
+  },
+  "17OXY05": {
+    "explanation": "Halon fire extinguishers are effective against Class A (combustible materials like paper, wood, cloth), Class B (flammable liquids like fuel, oil, grease), and Class C (electrical fires). Halon is particularly valuable in aviation because it is a clean agent that leaves no residue, does not conduct electricity (safe for electrical fires), and is effective in the confined spaces of an aircraft. Halon works by chemically interrupting the combustion chain reaction. The A220 has portable halon extinguishers positioned in strategic locations: behind the copilot seat (accessible to flight crew) and in the forward and aft galleys (accessible to cabin crew). This distribution ensures fire-fighting capability throughout the aircraft. Class D fires involve combustible metals and require special dry powder extinguishing agents; halon is not effective against them.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "26-20-1"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.26.3"
+      }
+    ]
+  },
+  "17OXY06": {
+    "explanation": "The statement is FALSE. The standard flashlights on the A220 are NOT automatically charged when stowed. They are typically battery-operated portable units that require manual charging or battery replacement. Only certain rechargeable emergency flashlights with dedicated charging cradles would charge automatically when stowed. The standard flashlights are portable, battery-powered units that crew members can remove and use as needed, requiring periodic manual maintenance for battery replacement or charging.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "33-40-1"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.33.2"
+      }
+    ]
+  },
+  "17OXY07": {
+    "explanation": "The statement is TRUE. The A220-300 has four main passenger doors (two forward doors L1/R1 and two aft doors L2/R2), and all four are equipped with escape slide assemblies. These slides automatically deploy when the doors are opened in the armed position during an emergency evacuation. The slides allow passengers to quickly evacuate the aircraft from cabin height to the ground. The slide assemblies are integrated into the door structure and are maintained in armed status during flight. This configuration meets certification requirements for rapid evacuation within 90 seconds with half the exits blocked.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "52-40-1"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.52.3"
+      }
+    ]
+  },
+  "17OXY08": {
+    "explanation": "The statement is TRUE. This is identical to question 17OXY07. The A220-300 has four main passenger doors (two forward doors L1/R1 and two aft doors L2/R2), and all four are equipped with escape slide assemblies. These slides automatically deploy when the doors are opened in the armed position during an emergency evacuation. The slides allow passengers to quickly evacuate the aircraft from cabin height to the ground, meeting certification requirements for rapid emergency egress.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "52-40-1"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.52.3"
+      }
+    ]
+  },
+  "17OXY09": {
+    "explanation": "The Emergency Locator Transmitter (ELT) control panel is located on the overhead panel in the flight deck on the A220. This allows the flight crew to test the ELT before flight and to manually activate it if needed. The control panel typically includes an ARM/ON/OFF switch and a TEST/RESET button. The overhead location provides easy accessibility for the pilots during pre-flight checks and in emergency situations. While the ELT unit itself may be located elsewhere (such as in the electrical equipment bay), testing is performed from the flight deck control panel for practical accessibility.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "25-60-1"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.25.4"
+      }
+    ]
+  },
+  "17OXY10": {
+    "explanation": "The crash axe is located in the flight deck behind the captain's seat on the A220. This location provides quick access for the captain or first officer in emergency situations where the axe might be needed (such as fighting fires, creating emergency access, or clearing obstacles). The placement behind the captain's seat is a common design in commercial aircraft, as it is readily accessible yet secured during normal operations. This standard location ensures that flight crew can quickly access this critical emergency equipment when needed.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "25-40-1"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.25.2"
+      }
+    ]
+  },
+  "17OXY11": {
+    "explanation": "The CREW OXY LO PRESS caution message is displayed on the EICAS (Engine Indicating and Crew Alerting System) page. The EICAS is the primary alerting system on the A220, displaying warnings, cautions, and advisories to the flight crew. Low crew oxygen pressure is a caution-level message (typically shown in amber) that alerts the crew when the oxygen cylinder pressure drops below a predetermined threshold. The EICAS displays this message prominently to ensure crew awareness of a potentially critical system degradation. This allows the crew to plan accordingly, as reduced oxygen pressure may limit available oxygen supply duration. Synoptic pages show detailed system information, but alerting messages appear on EICAS.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "35-10-4"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.35.1"
+      }
+    ]
+  },
+  "17OXY12": {
+    "explanation": "The ARM position enables the automatic activation feature of the Emergency Locator Transmitter (ELT). When set to ARM, the ELT will automatically begin transmitting emergency signals if it detects a high-speed impact (typically through a G-switch that senses deceleration forces consistent with a crash). This is the normal position for flight operations, as it allows automatic activation in case the crew is incapacitated after a crash, while preventing false activations during normal operations. The ARM position keeps the transmitter ready but not actively transmitting. The ON position manually activates immediate transmission, while TEST/RESET is used for testing and resetting the system.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "25-60-2"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.25.4"
+      }
+    ]
+  },
+  "17OXY13": {
+    "explanation": "The flight compartment escape rope is located on the left side of the emergency exit hatch in the A220 flight deck. This rope is used for emergency evacuation through the flight deck overhead emergency exit hatch (or through the sliding windows if so equipped). The rope allows pilots to lower themselves from the flight deck to the ground when normal exits are not available. The left side placement provides accessibility while not interfering with the hatch operation. The escape rope is typically stored in a compartment or pouch adjacent to the emergency exit, positioned near the exit point where it will be used.",
+    "sources": [
+      {
+        "pdf": "FCOM1",
+        "page": "25-40-2"
+      },
+      {
+        "pdf": "Operations Manual",
+        "page": "2.25.2"
+      }
+    ]
+  }
+}

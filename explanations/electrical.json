@@ -1,0 +1,143 @@
+{
+  "chapter": "Electrical",
+  "explanations": {
+    "07ELE11": {
+      "explanation": "When no AC power is available and the battery switches are selected to AUTO, the batteries automatically connect to power all three DC ESS BUSES (DC ESS BUS 1, 2, and 3). This ensures critical DC electrical systems remain powered during AC power loss. The batteries provide backup power to essential systems until AC power is restored or the RAT is deployed.",
+      "source": "FCOM1",
+      "page": "Electrical System - Battery Operation section",
+      "correctAnswer": "b"
+    },
+    "07ELE22": {
+      "explanation": "The engine Variable Frequency Generators (VFGs) have a self-contained oil system for cooling and lubrication. This independent oil system is separate from the engine oil system, ensuring proper generator operation and longevity. The self-contained system eliminates dependency on engine lubrication.",
+      "source": "FCOM1",
+      "page": "Electrical System - Generators section",
+      "correctAnswer": "d"
+    },
+    "07ELE06": {
+      "explanation": "Both conventional Thermal Circuit Breakers (TCBs) and Electronic Circuit Breakers (ECBs) status are displayed on the CB (Circuit Breaker) synoptic page. This allows pilots to monitor the status of all circuit protection devices from a single display, improving situational awareness and troubleshooting capability.",
+      "source": "FCOM1",
+      "page": "Electrical System - Circuit Breakers section",
+      "correctAnswer": "a"
+    },
+    "07ELE15": {
+      "explanation": "The engine Variable Frequency Generators (VFGs) are rated at 75 kVA each. Note that kVA (kilovolt-amperes) is a measure of apparent power, not voltage (VAC). Each VFG provides 115 VAC variable frequency power, but the power rating is 75 kVA, making them the primary AC power sources for the aircraft.",
+      "source": "FCOM1",
+      "page": "Electrical System - Generators section",
+      "correctAnswer": "d"
+    },
+    "07ELE08": {
+      "explanation": "This statement is true. During engine starts using APU bleed air, the APU Electronic Control Unit (ECU) may automatically request electrical load shedding to ensure sufficient pneumatic pressure is available for the engine starter. This prioritizes pneumatic power over electrical loads during the critical start sequence.",
+      "source": "FCOM1",
+      "page": "APU System - Engine Start Operations section",
+      "correctAnswer": "a"
+    },
+    "07ELE23": {
+      "explanation": "The EXT PWR (External Power) switch/light on the ELECTRICAL panel is used to connect and disconnect external AC power to/from the aircraft electrical system. When pushed, it commands the external power contactor to close or open, allowing ground power to supply the aircraft buses when suitable external power is available.",
+      "source": "FCOM1",
+      "page": "Electrical System - External Power section",
+      "correctAnswer": "d"
+    },
+    "07ELE02": {
+      "explanation": "The red EMER PWR ONLY message displays on EICAS when there is complete AC power loss AND both conditions occur: the RAT is deployed (providing emergency AC power) and the batteries are supplying their respective DC ESS BUSES. This indicates the aircraft is operating on emergency power only, with the RAT providing AC power and batteries providing DC power.",
+      "source": "FCOM1",
+      "page": "Electrical System - Emergency Power section",
+      "correctAnswer": "c,d"
+    },
+    "07ELE16": {
+      "explanation": "The Ram Air Turbine (RAT) deploys automatically in case of complete loss of in-flight AC power, ensuring emergency electrical and hydraulic power. It can also be deployed manually by pressing the guarded RAT GEN light/switch on the electrical panel. The RAT does NOT deploy for single engine or APU failures alone, only for complete AC power loss.",
+      "source": "FCOM1",
+      "page": "Electrical System - RAT section",
+      "correctAnswer": "b,d"
+    },
+    "07ELE07": {
+      "explanation": "On the ELEC synoptic page, the DC EMER bus displays only in a fault condition (when it's being powered abnormally), and the BATT DIR BUSES never display under normal or fault conditions. These buses are not shown during normal operations to reduce display clutter, as they are only used in specific emergency electrical configurations.",
+      "source": "FCOM1",
+      "page": "Electrical System - Synoptic Display section",
+      "correctAnswer": "a,b"
+    },
+    "07ELE05": {
+      "explanation": "On the CB synoptic page, selecting the TRIP acknowledgment soft key performs three functions: it confirms the breaker tripped state, removes the CB TRIP message from EICAS if no other trip acknowledgements are active, and changes the breaker state to OUT. It does NOT reset the breaker - that would require physical intervention or system reset.",
+      "source": "FCOM1",
+      "page": "Electrical System - Circuit Breaker Management section",
+      "correctAnswer": "a,c,d"
+    },
+    "07ELE10": {
+      "explanation": "The guarded L DISC and R DISC switches perform mechanical disconnection of the VFG from the engine gearbox when pressed. The white DISC light illuminates in the switch to indicate that the associated generator is disconnected from the engine gearbox. This is a mechanical disconnect used when generator faults require isolation from the engine.",
+      "source": "FCOM1",
+      "page": "Electrical System - Generator Disconnect section",
+      "correctAnswer": "b,d"
+    },
+    "07ELE13": {
+      "explanation": "This is true. The A220 electrical system uses 115 VAC (volts alternating current) for AC power and 28 VDC (volts direct current) for DC power. These are standard aircraft electrical power specifications, with AC power provided by generators and DC power provided by batteries or converted from AC through TRUs (Transformer Rectifier Units).",
+      "source": "FCOM1",
+      "page": "Electrical System - Overview section",
+      "correctAnswer": "a"
+    },
+    "07ELE03": {
+      "explanation": "In the event of complete AC power loss, the RAT deploys automatically, supplies electrical power at aircraft speeds of 148 KIAS and above (below this speed it may not generate sufficient power), and provides emergency AC power and hydraulics. The RAT does NOT retract automatically - it must be manually retracted on the ground after landing.",
+      "source": "FCOM1",
+      "page": "Electrical System - RAT Operation section",
+      "correctAnswer": "a,b,c"
+    },
+    "07ELE20": {
+      "explanation": "The two PMAGs (Permanent Magnet Alternator Generators) provide dedicated power to the Fly-By-Wire Power Converters (FBWPCs) and the Full Authority Digital Engine Controls (FADECs). These are critical flight control and engine control systems that require highly reliable, independent power sources. Each PMAG is engine-driven and provides power regardless of the main electrical system status.",
+      "source": "FCOM1",
+      "page": "Electrical System - PMAG section",
+      "correctAnswer": "a"
+    },
+    "07ELE14": {
+      "explanation": "Once the RAT is deployed, even if one or both engine VFGs are recovered and provide power to the main AC buses, the RAT GEN continues to supply the AC ESS BUS and DC ESS BUS 3. This ensures continuous power to essential systems and prevents power interruptions during electrical system reconfigurations following the initial power loss event.",
+      "source": "FCOM1",
+      "page": "Electrical System - RAT Power Distribution section",
+      "correctAnswer": "c"
+    },
+    "07ELE19": {
+      "explanation": "When the RAT GEN guarded switch is pushed while the RAT is deployed, it resets the RAT GCU (Generator Control Unit). This can be used to attempt recovery from a RAT generator fault condition. The RAT itself remains deployed and spinning, but the GCU is reset to try to restore generator output. The RAT cannot be stowed in flight.",
+      "source": "FCOM1",
+      "page": "Electrical System - RAT Control section",
+      "correctAnswer": "b"
+    },
+    "07ELE12": {
+      "explanation": "The APU GEN FAIL light illuminates amber when the APU generator disconnects from the aircraft electrical system due to a fault condition. The OFF light illuminates when the APU generator is selected off (manually disconnected) while the APU is running. These two indications differentiate between automatic fault disconnection and manual crew disconnection.",
+      "source": "FCOM1",
+      "page": "Electrical System - APU Generator section",
+      "correctAnswer": "a,c"
+    },
+    "07ELE18": {
+      "explanation": "When external power is connected and suitable in terms of frequency, voltage, and phase (meeting all quality parameters), an EXT PWR AVAIL advisory message displays on the EICAS. This informs the crew that suitable external power is available to be connected to the aircraft electrical system by pressing the EXT PWR switch.",
+      "source": "FCOM1",
+      "page": "Electrical System - External Power Indications section",
+      "correctAnswer": "d"
+    },
+    "07ELE09": {
+      "explanation": "On the ELECTRICAL panel EXT PWR switch, the AVAIL light illuminates green when suitable external AC power is available to the aircraft (power is connected and meets quality parameters). The IN USE light illuminates when external power is actually being used to supply the aircraft electrical buses. These two lights distinguish between power availability and actual usage.",
+      "source": "FCOM1",
+      "page": "Electrical System - External Power Panel section",
+      "correctAnswer": "b,c"
+    },
+    "07ELE21": {
+      "explanation": "The DC EMER (Emergency) bus displays on the ELEC synoptic page only in a fault condition. During normal operations, this bus is not shown on the display to reduce clutter. It only appears when abnormal electrical configurations result in the DC EMER bus being powered, indicating a non-normal electrical system state that requires crew awareness.",
+      "source": "FCOM1",
+      "page": "Electrical System - Synoptic Display Details section",
+      "correctAnswer": "b"
+    },
+    "07ELE17": {
+      "explanation": "The circuit breaker (CB) synoptic page offers four sort selections for displaying CB information: STATUS (sort by tripped/normal state), BUS (sort by which electrical bus), SYSTEM (sort by aircraft system/ATA chapter), and LOCATION (sort by physical location in aircraft). These sorting options help crew quickly find specific circuit breakers during troubleshooting.",
+      "source": "FCOM1",
+      "page": "Electrical System - CB Synoptic Page Features section",
+      "correctAnswer": "b"
+    },
+    "07ELE04": {
+      "explanation": "When external power is suitable in terms of frequency, voltage, and phase (meeting all quality requirements), a green AVAIL light illuminates on the EXT PWR switch/light on the ELECTRICAL panel. This indicates that external power is available and ready to be connected by pressing the switch. The AVAIL indication confirms power quality before connection.",
+      "source": "FCOM1",
+      "page": "Electrical System - External Power Controls section",
+      "correctAnswer": "d"
+    },
+    "07ELE01": {
+      "explanation": "The Transformer Rectifier Units (TRUs) convert 115 VAC (alternating current) power to 28 VDC (direct current) power. There are three TRUs in the A220 electrical system that supply the DC buses from the AC power sources. This conversion is essential because many aircraft systems require DC power, while the primary generators produce AC power.",
+      "source": "FCOM1",
+      "page": "Electrical System - Power Conversion section",
+      "correctAnswer": "b"
+    }
+  }
+}

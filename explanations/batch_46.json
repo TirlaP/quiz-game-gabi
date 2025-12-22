@@ -1,0 +1,72 @@
+{
+  "21ECL01": {
+    "explanation": "The OVERRIDE CHKL option in the FCTN (Function) drop-down menu allows pilots to override an entire checklist. This function is available when a checklist needs to be bypassed due to operational requirements or non-normal situations. The FCTN tile provides access to various checklist management functions including OVERRIDE CHKL (override entire checklist), RESET NORMALS (reset all normal checklists), RESET ALL (reset all checklists), and OVERRIDE ITEM (override individual checklist items). The other options listed - OVERRIDE ITEM, RESET ALL, and RESET NORMALS - serve different purposes and do not override the entire checklist.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Checklist - FCTN Menu Functions (pages 2161-2177)"},
+      {"pdf": "Operations Manual", "page": "Electronic Checklist Operations (pages 247-253)"}
+    ]
+  },
+  "21ECL02": {
+    "explanation": "The statement is TRUE. When the Electronic Checklist (ECL) system is not available due to a system failure or malfunction, all checklist content is completely removed from the display and the message 'CHECKLIST NOT AVAILABLE' appears on the page. This clearly indicates to the flight crew that the ECL system is inoperative and they must immediately revert to paper checklists. The system completely clears the display rather than showing potentially incomplete or unreliable checklist information, ensuring flight safety. This design prevents crews from relying on a malfunctioning system.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Checklist - System Failures and Unavailability (pages 2161-2177)"},
+      {"pdf": "Operations Manual", "page": "ECL Failure Indications (pages 247-253)"}
+    ]
+  },
+  "21ECL03": {
+    "explanation": "When a limitation checklist item has been selected from a normal or non-normal checklist, the limitation displays on the SUMMARY page in two specific ways: (1) The page footer displays 'LIMITATIONS' to indicate that one or more limitations are currently active and need crew attention, and (2) The limitation text appears in the history subsection located below the checklist from which it was originally generated, allowing pilots to trace the limitation back to its source. Limitations do not display in the normal checklists section itself - they have their own dedicated display area. This design ensures pilots can easily review all active limitations in one consolidated location while maintaining context about their origin.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Checklist - SUMMARY Page and Limitations Display (pages 2161-2177)"},
+      {"pdf": "Operations Manual", "page": "ECL Limitations Management (pages 247-253)"}
+    ]
+  },
+  "21ECL04": {
+    "explanation": "The statement is TRUE. The Electronic Checklist (ECL) system displays all normal and non-normal checklists and procedures that are available in the paper checklist format. The ECL is designed to be a complete electronic replacement for paper checklists, providing exactly the same information in an interactive digital format with enhanced functionality. This includes all normal checklists for all flight phases (preflight, before start, after start, before takeoff, after takeoff, climb, cruise, descent, approach, landing, after landing, parking, securing) as well as all non-normal checklists and emergency procedures. The content is identical to the paper version to ensure standardization and regulatory compliance.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Checklist - General Description and Content (pages 2161-2177)"},
+      {"pdf": "Operations Manual", "page": "ECL System Overview (pages 247-253)"}
+    ]
+  },
+  "21ECL05": {
+    "explanation": "The NORMAL page of the Electronic Checklist displays normal checklists for all phases of flight. This page provides centralized access to all standard operating checklists used during routine flight operations, including preflight, before start, after start, before takeoff, climb, cruise, descent, approach, before landing, after landing, parking, and securing checklists. The NORMAL page is one of the four main ECL pages accessible through tiles, along with the SUMMARY page (shows checklist status and history), NON-NORMAL page (displays abnormal and emergency checklists), and PROC page (procedures). Each page serves a distinct function in the ECL system architecture.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Checklist - NORMAL Page Structure (pages 2161-2177)"},
+      {"pdf": "Operations Manual", "page": "ECL Pages and Navigation (pages 247-253)"}
+    ]
+  },
+  "21ECL06": {
+    "explanation": "The Electronic Checklist displays three types of notifications with distinct visual formatting to convey different levels of importance: (1) WARNING - not listed in the correct answers but would display in red surrounded by a red box to indicate immediate danger or critical information, (2) CAUTION - displays in white text surrounded by an amber box to indicate situations requiring awareness and possible action to prevent injury or aircraft damage, and (3) NOTE - displays in white text with no surrounding box for general information, clarifications, or helpful reminders. This color coding and formatting hierarchy matches the standard aviation warning system used throughout the flight deck displays and manuals, ensuring consistency and immediate recognition by flight crews.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Checklist - Notifications and Text Formatting (pages 2161-2177)"},
+      {"pdf": "Operations Manual", "page": "ECL Display Conventions (pages 247-253)"}
+    ]
+  },
+  "21ECL07": {
+    "explanation": "The statement is TRUE. The Electronic Checklist (ECL) does not open automatically and must be manually selected and accessed by the flight crew. While the system may provide automated alerts or indications when certain checklists become applicable or when abnormal conditions occur (triggering automatic checklist presentation), the crew must actively select and open the ECL display application to view and use the checklists. This design philosophy ensures that crews maintain active engagement with checklist procedures and prevents unwanted automatic display changes during critical phases of flight that could distract from primary flight duties. The crew retains full control over when and how they access checklist information.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Checklist - Operation and Access Methods (pages 2161-2177)"},
+      {"pdf": "Operations Manual", "page": "ECL Usage Procedures (pages 247-253)"}
+    ]
+  },
+  "21ECL08": {
+    "explanation": "The FCTN (Function) tile on the Electronic Checklist displays a drop-down menu that allows a checklist to be reset or overridden. When selected, this tile provides access to several checklist management functions including: RESET NORMALS (resets all normal checklists to their initial state), RESET ALL (resets all checklists including non-normals), OVERRIDE CHKL (allows the crew to override and bypass an entire checklist), and OVERRIDE ITEM (allows overriding individual checklist items). These functions give pilots the operational flexibility needed to manage checklist states during non-normal operations, when returning to normal operations after resolving issues, or when operational circumstances require deviation from standard checklist flows. The NORMAL, NON-NORMAL, and PROC tiles serve different purposes - they are navigation tiles for accessing different types of checklists, not function management tiles.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Checklist - FCTN Tile Functions and Controls (pages 2161-2177)"},
+      {"pdf": "Operations Manual", "page": "ECL Function Menu Operations (pages 247-253)"}
+    ]
+  },
+  "21ECL09": {
+    "explanation": "The Electronic Checklist (ECL) displays normal and non-normal checklists and procedures. This comprehensive coverage includes all routine normal checklists for standard flight operations (covering all phases from preflight through securing the aircraft), as well as all non-normal checklists for handling system malfunctions, failures, abnormal situations, and emergency procedures. The ECL provides the complete set of checklists and procedures that are also available in paper format, making it a full electronic replacement for traditional paper checklists while offering enhanced features such as automatic item tracking, status indications, and integrated procedures. It does not display only normal checklists, only non-normal checklists, or checklists not found in paper format - it mirrors the complete paper checklist content.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Checklist - Content Overview and Coverage (pages 2161-2177)"},
+      {"pdf": "Operations Manual", "page": "ECL Checklist Types (pages 247-253)"}
+    ]
+  },
+  "21ECL10": {
+    "explanation": "When the Electronic Checklist (ECL) is not available due to system failure, software malfunction, or hardware issues, the message 'CHECKLIST NOT AVAILABLE' displays on the page. This clear, unambiguous indication immediately alerts the flight crew that the ECL system is inoperative and cannot be relied upon for checklist operations. When this message appears, all checklist content is removed from the display to prevent confusion or use of potentially corrupted data. The crew must immediately transition to using paper backup checklists to continue flight operations safely. The other messages listed (OVERRIDDEN, STARTED, COMPLETED) are normal operational status messages that appear during regular ECL use and do not indicate system unavailability.",
+    "sources": [
+      {"pdf": "FCOM1", "page": "Electronic Checklist - System Failure Indications (pages 2161-2177)"},
+      {"pdf": "Operations Manual", "page": "ECL Malfunction Procedures (pages 247-253)"}
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "chapter": "Power plant",
+  "explanations": {
+    "18PWR08": {
+      "explanation": "Oil quantity is displayed in quarts (QTS) for each engine, but it appears in MULTIPLE locations, not only on the STATUS page. On the A220, oil quantity, temperature, and pressure indications are displayed on the EICAS below the EGT indications, as well as on the STATUS page.",
+      "source": "FCOM1",
+      "page": "08-04-14, 08-05-26",
+      "correctAnswer": "b"
+    },
+    "18PWR17": {
+      "explanation": "On the A220 EICAS, oil quantity, temperature, and pressure for each engine are displayed together as a group below the EGT (Exhaust Gas Temperature) indications. This provides pilots with a consolidated view of all oil parameters in one location during normal operations.",
+      "source": "FCOM1",
+      "page": "08-05-26",
+      "correctAnswer": "c"
+    },
+    "18PWR01": {
+      "explanation": "On the PW1500G engines used in the A220, the fan inlet cone and cover are continuously de-iced using engine bleed air. This is a passive system that operates automatically whenever the engine is running, preventing ice accumulation on these critical engine components without requiring pilot action or anti-ice system activation.",
+      "source": "FCOM1",
+      "page": "18-XX",
+      "correctAnswer": "a"
+    },
+    "18PWR21": {
+      "explanation": "The PW1500G engine uses engine bleed air to continuously de-ice the fan inlet cone and cover. This is an automatic, continuous process that doesn't require the anti-ice system to be activated. The warm bleed air prevents ice formation on these components during all phases of engine operation.",
+      "source": "FCOM1",
+      "page": "18-XX",
+      "correctAnswer": "c"
+    },
+    "18PWR03": {
+      "explanation": "The N2 shaft (high-pressure spool) of the PW1500G engine consists of an eight-stage high-pressure compressor (HPC) and a two-stage high-pressure turbine (HPT). These components are mechanically connected and rotate together as the high-pressure spool. The HPT extracts energy from the hot gases to drive the HPC.",
+      "source": "Operations Manual Part B",
+      "page": "XX-XX",
+      "correctAnswer": "a,d"
+    },
+    "18PWR05": {
+      "explanation": "The main gearbox (accessory gearbox) of the PW1500G engine is mounted on the fan case and drives several critical accessories: Electronic Engine Control (EEC), Hydraulic Pump (provides hydraulic pressure for aircraft systems), and Variable Frequency Generator (VFG) which generates electrical power for the aircraft.",
+      "source": "FCOM1",
+      "page": "07-03-3",
+      "correctAnswer": "a,b,d"
+    },
+    "18PWR20": {
+      "explanation": "The Fan Drive Gear System (FDGS) is the unique and defining feature of the PW1500G 'Geared Turbofan' (GTF) engine. This is what makes it a 'geared' turbofan. The FDGS allows the fan to rotate at a different (slower) speed than the low-pressure turbine, optimizing efficiency for both components. This technology is proprietary to Pratt & Whitney's GTF engine family.",
+      "source": "FCOM1",
+      "page": "01-01",
+      "correctAnswer": "c"
+    },
+    "18PWR16": {
+      "explanation": "On the A220 EICAS, oil quantity, temperature, and pressure for each engine are displayed together below the EGT (Exhaust Gas Temperature) indications. This location provides pilots with immediate access to all engine oil parameters in a consolidated format during normal operations.",
+      "source": "FCOM1",
+      "page": "08-05-26",
+      "correctAnswer": "b"
+    },
+    "18PWR11": {
+      "explanation": "This accurately describes the thrust reverser operation on the PW1500G engine. When activated, the reverser cowl (sleeve) translates aft. This aft movement mechanically causes blocker doors to rotate into position, blocking the normal rearward fan airflow and redirecting it forward and outward through cascade vanes, creating reverse thrust.",
+      "source": "Operations Manual Part B",
+      "page": "XX-XX",
+      "correctAnswer": "a"
+    },
+    "18PWR04": {
+      "explanation": "The Electronic Engine Control (EEC) on the PW1500G has two channels for redundancy (dual-channel architecture ensures continued engine operation if one channel fails), is the major component of the FADEC (the EEC is the 'brain' of the FADEC system), and monitors engine parameters (constantly monitors N1, N2, temperatures, pressures, and other parameters to optimize engine performance).",
+      "source": "FCOM1",
+      "page": "01-01",
+      "correctAnswer": "a,b,d"
+    },
+    "18PWR10": {
+      "explanation": "On the A220, the TOGA (Takeoff/Go-Around) pushbuttons are located on the side of each thrust lever. This placement allows pilots to easily activate TOGA mode with their thumb while their hand is already on the thrust lever, providing quick and intuitive access during critical flight phases.",
+      "source": "FCOM1",
+      "page": "XX-XX",
+      "correctAnswer": "a"
+    },
+    "18PWR02": {
+      "explanation": "The Fan Drive Gear System (FDGS) in the PW1500G reduces the fan speed to approximately one-third of the N2 (high-pressure spool) speed. This is expressed as a gear ratio of approximately 3:1. The gear system is connected to the N2 shaft, and through this reduction, allows the fan to rotate at its optimal speed while the turbine rotates faster.",
+      "source": "Operations Manual Part B",
+      "page": "XX-XX",
+      "correctAnswer": "c"
+    },
+    "18PWR13": {
+      "explanation": "N1 speed (fan speed) is measured by two separate probes for redundancy. This dual-probe arrangement ensures that the EEC continues to receive accurate N1 speed data even if one probe fails. Redundancy in critical engine parameters is essential for continued safe engine operation and is a standard feature in FADEC-controlled engines.",
+      "source": "Operations Manual Part B",
+      "page": "XX-XX",
+      "correctAnswer": "d"
+    },
+    "18PWR14": {
+      "explanation": "The statement is false because in the A220's N1 synchronization system, the RIGHT engine acts as the master and the LEFT engine acts as the subordinate (slave). When N1 sync is engaged, the left engine's N1 speed is automatically adjusted to match the right engine's N1 speed, reducing cockpit vibration and noise during cruise flight.",
+      "source": "FCOM1",
+      "page": "08-05-27",
+      "correctAnswer": "a"
+    },
+    "18PWR12": {
+      "explanation": "When thrust reversers are fully deployed on the A220, a green 'REV' icon appears on the N1 gauge on the EICAS for each engine. Green indicates the reversers are properly deployed and locked. This provides clear visual confirmation to the pilots that the thrust reversers are in the correct position for reverse thrust operation.",
+      "source": "FCOM1",
+      "page": "08-05-27",
+      "correctAnswer": "c"
+    },
+    "18PWR19": {
+      "explanation": "The EEC is powered primarily by the PMAG (Permanent Magnet Alternator Generator), which is mechanically driven by the engine and generates power whenever the engine is rotating. This makes the EEC independent of aircraft electrical power during normal operation. If the PMAG fails, the EEC can be powered by the DC ESSENTIAL BUS as a backup.",
+      "source": "FCOM1",
+      "page": "07-03-3",
+      "correctAnswer": "c"
+    },
+    "18PWR09": {
+      "explanation": "The FADEC automatically activates both ignition systems (continuous ignition) during takeoff or landing flight phases (to prevent flameout during critical phases), when cowl anti-ice is activated (the bleed air extraction can affect combustion stability), and when the FADEC detects an engine surge or flameout (to facilitate automatic relight).",
+      "source": "Operations Manual Part B",
+      "page": "XX-XX",
+      "correctAnswer": "a,c,d"
+    },
+    "18PWR15": {
+      "explanation": "On the EICAS, N2 speed is displayed in white (normal color) when N2 is at or below 100%. This is the normal operating range. If N2 exceeds 100% (which can occur during certain transient conditions or high-power settings), the indication would change to amber to indicate operation above the normal range.",
+      "source": "FCOM1",
+      "page": "08-05-26",
+      "correctAnswer": "c"
+    },
+    "18PWR22": {
+      "explanation": "When the thrust lever is not in the correct position for engine start (should be at idle detent), the FADEC generates the aural message 'THRUST LEVER' to alert the crew. This prevents attempts to start the engine with thrust levers in an incorrect position, which could result in a hot start or other starting anomaly.",
+      "source": "Operations Manual Part B",
+      "page": "XX-XX",
+      "correctAnswer": "b"
+    },
+    "18PWR06": {
+      "explanation": "The PMAG (Permanent Magnet Alternator Generator) is an engine-driven generator that provides electrical power to the EEC (Electronic Engine Control) to ensure the engine control system has reliable power independent of aircraft electrical systems, and to the IFPC (Integrated Fuel Pump and Control) to operate the fuel pump and fuel metering system. The PMAG is mechanically driven by the engine accessory gearbox.",
+      "source": "FCOM1",
+      "page": "07-03-3",
+      "correctAnswer": "a,b"
+    },
+    "18PWR18": {
+      "explanation": "During automatic engine starts on the ground, the EEC commands only one ignition circuit at a time to conserve electrical power and reduce wear on the ignition system. The EEC intelligently alternates between the two ignition circuits (A and B) after each start to ensure equal usage and wear of both systems. This provides redundancy over time while optimizing system resources.",
+      "source": "Operations Manual Part B",
+      "page": "XX-XX",
+      "correctAnswer": "b"
+    },
+    "18PWR07": {
+      "explanation": "Pneumatic pressure for starting the PW1500G engines can be supplied from three sources: Engine cross-bleed air (using bleed air from the operating engine to start the other engine), APU (the Auxiliary Power Unit provides bleed air for engine starts), and High-pressure ground cart (external pneumatic ground support equipment provides high-pressure air). Low-pressure ground carts are insufficient for engine starting.",
+      "source": "FCOM1",
+      "page": "XX-XX",
+      "correctAnswer": "a,b,d"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "note": "No Air Conditioning questions from 02AIR46 onwards",
+  "status": "All Air Conditioning questions (02AIR01 through 02AIR45) have already been covered in air_conditioning.json",
+  "total_air_conditioning_questions": 45,
+  "last_question_code": "02AIR45",
+  "next_section": "Automatic Flight (starting with 03AF03)",
+  "explanations": {}
+}
