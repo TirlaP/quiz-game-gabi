@@ -218,18 +218,24 @@ const Question = ({
       </div>
 
       {/* Result Feedback */}
-      {showResult && (
+      {showResult && (() => {
+        // Robust comparison: normalize to lowercase and use Set comparison
+        const userAnswersNormalized = selectedAnswers.map(a => String(a).toLowerCase().trim());
+        const correctAnswersNormalized = (question.correct || []).map(c => String(c).toLowerCase().trim());
+        const userSet = new Set(userAnswersNormalized);
+        const correctSet = new Set(correctAnswersNormalized);
+        const isAnswerCorrect = userSet.size === correctSet.size &&
+          userAnswersNormalized.every(a => correctSet.has(a)) &&
+          correctAnswersNormalized.every(c => userSet.has(c));
+
+        return (
         <div className={`mt-6 p-4 rounded-lg border ${
-          selectedAnswers.length > 0 &&
-          selectedAnswers.every(a => question.correct?.includes(a)) &&
-          question.correct?.every(c => selectedAnswers.includes(c))
+          isAnswerCorrect
             ? 'bg-green-500/10 border-green-500/30'
             : 'bg-red-500/10 border-red-500/30'
         }`}>
           <div className="flex items-center gap-2">
-            {selectedAnswers.length > 0 &&
-             selectedAnswers.every(a => question.correct?.includes(a)) &&
-             question.correct?.every(c => selectedAnswers.includes(c)) ? (
+            {isAnswerCorrect ? (
               <>
                 <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -248,7 +254,8 @@ const Question = ({
             )}
           </div>
         </div>
-      )}
+        );
+      })()}
 
       {/* Explanation Section */}
       {showResult && explanation && (
